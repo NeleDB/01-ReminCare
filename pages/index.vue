@@ -1,27 +1,8 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">ReminCare</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+    <span class="teaser">Coming soon</span>
+    <h1 class="title">ReminCare</h1>
+    <p class="address">Remincourt 72, 7864 Deux-Acren</p>
   </div>
 </template>
 
@@ -30,34 +11,37 @@ export default {}
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;&display=swap');
+
 .container {
+  font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #e6cfc9;
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 100px;
-  color: #35495e;
+  color: #db764a;
+}
+
+.teaser {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  opacity: 0.7;
   letter-spacing: 1px;
+  color: #db764a;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.address {
+  color: #024842;
 }
 </style>

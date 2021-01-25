@@ -12,6 +12,15 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
+      {
+        name: 'keywords',
+        content:
+          'ReminCare, logopedie, prelogopedie, zorg, multidisciplinaire praktijk, Deux-Acren, Ine De Bruycker',
+      },
+      {
+        name: 'description',
+        content: "Multidisciplinaire praktijk gericht op baby's en ouders",
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
