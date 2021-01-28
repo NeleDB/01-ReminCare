@@ -1,0 +1,425 @@
+// =============================================================================
+// Code
+// =============================================================================
+
+/**
+ * Extension for normalize.scss and acts as a reset. It always sits on top of
+ * the normalize.scss file. Logics based off:
+ *
+ * https://github.com/twbs/bootstrap/blob/master/scss/_reboot.scss
+ */
+
+/**
+ * 1. Don't allow content to break outside
+ * 2. Disable auto-hiding scrollbar in legacy Edge to avoid overlap, making it
+ *    impossible to interact with the content
+ */
+
+pre {
+	display: block;
+	overflow: auto; // 1
+	-ms-overflow-style: scrollbar; // 2
+
+	// Take into account some code outputs that place code tags in pre tags
+	code {
+		word-break: normal;
+
+		color: inherit;
+	}
+}
+
+code {
+	word-wrap: break-word;
+
+	// Streamline style when inside anchors to avoid broken underline and more
+	a > & {
+		color: inherit;
+	}
+}
+
+kbd {
+	kbd {
+		padding: 0;
+	}
+}
+
+// =============================================================================
+// Forms
+// =============================================================================
+
+/**
+ * Extension for normalize.scss and acts as a reset. It always sits on top of
+ * the normalize.scss file. Logics based off:
+ *
+ * https://github.com/twbs/bootstrap/blob/master/scss/_reboot.scss
+ */
+
+// Allow labels to use `margin` for spacing.
+label {
+	display: inline-block;
+}
+
+// Remove the default `border-radius` that macOS Chrome adds.
+button {
+	border-radius: 0;
+}
+
+// Remove the inheritance of word-wrap in Safari.
+select {
+	word-wrap: normal;
+}
+
+// Remove the dropdown arrow in Chrome from inputs built with datalists.
+/* stylelint-disable a11y/no-display-none */
+[list]::-webkit-calendar-picker-indicator {
+	display: none;
+}
+/* stylelint-enable a11y/no-display-none */
+
+// Add `pointer` cursor to non-disabled button elements.
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+	&:not(:disabled) {
+		cursor: pointer;
+	}
+}
+
+/**
+ * Textareas should really only resize vertically so they don't break their
+ * (horizontal) containers.
+ */
+textarea {
+	resize: vertical;
+}
+
+/**
+ * 1. Reset default `min-width: min-content;` on fieldsets in order to behave it
+ *    more like a standard block element.
+ * 2. Reset the default outline behavior
+ */
+fieldset {
+	min-width: 0; // 1
+	padding: 0; // 2
+
+	border: 0; // 2
+}
+
+/**
+ * 1. By using `float: left`, the legend will behave like a block element.
+ * 2. Reset default margin.
+ * 3. Fix wrapping bug.
+ */
+
+legend {
+	float: left; // 1
+	width: 100%;
+	margin: 0; // 2
+
+	+ * {
+		clear: left; // 3
+	}
+}
+
+// Fix height of inputs with type datetime-local, date, month, week, or time
+::-webkit-datetime-edit-fields-wrapper,
+::-webkit-datetime-edit-text,
+::-webkit-datetime-edit-minute,
+::-webkit-datetime-edit-hour-field,
+::-webkit-datetime-edit-day-field,
+::-webkit-datetime-edit-month-field,
+::-webkit-datetime-edit-year-field {
+	padding: 0;
+}
+
+// Remove padding around color pickers in webkit browsers
+::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+
+// =============================================================================
+// Grouping
+// =============================================================================
+
+/**
+ * Extension for normalize.scss and acts as a reset. It always sits on top of
+ * the normalize.scss file. Logics based off:
+ *
+ * https://github.com/twbs/bootstrap/blob/master/scss/_reboot.scss
+ */
+
+hr {
+	background-color: currentColor;
+	border: 0;
+
+	&:not([size]) {
+		/**
+		 * Set correct height and prevent the `size` attribute to make the `hr` look
+ 		 * like an input field.
+		 */
+		height: 1px; // stylelint-disable-line declaration-property-unit-whitelist
+	}
+}
+
+// =============================================================================
+// Images
+// =============================================================================
+
+/**
+ * Extension for normalize.scss and acts as a reset. It always sits on top of
+ * the normalize.scss file. Logics based off:
+ *
+ * https://github.com/twbs/bootstrap/blob/master/scss/_reboot.scss
+ */
+
+/**
+ * Removes whitespace under the <img> elements when they are dropped into a page
+ * without any styling. Safer alternative than display: block;
+ */
+
+img,
+svg {
+	vertical-align: middle;
+}
+
+/**
+ * 1. Fluid images for responsiveness
+ * 2. Differentiate alt text when image is not shown from surrounding copy.
+ * 3. If a `width` and/or `height` attribute has been defined, don't make the
+ *    image fluid.
+ */
+
+img {
+	max-width: 100%; // 1
+
+	font-style: italic; // 2
+
+	&[width],
+	&[height] {
+		max-width: none; // 3
+	}
+}
+
+// =============================================================================
+// Lists
+// =============================================================================
+
+/**
+ * Extension for normalize.scss and acts as a reset. It always sits on top of
+ * the normalize.scss file. Logics based off:
+ *
+ * https://github.com/twbs/bootstrap/blob/master/scss/_reboot.scss
+ */
+
+// Remove trailing margins from nested lists.
+li > {
+	ol,
+	ul {
+		margin-bottom: 0;
+	}
+}
+
+// =============================================================================
+// Media
+// =============================================================================
+
+/**
+ * Extension for normalize.scss and acts as a reset. It always sits on top of
+ * the normalize.scss file.
+ */
+
+// Remove all animations and transitions for people that prefer not to see them
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.01ms !important; // stylelint-disable-line declaration-no-important
+		animation-iteration-count: 1 !important; // stylelint-disable-line declaration-no-important
+		transition-duration: 0.01ms !important; // stylelint-disable-line declaration-no-important
+		scroll-behavior: auto !important; // stylelint-disable-line declaration-no-important
+	}
+}
+
+// =============================================================================
+// Other
+// =============================================================================
+
+/**
+ * Extension for normalize.scss and acts as a reset. It always sits on top of
+ * the normalize.scss file. Logics based off:
+ *
+ * https://github.com/twbs/bootstrap/blob/master/scss/_reboot.scss
+ */
+
+// Correct element displays
+output {
+	display: inline-block;
+}
+
+// Remove border from iframe
+iframe {
+	border: 0;
+}
+
+summary {
+	cursor: pointer;
+}
+
+/**
+ * Not supported yet in all browsers: only apply an outline if the itneraction
+ * that led to the element reciving programmatic focus was a keyboard
+ * interaction.
+ *
+ * https://github.com/twbs/bootstrap/blob/master/scss/_reboot.scss
+ */
+
+[tabindex="-1"]:focus:not(:focus-visible) {
+	outline: 0 !important; // stylelint-disable-line declaration-no-important
+}
+
+// Always hide an element with the `hidden` HTML attribute.
+[hidden] {
+	display: none !important; // stylelint-disable-line declaration-no-important
+}
+
+// =============================================================================
+// Page
+// =============================================================================
+
+/**
+ * Extension for normalize.scss and acts as a reset. It always sits on top of
+ * the normalize.scss file. Logics based off:
+ *
+ * https://github.com/twbs/bootstrap/blob/master/scss/_reboot.scss
+ */
+
+/**
+ * Change default `box-sizing: content-box` in order for the width not to get
+ * affected by `padding` or `border`.
+ */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/**
+ * 1. :root selector equalizes `<html>`, but has higher specificity to not have
+ *    it easily overwritten.
+ * 2. Ensure the page always fills up the entire height of the viewport.
+ * 3. Force vertical scrollbars to always be visible to prevent awkward jumps
+ *    when navigating between pages that do/do not have content to produce
+ *    scrollbars naturally.
+ */
+
+:root /* 1 */ {
+	min-height: 100%; // 2
+	overflow-y: scroll; // 3
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/**
+ * 1. Disable horizontal scrollbars when content is larger than viewport
+ * 2. Set behavior when scrolling by navigation or scrolling API's
+ * 3. Browser focus on rendering speed over legibility and geometric precision.
+ */
+
+body {
+	max-width: 100%; // 1
+	scroll-behavior: smooth; // 2
+
+	text-rendering: optimizeSpeed; // 3
+}
+
+// =============================================================================
+// Tables
+// =============================================================================
+
+/**
+ * Extension for normalize.scss and acts as a reset. It always sits on top of
+ * the normalize.scss file. Logics based off:
+ *
+ * https://github.com/twbs/bootstrap/blob/master/scss/_reboot.scss
+ */
+
+/**
+ * 1. Prevent double borders
+ * 2. Remove default table styling
+ * 3. Ensure tables fill up as much space of their respective containers.
+ */
+
+table {
+	width: 100%; // 3
+
+	caption-side: bottom; // 1
+	border-collapse: collapse; // 1, 2
+	border-spacing: 0; // 2
+}
+
+caption {
+	text-align: left;
+}
+
+/**
+ * 1. Matches default `<td>` alignment by inheriting `text-align`.
+ * 2. Fix alignment for Safari
+ */
+
+th {
+	text-align: inherit; // 1
+	text-align: -webkit-match-parent; // 2
+}
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+	border-color: inherit;
+	border-style: solid;
+	border-width: 0;
+}
+
+// =============================================================================
+// Typography
+// =============================================================================
+
+/**
+ * Extension for normalize.scss and acts as a reset. It always sits on top of
+ * the normalize.scss file. Logics based off:
+ *
+ * https://github.com/twbs/bootstrap/blob/master/scss/_reboot.scss
+ */
+
+/**
+ * Specify how overlines and underlines are drawn
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-skip-ink
+ */
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+
+/**
+ * 1. Prevent the text-decoration to be skipped.
+ * 2. Add explicit cursor to indicate changed behavior.
+ */
+
+abbr[title] {
+	text-decoration-skip-ink: none; // 1
+
+	cursor: help; // 2
+}
+
+// Remove default styles from address.
+address {
+	font-style: normal;
+	line-height: inherit;
+}
+
+// Remove default background-color from `<mark>`
+mark {
+	background-color: transparent;
+}

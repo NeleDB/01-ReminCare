@@ -1,0 +1,6 @@
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/colors" as _colors;
+
+*:focus {
+	outline: _spacing.rem(3px, false) dotted _colors.set("neutral base");
+}

@@ -1,0 +1,38 @@
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/typography" as _typography;
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+
+// =============================================================================
+// Root
+// =============================================================================
+:root {
+	// Set font-size percentage ready
+	@include _spacing.root();
+
+	// Fix for 100vh issue on safari mobile browsers
+	height: -webkit-fill-available; /* stylelint-disable-line value-no-vendor-prefix */
+}
+
+// =============================================================================
+// Body
+// =============================================================================
+body {
+	@include _typography.set("p");
+
+	/**
+	 * Fix for 100vh issue on safari mobile browsers, use min-height 100vh as
+	 * fallback
+	 */
+	min-height: 100vh;
+	min-height: -webkit-fill-available; /* stylelint-disable-line value-no-vendor-prefix */
+
+	color: _colors.set("neutral base");
+	background-color: _colors.set("neutral 100");
+}
+
+// =============================================================================
+// Section
+// =============================================================================
+section {
+	@include _colors.scope("neutral base");
+}

@@ -1,0 +1,114 @@
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/typography" as _typography;
+@use "@/scss/settings/borders" as borders;
+
+// =============================================================================
+// Block
+// =============================================================================
+.c-button {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: _spacing.step(2) _spacing.step(8);
+
+	// if the root element is an <a> tag, we must remove the underline
+	text-decoration: none;
+
+	background-color: _colors.set("brand base");
+	// if the root element is an <button> tag, we must remove the border
+	border: none;
+
+	transition: background-color 0.2s ease-in-out;
+}
+
+// =============================================================================
+// Elements
+// =============================================================================
+// .c-button__icon-before,
+// .c-button__icon-after,
+// .c-button__text {
+// 	color: _colors.set("neutral 100");
+
+// 	transition: color 0.2s ease-in-out;
+// }
+
+// .c-button__text {
+// 	@include _typography.set("strong");
+// }
+
+// .c-button__icon-before {
+// 	margin-right: _spacing.step(2);
+// }
+
+// .c-button__icon-after {
+// 	margin-left: _spacing.step(2);
+// }
+
+// =============================================================================
+// Modifiers
+// =============================================================================
+// .c-button--outline {
+// 	border: borders.$width-default solid _colors.set("brand base");
+// 	background-color: transparent;
+
+// 	.c-button__text,
+// 	.c-button__icon-before,
+// 	.c-button__icon-after {
+// 		color: _colors.set("brand base");
+// 	}
+// }
+
+// .c-button--inverse {
+// 	background-color: _colors.set("neutral 100");
+
+// 	.c-button__text,
+// 	.c-button__icon-before,
+// 	.c-button__icon-after {
+// 		color: _colors.set("brand base");
+// 	}
+
+// 	&.c-button--outline {
+// 		border: borders.$width-default solid _colors.set("neutral 100");
+// 		background-color: transparent;
+
+// 		.c-button__text,
+// 		.c-button__icon-before,
+// 		.c-button__icon-after {
+// 			color: _colors.set("neutral 100");
+// 		}
+// 	}
+// }
+
+// =============================================================================
+// States
+// =============================================================================
+// .c-button {
+// 	&:hover {
+// 		background-color: _colors.set("brand 30");
+// 	}
+// }
+
+// .c-button--outline {
+// 	&:hover {
+// 		background-color: _colors.set("brand base");
+
+// 		.c-button__text,
+// 		.c-button__icon-before,
+// 		.c-button__icon-after {
+// 			color: _colors.set("neutral 100");
+// 		}
+// 	}
+// }
+
+// .c-button--inverse.c-button--outline {
+// 	&:hover {
+// 		background-color: _colors.set("neutral 100");
+
+// 		.c-button__text,
+// 		.c-button__icon-before,
+// 		.c-button__icon-after {
+// 			color: _colors.set("brand base");
+// 		}
+// 	}
+// }

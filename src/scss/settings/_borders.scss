@@ -1,0 +1,7 @@
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/colors" as _colors;
+
+$radius-default: _spacing.rem(4px);
+$width-default: _spacing.rem(1px, false);
+$color-default: _colors.set("neutral 80");
+$default: $width-default solid $color-default;

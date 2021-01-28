@@ -1,0 +1,70 @@
+/**
+ * Config file for compiling the @littlemissrobot/sass-flex package.
+ * https://www.npmjs.com/package/@littlemissrobot/sass-flex
+ */
+
+@use "@littlemissrobot/sass-system/flex" with (
+	$auto-generate: true,
+);
+
+@use "@littlemissrobot/sass-system/flex/inline";
+// @use "@littlemissrobot/sass-system/flex/inline" with (
+// 	$at: (),
+// 	$to: ()
+// );
+
+@use "@littlemissrobot/sass-system/flex/direction";
+// @use "@littlemissrobot/sass-system/flex/direction" with (
+// 	$row-at: false,
+// 	$row-to: false,
+// 	$column-at: false,
+// 	$column-to: false
+// );
+
+// @use "@littlemissrobot/sass-system/flex/spacing" with (
+// 	$row-spacing: (),
+// 	$row-at: (),
+// 	$row-to: (),
+// 	$column-spacing: (),
+// 	$column-at: (),
+// 	$column-to: (),
+// );
+
+@use "@littlemissrobot/sass-system/flex/wrap";
+// @use "@littlemissrobot/sass-system/flex/wrap" with (
+// 	$at: false,
+// 	$to: false
+// );
+
+// @use "@littlemissrobot/sass-system/flex/justify-content" with (
+// $justify-content: (),
+// $at: (),
+// $to: ()
+// );
+
+// @use "@littlemissrobot/sass-system/flex/align-items" with (
+// 	$align-items: (),
+// 	$at: (),
+// 	$to: ()
+// );
+
+// @use "@littlemissrobot/sass-system/flex/align-self" with (
+// 	$align-self: (),
+// 	$at: (),
+// 	$to: ()
+// );
+
+// @use "@littlemissrobot/sass-system/flex/item" with (
+// 	$items: (),
+// 	$at: (),
+// 	$to: ()
+// );
+
+// @use "@littlemissrobot/sass-system/flex/item-spacing" with (
+// 	$row-spacing: (),
+// 	$row-at: (),
+// 	$row-to: (),
+// 	$column-spacing: (),
+// 	$column-at: (),
+// 	$column-to: (),
+// );

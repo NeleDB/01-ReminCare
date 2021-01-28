@@ -1,0 +1,42 @@
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/functions" as _functions;
+
+// IMPORTANT: Must be divisble -by the spacing baseline
+$_baseline: 16px;
+$_sizes: (1.75);
+
+// =============================================================================
+// Block
+// =============================================================================
+.c-icon {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	width: $_baseline;
+	height: $_baseline;
+
+	color: _colors.set("neutral base");
+
+	// Style the included SVG icon by directly selecting the SVG.
+	& > svg {
+		vertical-align: middle;
+		width: inherit;
+		height: inherit;
+
+		fill: currentColor;
+	}
+}
+
+// =============================================================================
+// Modifiers
+// =============================================================================
+@each $size in $_sizes {
+	$name: _functions.string_escape($size);
+
+	.c-icon--size\:#{$name} {
+		width: _spacing.rem($_baseline * $size);
+		height: _spacing.rem($_baseline * $size);
+	}
+}

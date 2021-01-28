@@ -1,0 +1,81 @@
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/colors" as _colors;
+
+$_bar-height: _spacing.rem(3px, false);
+$_delay: 0.2s;
+$_middle: _spacing.rem(11px, false);
+$_border-radius: $_bar-height * 0.5;
+
+// =============================================================================
+// Block
+// =============================================================================
+.c-hamburger {
+	border: none;
+	background-color: transparent;
+}
+
+// =============================================================================
+// Elements
+// =============================================================================
+.c-hamburger__container {
+	position: relative;
+
+	display: block;
+	width: _spacing.rem(24px);
+	height: _spacing.rem(19px, false);
+}
+
+.c-hamburger__top-bar,
+.c-hamburger__middle-bar,
+.c-hamburger__bottom-bar {
+	position: absolute;
+	left: 0;
+
+	display: block;
+	width: 100%;
+	height: $_bar-height;
+
+	background-color: _colors.set("neutral 30");
+	border-radius: $_border-radius;
+
+	transition: opacity 0.3s ease-in-out 0.1s,
+		transform 0.3s cubic-bezier(0.17, 1.19, 0.22, 1.32) $_delay;
+}
+
+.c-hamburger__top-bar {
+	top: 0;
+}
+
+.c-hamburger__middle-bar {
+	top: calc(50% - (#{$_bar-height} * 0.5));
+}
+
+.c-hamburger__bottom-bar {
+	bottom: 0;
+}
+
+// =============================================================================
+// States
+// =============================================================================
+.c-hamburger {
+	&.is-closed {
+		.c-hamburger__top-bar,
+		.c-hamburger__middle-bar,
+		.c-hamburger__bottom-bar {
+			transition: opacity 0.3s ease-in-out,
+				transform 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
+		}
+
+		.c-hamburger__top-bar {
+			transform: translateY(#{$_middle});
+		}
+
+		.c-hamburger__bottom-bar {
+			transform: translateY(-#{$_middle});
+		}
+
+		.c-hamburger__middle-bar {
+			transform: scaleX(0);
+		}
+	}
+}

@@ -1,0 +1,83 @@
+@use "@littlemissrobot/sass-system/typography" as _typography;
+@use "@littlemissrobot/sass-system/colors" as _colors;
+
+/**
+ * Default and SIMPLE styles for all typographic tags. Anything else than the
+ * font-style should be applied. NO MARGIN OR PADDING should be applied onto
+ * these selectors.
+ */
+
+// =============================================================================
+// Heading
+// =============================================================================
+h1 {
+	@include _typography.set("h1");
+
+	strong {
+		@include _typography.set("h1");
+
+		color: _colors.set("brand base");
+	}
+}
+
+h2 {
+	@include _typography.set("h2");
+}
+
+h3 {
+	@include _typography.set("h3");
+}
+
+h4 {
+	@include _typography.set("h4");
+}
+
+h5 {
+	@include _typography.set("h5");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	/**
+	 * Avoid styling any tags that contain a class coming from a component
+	 * (starting with c-)
+	 */
+	&:not([class^="c-"]) {
+		@include _colors.scope("neutral base") {
+			color: _colors.set("neutral 100");
+		}
+	}
+}
+
+// =============================================================================
+// Text
+// =============================================================================
+p {
+	@include _typography.set("p");
+
+	strong {
+		@include _typography.set("strong");
+	}
+}
+
+// =============================================================================
+// Interactive
+// =============================================================================
+a {
+	@include _typography.set("strong");
+
+	color: _colors.set("neutral base");
+
+	transition: color 0.2s ease-in-out;
+
+	&:hover {
+		color: _colors.set("brand base");
+	}
+}
+
+button {
+	@include _typography.set("strong");
+}

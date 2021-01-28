@@ -1,0 +1,13 @@
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+
+// =============================================================================
+// Block
+// =============================================================================
+.c-app-logo {
+	display: inline-flex;
+	width: _spacing.rem(151px, false);
+	height: _spacing.rem(22px, false);
+
+	// if the root element is an <a> tag, we must remove the underline
+	text-decoration: none;
+}

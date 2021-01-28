@@ -1,0 +1,12 @@
+// Load in the core and basis styling for all tags (no touchy)
+@use "./core";
+@use "./normalize";
+@use "./reset";
+
+// Load the fonts with @font-face
+@use "./fonts";
+
+// Set the required base style ready for certain tags
+@use "./page";
+@use "./typography";
+@use "./a11y";

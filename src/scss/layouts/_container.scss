@@ -1,0 +1,38 @@
+/**
+ * Config file for compiling the @littlemissrobot/sass-container package.
+ * https://www.npmjs.com/package/@littlemissrobot/sass-container
+ */
+
+@use "@littlemissrobot/sass-system/container" with (
+	$layout: 12,
+	$max-width: 1440px,
+	$auto-generate: true
+);
+
+// @use "@littlemissrobot/sass-system/container/columns" with (
+// 	$columns: (),
+// 	$at: (
+// 		vp-9: (),
+// 	),
+// 	$to: (
+// 		vp-7: (),
+// 		vp-9: (),
+// 	)
+// );
+
+@use "@littlemissrobot/sass-system/container/default-spacing" with (
+	$default-spacing: (
+		vp-0: 4,
+		vp-7: 6,
+		vp-9: 10,
+		vp-12: 20
+	),
+	// $at: (),
+	// $to: ()
+);
+
+// @use "@littlemissrobot/sass-container/spacing" with (
+// 	$spacing: (),
+// 	// $at: (),
+// 	// $to: ()
+// );

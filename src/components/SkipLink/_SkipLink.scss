@@ -1,0 +1,33 @@
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@/scss/settings/z-index" as z-index;
+
+// =============================================================================
+// Block
+// =============================================================================
+// .c-skip-link {
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	z-index: z-index.$skip-links;
+
+// 	padding: _spacing.step(2);
+
+// 	background-color: _colors.set("neutral base");
+// 	color: _colors.set("neutral 100");
+
+// 	transform: translateX(-100%);
+// }
+
+// =============================================================================
+// States
+// =============================================================================
+// .c-skip-link {
+// 	&:focus {
+// 		transform: translateX(0%);
+// 	}
+
+// 	&:hover {
+// 		color: _colors.set("neutral 100");
+// 	}
+// }

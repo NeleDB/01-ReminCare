@@ -1,0 +1,20 @@
+@use "@littlemissrobot/sass-system/typography" as _typography;
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
+@use "@littlemissrobot/sass-system/mixins" as _mixins;
+
+// =============================================================================
+// Block
+// =============================================================================
+.c-app-nav {
+	@include _mixins.reset_list();
+
+	display: flex;
+	flex-direction: column;
+
+	@include _breakpoints.at("vp-7") {
+		flex-direction: row;
+		align-items: center;
+	}
+}

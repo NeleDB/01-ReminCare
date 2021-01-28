@@ -1,0 +1,14 @@
+/**
+ * Config file for compiling the @littlemissrobot/sass-utils package. MUST BE ON
+ * TOP OF THIS FILE. https://www.npmjs.com/package/@littlemissrobot/sass-utils
+ */
+@use "@littlemissrobot/sass-system/utils/index.scss" with (
+	$auto-generate: true,
+);
+
+@use "./margin";
+@use "./padding";
+@use "./colors";
+@use "./typography";
+@use "./text-align";
+@use "./overflow";

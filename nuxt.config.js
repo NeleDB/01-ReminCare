@@ -1,50 +1,88 @@
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
+	// Target: https://go.nuxtjs.dev/config-target
+	target: "static",
+	srcDir: "src/",
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    title: 'ReminCare',
-    htmlAttrs: {
-      lang: 'en',
-    },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      {
-        name: 'keywords',
-        content:
-          'ReminCare, logopedie, prelogopedie, zorg, multidisciplinaire praktijk, Deux-Acren, Ine De Bruycker',
-      },
-      {
-        name: 'description',
-        content: "Multidisciplinaire praktijk gericht op baby's en ouders",
-      },
-    ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-  },
+	// Global page headers: https://go.nuxtjs.dev/config-head
+	head: {
+		title: "ReminCare",
+		htmlAttrs: {
+			lang: "nl",
+		},
+		meta: [
+			{ charset: "utf-8" },
+			{
+				name: "viewport",
+				content: "width=device-width, initial-scale=1",
+			},
+			{ hid: "description", name: "description", content: "" },
+			{
+				name: "keywords",
+				content:
+					"ReminCare, logopedie, prelogopedie, zorg, multidisciplinaire praktijk, Deux-Acren, Ine De Bruycker",
+			},
+			{
+				name: "description",
+				content:
+					"Multidisciplinaire praktijk gericht op baby's en ouders",
+			},
+		],
+		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+	},
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
-
-  // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
-
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
-    // https://go.nuxtjs.dev/stylelint
-    '@nuxtjs/stylelint-module',
-  ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
-}
+	css: ["@/scss/main.scss"],
+	components: [
+		{
+			path: "~/components",
+			/**
+			 * Indicate which file extensions should be scanned and registered.
+			 * Fixes the problem when splitting up a component in multiple
+			 * files.
+			 */
+			extensions: ["vue"],
+			pattern: "**/*.vue",
+		},
+	],
+	buildModules: ["@nuxtjs/google-analytics"],
+	modules: [
+		"@nuxt/content",
+		"@nuxtjs/svg",
+		"@nuxt/image",
+		[
+			"nuxt-i18n",
+			{
+				parsePages: false,
+				pages: {
+					visie: {
+						nl: "/visie",
+						fr: "/vision",
+					},
+				},
+			},
+		],
+	],
+	build: {},
+	server: {
+		port: 9000,
+	},
+	router: {
+		linkActiveClass: "is-active",
+	},
+	image: {
+		ipx: {
+			dir: "~/assets/images",
+		},
+	},
+	i18n: {
+		langDir: "../locales/",
+		defaultLocale: "nl",
+		locales: [
+			{ code: "fr", iso: "fr-FR", file: "fr.json" },
+			{ code: "nl", iso: "nl-NL", file: "nl.json" },
+		],
+		lazy: true,
+	},
+	// googleAnalytics: {
+	// 	id: "259061419",
+	// },
+};

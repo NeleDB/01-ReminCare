@@ -1,0 +1,147 @@
+@use "./settings/fonts" as fonts;
+
+$blue-38: hsl(216, 98%, 38%);
+$blue-48: hsl(216, 98%, 48%);
+$blue-69: hsl(200, 100%, 69%);
+$gray-20: hsl(212, 17%, 20%);
+$gray-30: hsl(211, 16%, 30%);
+$gray-50: hsl(212, 17%, 50%);
+$gray-74: hsl(212, 10%, 74%);
+$gray-89: hsl(210, 5%, 89%);
+$gray-98: hsl(210, 5%, 98%);
+$white-100: hsl(0, 0%, 100%);
+
+/**
+ * Set the design tokens: spacing, colors, typography and breakpoints ready for
+ * the sass-system library.
+ * https://www.npmjs.com/package/@littlemissrobot/sass-system
+ */
+
+// stylelint-disable length-zero-no-unit
+@use "@littlemissrobot/sass-system" as _system with (
+	$spacing: (
+		baseline: 4px,
+		base-font-size: 16px,
+	),
+	$breakpoints: (
+		viewports: (
+			vp-0: 0px,
+			vp-3: 320px,
+			vp-4: 480px,
+			vp-7: 720px,
+			vp-9: 992px,
+			vp-12: 1200px,
+		),
+	),
+	$colors: (
+		palette: (
+			brand: (
+				base: $blue-48,
+				"30": $blue-38,
+				"60": $blue-69,
+			),
+			neutral: (
+				base: $gray-20,
+				"30": $gray-30,
+				"50": $gray-50,
+				"70": $gray-74,
+				"80": $gray-89,
+				"90": $gray-98,
+				"100": $white-100,
+			),
+		),
+	),
+);
+// stylelint-enable length-zero-no-unit
+
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+
+/**
+ * Typography is loaded after the sass-system because it utilizes some of its
+ * functions.
+ */
+@use "@littlemissrobot/sass-system/typography" as _typography with (
+	$styles: (
+		h1: (
+			font-family: fonts.$family-primary,
+			font-weight: fonts.$weight-bold,
+			font-size: _spacing.rem(36px),
+			line-height: _spacing.rem(46px, false),
+			vp-7: (
+				font-size: _spacing.rem(47px, false),
+				line-height: _spacing.rem(51px, false),
+			)
+		),
+		h2: (
+			font-family: fonts.$family-primary,
+			font-weight: fonts.$weight-bold,
+			font-size: _spacing.rem(25px, false),
+			line-height: _spacing.rem(38px, false),
+			vp-7: (
+				font-size: _spacing.rem(36px),
+				line-height: _spacing.rem(46px, false),
+			)
+		),
+		h3: (
+			font-family: fonts.$family-primary,
+			font-weight: fonts.$weight-bold,
+			font-size: _spacing.rem(22px, false),
+			line-height: _spacing.rem(32px),
+			vp-7: (
+				font-size: _spacing.rem(27px, false),
+				line-height: _spacing.rem(36px),
+			)
+		),
+		h4: (
+			font-family: fonts.$family-primary,
+			font-weight: fonts.$weight-bold,
+			font-size: _spacing.rem(16px, false),
+			line-height: _spacing.rem(23px, false),
+			vp-7: (
+				font-size: _spacing.rem(21px, false),
+				line-height: _spacing.rem(30px, false),
+			)
+		),
+		h5: (
+			font-family: fonts.$family-primary,
+			font-weight: fonts.$weight-bold,
+			font-size: _spacing.rem(15px, false),
+			line-height: _spacing.rem(15px, false),
+		),
+		h6: (
+			font-family: fonts.$family-primary,
+			font-weight: fonts.$weight-bold,
+			font-size: _spacing.rem(19px, false),
+			line-height: _spacing.rem(28px),
+		),
+		label: (
+			font-family: fonts.$family-primary,
+			font-weight: fonts.$weight-bold,
+			font-size: _spacing.rem(12px),
+			line-height: _spacing.rem(15px, false),
+			text-transform: uppercase,
+			vp-7: (
+				font-size: _spacing.rem(16px),
+				line-height: _spacing.rem(18px, false),
+			)
+		),
+		p: (
+			font-family: fonts.$family-primary,
+			font-weight: fonts.$weight-normal,
+			font-size: _spacing.rem(18px, false),
+			line-height: _spacing.rem(32px),
+		),
+		strong: (
+			font-family: fonts.$family-primary,
+			font-weight: fonts.$weight-bold,
+			font-size: _spacing.rem(18px, false),
+			line-height: _spacing.rem(32px),
+		),
+		small: (
+			font-family: fonts.$family-primary,
+			font-weight: fonts.$weight-normal,
+			font-size: _spacing.rem(16px),
+			line-height: _spacing.rem(26px, false),
+		),
+	),
+);

@@ -1,0 +1,40 @@
+@use "@littlemissrobot/sass-system/mixins" as _mixins;
+@use "./../settings/fonts" as fonts;
+
+// Load fonts
+@include _mixins.font_load(
+	"Open Sans",
+	"~@/assets/fonts/OpenSans-Bold",
+	fonts.$weight-bold,
+	normal
+);
+@include _mixins.font_load(
+	"Open Sans",
+	"~@/assets/fonts/OpenSans-ExtraBold",
+	fonts.$weight-extra-bold,
+	normal
+);
+@include _mixins.font_load(
+	"Open Sans",
+	"~@/assets/fonts/OpenSans-Light",
+	fonts.$weight-light,
+	normal
+);
+@include _mixins.font_load(
+	"Open Sans",
+	"~@/assets/fonts/OpenSans-Regular",
+	fonts.$weight-normal,
+	normal
+);
+@include _mixins.font_load(
+	"Open Sans",
+	"~@/assets/fonts/OpenSans-SemiBold",
+	fonts.$weight-semi-bold,
+	normal
+);
+@include _mixins.font_load(
+	"Open Sans",
+	"~@/assets/fonts/OpenSans-SemiBoldItalic",
+	fonts.$weight-semi-bold,
+	italic
+);

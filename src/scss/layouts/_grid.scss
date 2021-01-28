@@ -1,0 +1,69 @@
+/**
+ * Config file for compiling the @littlemissrobot/sass-grid package.
+ * https://www.npmjs.com/package/@littlemissrobot/sass-grid
+ */
+
+@use "@littlemissrobot/sass-system/grid" with (
+	$layout: 12,
+	$auto-generate: true
+);
+
+// @use "@littlemissrobot/sass-system/grid/columns" with (
+// 	$columns: (),
+// 	$at: (),
+// $to: ()
+// );
+
+// @use "@littlemissrobot/sass-system/grid/left-offsets" with (
+// 	$offsets: (),
+//	$at: (),
+//	$to: ()
+// );
+
+// @use "@littlemissrobot/sass-system/grid/right-offsets" with (
+// 	$offsets: (),
+//	$at: (),
+//	$to: ()
+// );
+
+// @use "@littlemissrobot/sass-system/grid/default-spacing" with (
+// 	$default-spacing: (),
+// $at: (),
+// $to: ()
+// );
+
+// @use "@littlemissrobot/sass-system/grid/spacing" with (
+// $spacing: (),
+// $at: (),
+// $to: ()
+// );
+
+// @use "@littlemissrobot/sass-system/grid/column-spacing" with (
+// 	$spacing: (),
+//	$at: (),
+//	$to: ()
+// );
+
+// @use "@littlemissrobot/sass-system/grid/row-spacing" with (
+// 	$spacing: (),
+//	$at: (),
+//	$to: ()
+// );
+
+// @use "@littlemissrobot/sass-system/grid/align" with (
+// $align: (),
+// $at: (),
+// $to: ()
+// );
+
+// @use "@littlemissrobot/sass-system/grid/align-columns" with (
+// 	$align: (),
+//	$at: (),
+//	$to: ()
+// );
+
+// @use "@littlemissrobot/sass-system/grid/order" with (
+// 	$order: (),
+//	$at: (),
+//	$to: ()
+// );

@@ -1,0 +1,57 @@
+// @use "@littlemissrobot/sass-system/colors" as _colors;
+// @use "@littlemissrobot/sass-system/spacing" as _spacing;
+// @use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
+// @use "@/scss/settings/z-index" as z-index;
+
+// =============================================================================
+// Block
+// =============================================================================
+// .c-app-mobile-nav {
+// 	position: fixed;
+// 	top: 0;
+// 	left: 0;
+// 	z-index: z-index.$mobile-nav;
+
+// 	display: flex;
+// 	flex-direction: column;
+// 	justify-content: flex-end;
+// 	width: 100%;
+
+// 	/**
+// 	 * Fix for 100vh issue on safari mobile browsers, use min-height 100vh as
+// 	 * fallback
+// 	 */
+// 	height: 100vh;
+// 	height: -webkit-fill-available;
+/* stylelint-disable-line value-no-vendor-prefix */
+// 	padding: _spacing.step(8) _spacing.step(4);
+
+// 	background-color: _colors.set("neutral 100");
+// 	opacity: 0;
+
+// 	// Apply the visibility after the animation is done
+// 	transition: opacity 0.2s ease-in-out, visibility 0s ease-in-out 0.2s;
+
+// 	pointer-events: none;
+// 	// Use visiblity to hide the menu from tab when closed
+// 	visibility: hidden;
+
+// 	@include _breakpoints.at("vp-7") {
+// 		display: none;
+// 	}
+// }
+
+// =============================================================================
+// States
+// =============================================================================
+// .c-app-mobile-nav {
+// 	&.is-open {
+// 		opacity: 1;
+
+// 		// First apply the visiblity and afterwards, animate the opacity
+// 		transition: opacity 0.2s ease-in-out 0.01s, visibility 0s ease-in-out;
+
+// 		pointer-events: auto;
+// 		visibility: visible;
+// 	}
+// }
