@@ -1,5 +1,5 @@
-// @use "@littlemissrobot/sass-system/spacing" as _spacing;
-// @use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/colors" as _colors;
 // @use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
 // @use "@/scss/settings/borders" as borders;
 // @use "@/scss/settings/z-index" as z-index;
@@ -7,4 +7,30 @@
 // =============================================================================
 // Block
 // =============================================================================
-// .c-app-header {}
+.c-app-header {
+	border-top: _spacing.step(2);
+	border-color: _colors.set("brand quarternary");
+}
+
+// =============================================================================
+// Elements
+// =============================================================================
+.c-app-header__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.c-app-header__nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.c-app-header__nav-container {
+	display: flex;
+	align-items: center;
+}
+
+.c-app-header__language {
+	margin-left: _spacing.step(5);
+}

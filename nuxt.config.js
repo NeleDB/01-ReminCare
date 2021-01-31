@@ -1,3 +1,5 @@
+import i18nRoutes from "./locales/i18n-routes";
+
 export default {
 	// Target: https://go.nuxtjs.dev/config-target
 	target: "static",
@@ -51,13 +53,9 @@ export default {
 		[
 			"nuxt-i18n",
 			{
+				strategy: "prefix_and_default",
 				parsePages: false,
-				pages: {
-					visie: {
-						nl: "/visie",
-						fr: "/vision",
-					},
-				},
+				pages: i18nRoutes,
 			},
 		],
 	],

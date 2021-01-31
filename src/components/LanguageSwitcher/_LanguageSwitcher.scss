@@ -1,0 +1,103 @@
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@/scss/settings/z-index" as z-index;
+@use "@/scss/settings/borders" as borders;
+@use "@/scss/settings/fonts" as fonts;
+
+// =============================================================================
+// Block
+// =============================================================================
+.c-language-switcher {
+	position: relative;
+
+	padding: _spacing.step(1) _spacing.step(2);
+
+	border: borders.$default;
+	border-radius: borders.$radius-default;
+
+	cursor: pointer;
+}
+
+// =============================================================================
+// Elements
+// =============================================================================
+.c-language-switcher__icon {
+	width: _spacing.step(5);
+	height: _spacing.step(5);
+
+	color: _colors.set("neutral base");
+
+	transition: transform 0.2s ease-in-out;
+}
+
+.c-language-switcher__list {
+	position: absolute;
+	bottom: 0;
+	left: -1px;
+
+	width: calc(100% + 2px);
+
+	list-style-type: none;
+	opacity: 0;
+	border: borders.$default;
+	border-top: none;
+	border-bottom-left-radius: borders.$radius-default;
+	border-bottom-right-radius: borders.$radius-default;
+
+	background-color: _colors.set("neutral 100");
+
+	transform: translateY(100%) translateY(-4px);
+
+	pointer-events: none;
+}
+
+.c-language-switcher__item {
+	width: 100%;
+
+	transition: transform 0.3s ease-in-out;
+}
+
+.c-language-switcher__link {
+	display: flex;
+	padding: 0 _spacing.step(2);
+
+	font-weight: fonts.$weight-normal;
+	text-decoration: none;
+
+	transition: color 0.2s ease-in-out;
+}
+
+// =============================================================================
+// States
+// =============================================================================
+.c-language-switcher {
+	&:hover,
+	&:focus {
+		.c-language-switcher__list {
+			opacity: 1;
+
+			pointer-events: auto;
+		}
+
+		.c-language-switcher__icon {
+			transform: rotate(180deg);
+		}
+	}
+}
+
+.c-language-switcher__item {
+	&.is-active {
+		display: none;
+	}
+
+	&:hover,
+	&:focus {
+		transform: translateX(5px);
+	}
+}
+
+.c-language-switcher__link {
+	&:hover {
+		color: _colors.set("brand secondary");
+	}
+}

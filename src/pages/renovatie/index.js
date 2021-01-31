@@ -2,12 +2,12 @@ export default {
 	layout: "Default/Default",
 	head() {
 		return {
-			title: "Visie - ReminCare",
+			title: "Renovatie - ReminCare",
 			meta: [
 				{
 					hid: "description",
 					name: "description",
-					content: "De visie van ReminCare",
+					content: "De renovatiewerken van ReminCare",
 				},
 			],
 		};

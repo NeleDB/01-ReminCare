@@ -1,14 +1,13 @@
 @use "./settings/fonts" as fonts;
 
-$blue-38: hsl(216, 98%, 38%);
-$blue-48: hsl(216, 98%, 48%);
-$blue-69: hsl(200, 100%, 69%);
-$gray-20: hsl(212, 17%, 20%);
-$gray-30: hsl(211, 16%, 30%);
-$gray-50: hsl(212, 17%, 50%);
-$gray-74: hsl(212, 10%, 74%);
-$gray-89: hsl(210, 5%, 89%);
-$gray-98: hsl(210, 5%, 98%);
+$green-6: hsl(173, 86%, 6%);
+$green-15: hsl(175, 95%, 15%);
+$pink-85: hsl(12, 37%, 85%);
+$yellow-60: hsl(39, 83%, 60%);
+$orange-57: hsl(18, 67%, 57%);
+$beige-90: hsl(37, 43%, 90%);
+
+$grey-86: hsl(45, 6%, 86%);
 $white-100: hsl(0, 0%, 100%);
 
 /**
@@ -36,17 +35,14 @@ $white-100: hsl(0, 0%, 100%);
 	$colors: (
 		palette: (
 			brand: (
-				base: $blue-48,
-				"30": $blue-38,
-				"60": $blue-69,
+				primary: $pink-85,
+				secondary: $orange-57,
+				tertiary: $green-15,
+				quarternary: $beige-90,
 			),
 			neutral: (
-				base: $gray-20,
-				"30": $gray-30,
-				"50": $gray-50,
-				"70": $gray-74,
-				"80": $gray-89,
-				"90": $gray-98,
+				base: $green-6,
+				"80": $grey-86,
 				"100": $white-100,
 			),
 		),

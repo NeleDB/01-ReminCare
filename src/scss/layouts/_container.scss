@@ -9,16 +9,11 @@
 	$auto-generate: true
 );
 
-// @use "@littlemissrobot/sass-system/container/columns" with (
-// 	$columns: (),
-// 	$at: (
-// 		vp-9: (),
-// 	),
-// 	$to: (
-// 		vp-7: (),
-// 		vp-9: (),
-// 	)
-// );
+@use "@littlemissrobot/sass-system/container/columns" with (
+	$columns: (12,),
+	// $at: (),
+	// $to: ()
+);
 
 @use "@littlemissrobot/sass-system/container/default-spacing" with (
 	$default-spacing: (

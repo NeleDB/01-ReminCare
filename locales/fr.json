@@ -1,7 +1,21 @@
 {
-	"home": "Home",
-	"visie": "Vision",
-	"vacatures": "Postes vacants",
-	"renovatie": "Rénovation",
-	"contact": "Contact"
+	"navigatie": {
+		"home": "Home",
+		"visie": "Vision",
+		"vacatures": "Postes vacants",
+		"renovatie": "Rénovation",
+		"contact": "Contact"
+	},
+	"visie": {
+		"title": "Vision"
+	},
+	"vacatures": {
+		"title": "Postes vacants"
+	},
+	"renovatie": {
+		"title": "Rénovation"
+	},
+	"contact": {
+		"title": "Contact"
+	}
 }

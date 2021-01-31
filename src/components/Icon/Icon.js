@@ -1,4 +1,4 @@
-// import ChevronDown from "@/assets/icons/ChevronDown.svg?inline";
+import ArrowDown from "@/assets/icons/ArrowDown.svg?inline";
 
 export default {
 	props: {
@@ -7,5 +7,7 @@ export default {
 			required: true,
 		},
 	},
-	components: {},
+	components: {
+		ArrowDown,
+	},
 };

@@ -35,7 +35,7 @@ $_border-radius: $_bar-height * 0.5;
 	width: 100%;
 	height: $_bar-height;
 
-	background-color: _colors.set("neutral 30");
+	background-color: _colors.set("neutral base");
 	border-radius: $_border-radius;
 
 	transition: opacity 0.3s ease-in-out 0.1s,
