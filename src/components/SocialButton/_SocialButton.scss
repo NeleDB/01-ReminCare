@@ -1,0 +1,77 @@
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/typography" as _typography;
+@use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
+@use "@/scss/settings/z-index" as z-index;
+
+// =============================================================================
+// Block
+// =============================================================================
+.c-social-button {
+	position: relative;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: _spacing.step(10);
+	height: _spacing.step(10);
+
+	border-radius: _spacing.step(5);
+	border: _spacing.rem(1px, false) solid _colors.set("brand primary");
+
+	&::after {
+		content: "";
+
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: z-index.$background;
+
+		display: block;
+		width: 100%;
+		height: 100%;
+
+		background-color: _colors.set("brand primary");
+		border-radius: _spacing.step(5);
+
+		transform: scale(0);
+		transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+
+		@include _breakpoints.at("vp-9") {
+			border-radius: _spacing.step(4);
+		}
+	}
+
+	@include _breakpoints.at("vp-9") {
+		width: _spacing.step(8);
+		height: _spacing.step(8);
+
+		border-radius: _spacing.step(4);
+	}
+}
+
+// =============================================================================
+// Elements
+// =============================================================================
+.c-social-button__icon {
+	width: _spacing.step(8);
+	height: _spacing.step(8);
+
+	color: _colors.set("brand secondary");
+
+	@include _breakpoints.at("vp-9") {
+		width: _spacing.step(6);
+		height: _spacing.step(6);
+	}
+}
+
+// =============================================================================
+// States
+// =============================================================================
+.c-social-button {
+	&:hover {
+		&::after {
+			transform: scale(1);
+		}
+	}
+}

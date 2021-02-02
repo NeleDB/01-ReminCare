@@ -12,9 +12,70 @@
 
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 
-	@include _breakpoints.at("vp-7") {
+	@include _breakpoints.at("vp-9") {
 		flex-direction: row;
 		align-items: center;
+	}
+}
+
+// =============================================================================
+// Elements
+// =============================================================================
+.c-app-nav__link {
+	@include _typography.set("h3");
+
+	position: relative;
+
+	display: block;
+	padding: _spacing.step(2);
+
+	text-decoration: none;
+
+	color: _colors.set("brand tertiary");
+
+	transition: color 0.2s ease-in-out;
+
+	&::after {
+		content: "";
+
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+
+		display: block;
+		width: calc(100% - #{_spacing.step(12)});
+		height: _spacing.rem(2px, false);
+
+		background-color: _colors.set("brand secondary");
+
+		transform: scaleX(0) translateX(-50%);
+		transform-origin: left;
+		transition: transform 0.3s ease-in-out;
+
+		@include _breakpoints.to("vp-9") {
+			display: none;
+		}
+	}
+
+	@include _breakpoints.at("vp-9") {
+		@include _typography.set("p");
+
+		padding: _spacing.step(6);
+	}
+}
+
+// =============================================================================
+// states
+// =============================================================================
+.c-app-nav__link {
+	&:hover,
+	&.is-active {
+		color: _colors.set("brand secondary");
+
+		&::after {
+			transform: scaleX(1) translateX(-50%);
+		}
 	}
 }

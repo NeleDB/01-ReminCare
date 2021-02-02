@@ -1,15 +1,21 @@
 @use "@littlemissrobot/sass-system/spacing" as _spacing;
 @use "@littlemissrobot/sass-system/colors" as _colors;
-// @use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
-// @use "@/scss/settings/borders" as borders;
-// @use "@/scss/settings/z-index" as z-index;
+@use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
+@use "@/scss/settings/z-index" as z-index;
 
 // =============================================================================
 // Block
 // =============================================================================
 .c-app-header {
-	border-top: _spacing.step(2);
-	border-color: _colors.set("brand quarternary");
+	z-index: z-index.$header;
+
+	border-top: _spacing.step(2) solid _colors.set("brand quarternary");
+	border-bottom: _spacing.rem(1px, false) solid
+		_colors.set("brand quarternary");
+
+	@include _breakpoints.to("vp-9") {
+		padding: _spacing.step(3) 0;
+	}
 }
 
 // =============================================================================
@@ -17,20 +23,57 @@
 // =============================================================================
 .c-app-header__container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .c-app-header__nav {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
+
+	@include _breakpoints.to("vp-9") {
+		display: none;
+	}
 }
 
 .c-app-header__nav-container {
 	display: flex;
 	align-items: center;
+
+	@include _breakpoints.at("vp-9") {
+		flex: 1;
+	}
 }
 
 .c-app-header__language {
-	margin-left: _spacing.step(5);
+	margin-left: _spacing.step(2);
+
+	@include _breakpoints.at("vp-9") {
+		margin-left: _spacing.step(5);
+	}
+}
+
+.c-app-header__social {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex: 1;
+
+	@include _breakpoints.to("vp-9") {
+		display: none;
+	}
+}
+
+.c-app-header__social-item {
+	margin: _spacing.rem(2px, false);
+}
+
+.c-app-header__hamburger {
+	display: flex;
+	justify-content: flex-end;
+	flex: 1;
+
+	@include _breakpoints.at("vp-9") {
+		display: none;
+	}
 }

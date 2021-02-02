@@ -9,6 +9,19 @@
 		@focusout="focusOut"
 	>
 		<AppNav />
+
+		<div class="c-app-mobile-nav__social">
+			<SocialButton
+				class="c-app-mobile-nav__social-item"
+				icon="Instagram"
+				url=""
+			/>
+			<SocialButton
+				class="c-app-mobile-nav__social-item"
+				icon="Facebook"
+				url=""
+			/>
+		</div>
 	</nav>
 </template>
 

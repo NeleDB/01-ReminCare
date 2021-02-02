@@ -1,4 +1,6 @@
 import ArrowDown from "@/assets/icons/ArrowDown.svg?inline";
+import Facebook from "@/assets/icons/Facebook.svg?inline";
+import Instagram from "@/assets/icons/Instagram.svg?inline";
 
 export default {
 	props: {
@@ -9,5 +11,7 @@ export default {
 	},
 	components: {
 		ArrowDown,
+		Facebook,
+		Instagram,
 	},
 };

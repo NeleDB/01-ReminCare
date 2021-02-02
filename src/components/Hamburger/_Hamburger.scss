@@ -3,7 +3,7 @@
 
 $_bar-height: _spacing.rem(3px, false);
 $_delay: 0.2s;
-$_middle: _spacing.rem(11px, false);
+$_middle: _spacing.rem(8px, false);
 $_border-radius: $_bar-height * 0.5;
 
 // =============================================================================
@@ -38,8 +38,9 @@ $_border-radius: $_bar-height * 0.5;
 	background-color: _colors.set("neutral base");
 	border-radius: $_border-radius;
 
+	transform-origin: center;
 	transition: opacity 0.3s ease-in-out 0.1s,
-		transform 0.3s cubic-bezier(0.17, 1.19, 0.22, 1.32) $_delay;
+		transform 0.4s cubic-bezier(0.85, 0, 0.15, 1) $_delay;
 }
 
 .c-hamburger__top-bar {
@@ -67,11 +68,11 @@ $_border-radius: $_bar-height * 0.5;
 		}
 
 		.c-hamburger__top-bar {
-			transform: translateY(#{$_middle});
+			transform: translateY(#{$_middle}) rotate(45deg);
 		}
 
 		.c-hamburger__bottom-bar {
-			transform: translateY(-#{$_middle});
+			transform: translateY(-#{$_middle}) rotate(-45deg);
 		}
 
 		.c-hamburger__middle-bar {

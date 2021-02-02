@@ -18,7 +18,23 @@
 				<AppNav class="c-app-header__app-nav" :has-home="false" />
 			</nav>
 
-			<Hamburger ref="hamburger" class="c-app-header__hamburger" />
+			<div class="c-app-header__social">
+				<!-- TODO: add link -->
+				<SocialButton
+					class="c-app-header__social-item"
+					icon="Instagram"
+					url=""
+				/>
+				<SocialButton
+					class="c-app-header__social-item"
+					icon="Facebook"
+					url=""
+				/>
+			</div>
+
+			<div class="c-app-header__hamburger">
+				<Hamburger ref="hamburger" />
+			</div>
 		</div>
 	</header>
 </template>
