@@ -8,11 +8,13 @@
 	$auto-generate: true
 );
 
-// @use "@littlemissrobot/sass-system/grid/columns" with (
-// 	$columns: (),
-// 	$at: (),
-// $to: ()
-// );
+@use "@littlemissrobot/sass-system/grid/columns" with (
+	$columns: (12,),
+	$at: (
+		vp-7: (3,6),
+		vp-9: (3,),
+	),
+);
 
 // @use "@littlemissrobot/sass-system/grid/left-offsets" with (
 // 	$offsets: (),
@@ -50,11 +52,9 @@
 //	$to: ()
 // );
 
-// @use "@littlemissrobot/sass-system/grid/align" with (
-// $align: (),
-// $at: (),
-// $to: ()
-// );
+@use "@littlemissrobot/sass-system/grid/align" with (
+	$align: (top,),
+);
 
 // @use "@littlemissrobot/sass-system/grid/align-columns" with (
 // 	$align: (),

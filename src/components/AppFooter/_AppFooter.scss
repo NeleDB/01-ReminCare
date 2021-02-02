@@ -1,11 +1,101 @@
-// @use "@littlemissrobot/sass-system/spacing" as _spacing;
-// @use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
-// @use "@littlemissrobot/sass-system/colors" as _colors;
-// @use "@littlemissrobot/sass-system/typography" as _typography;
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/typography" as _typography;
 // @use "@littlemissrobot/sass-system/mixins" as _mixins;
 // @use "@/scss/settings/borders" as borders;
 
 // =============================================================================
 // Block
 // =============================================================================
-// .c-app-footer {}
+.c-app-footer {
+	padding: _spacing.step(8) 0;
+
+	border-top: _spacing.rem(4px) solid _colors.set("brand quarternary");
+
+	@include _breakpoints.at("vp-9") {
+		padding: _spacing.step(10) 0 _spacing.step(18);
+	}
+}
+
+// =============================================================================
+// Elements
+// =============================================================================
+.c-app-footer__text {
+	@include _typography.set("small");
+}
+
+.c-app-footer__highlight {
+	@include _typography.set("h5");
+
+	display: block;
+	margin-top: _spacing.rem(6px, false);
+
+	color: _colors.set("brand tertiary");
+}
+
+.c-app-footer__link {
+	@include _typography.set("small");
+
+	position: relative;
+
+	display: block;
+
+	text-decoration: none;
+
+	transition: color 0.2s ease-in-out;
+
+	&::after {
+		content: "";
+
+		position: absolute;
+		bottom: 0;
+		left: 0;
+
+		display: block;
+		width: 100%;
+		height: _spacing.rem(1px, false);
+
+		background-color: _colors.set("brand tertiary");
+
+		transition: background-color 0.2s ease-in-out;
+	}
+}
+
+.c-app-footer__contact-info,
+.c-app-footer__extra-info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.c-app-footer__socials {
+	display: flex;
+
+	@include _breakpoints.at("vp-9") {
+		justify-content: flex-end;
+	}
+}
+
+.c-app-footer__social-item {
+	margin-left: _spacing.rem(8px);
+}
+
+.c-app-footer__contact-info,
+.c-app-footer__extra-info,
+.c-app-footer__socials {
+	padding-top: _spacing.rem(16px);
+}
+
+// =============================================================================
+// States
+// =============================================================================
+.c-app-footer__link {
+	&:hover {
+		color: _colors.set("brand secondary");
+
+		&::after {
+			background-color: _colors.set("brand secondary");
+		}
+	}
+}
