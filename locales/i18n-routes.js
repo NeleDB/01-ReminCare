@@ -11,4 +11,8 @@ export default {
 		nl: "/vacatures",
 		fr: "/postes-vacants",
 	},
+	"vacature/:id": {
+		nl: "/vacatures/:id",
+		fr: "/postes-vacants/:id",
+	},
 };
