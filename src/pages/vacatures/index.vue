@@ -33,13 +33,24 @@
 		</section>
 
 		<section
-			class="l-container:12/12 l-container:8/12@at:vp-9 l-container--default-spacing"
+			class="l-container:12/12 l-container:8/12@at:vp-9 l-container--default-spacing u-margin-bottom:20 u-margin-bottom:25@at:vp-9"
 		>
 			<h2 class="u-color:brand:tertiary">
 				{{ $t("vacatures.header.title") }}
 			</h2>
 
 			<JobOfferList :data="vacatures" class="u-margin-top:8" />
+		</section>
+
+		<section
+			class="l-container:12/12 l-container:10/12@at:vp-9 l-container--default-spacing u-margin-bottom:20 u-margin-bottom:25@at:vp-9"
+		>
+			<JobOfferCta
+				:title="$t('vacatures.cta.title')"
+				:text="$t('vacatures.cta.text')"
+				:button="$t('vacatures.cta.button')"
+				:subject="$t('vacatures.cta.subject')"
+			/>
 		</section>
 	</div>
 </template>

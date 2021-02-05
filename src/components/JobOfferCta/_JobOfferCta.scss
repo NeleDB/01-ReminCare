@@ -1,0 +1,56 @@
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
+@use "@/scss/settings/z-index" as z-index;
+
+// =============================================================================
+// Block
+// =============================================================================
+.c-job-offer-cta {
+	position: relative;
+
+	overflow: hidden;
+	padding: _spacing.step(15) _spacing.step(10);
+
+	background-color: _colors.set("brand primary");
+
+	@include _breakpoints.at("vp-9") {
+		padding: _spacing.step(20) 0;
+	}
+
+	&::after {
+		content: "";
+
+		position: absolute;
+		right: 0;
+		bottom: 0;
+
+		display: block;
+		width: _spacing.step(40);
+		height: _spacing.step(40);
+
+		background-color: _colors.set("brand secondary");
+
+		transform: translateX(50%) translateY(50%) rotate(45deg);
+
+		@include _breakpoints.at("vp-9") {
+			width: _spacing.step(90);
+			height: _spacing.step(90);
+		}
+	}
+}
+
+// =============================================================================
+// Element
+// =============================================================================
+.c-job-offer-cta__title {
+	color: _colors.set("brand secondary");
+}
+
+.c-job-offer-cta__text {
+	margin-top: _spacing.step(4);
+}
+
+.c-job-offer-cta__button {
+	margin-top: _spacing.step(8);
+}

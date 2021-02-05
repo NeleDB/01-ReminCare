@@ -12,7 +12,7 @@
 @use "@littlemissrobot/sass-system/container/columns" with (
 	$columns: (12,),
 	$at: (
-		"vp-9": (6,8),
+		"vp-9": (6, 8, 10,),
 		"vp-12": (6,)
 	)
 );
