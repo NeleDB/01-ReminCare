@@ -12,7 +12,9 @@
 @use "@littlemissrobot/sass-system/container/columns" with (
 	$columns: (12,),
 	// $at: (),
-	// $to: ()
+	$to: (
+		"vp-9": (10,)
+	)
 );
 
 @use "@littlemissrobot/sass-system/container/default-spacing" with (

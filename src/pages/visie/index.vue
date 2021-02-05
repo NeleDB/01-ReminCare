@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="u-margin-bottom:20 u-margin-bottom:40@at:vp-9">
 		<!-- Intro -->
 		<section
 			class="l-container:12/12 l-container--default-spacing u-padding-top:20 u-padding-top:30@at:vp-9"
@@ -86,6 +86,7 @@
 			</div>
 		</section>
 
+		<!-- Team -->
 		<section
 			class="u-padding-bottom:20 u-padding-bottom:60@at:vp-9 u-margin-top:20"
 		>
@@ -108,11 +109,42 @@
 			<div class="l-container:12/12 l-container--default-spacing">
 				<div class="l-grid l-grid--default-spacing">
 					<Member
-						class="l-grid__col:12/12 l-grid__col:6/12@at:vp-7 l-grid__col:3/12@at:vp-9"
-						:image="require('@/assets/images/ine.jpg')"
+						class="l-grid__col:12/12 l-grid__col:6/12@at:vp-7 l-grid__col:3/12@at:vp-12"
+						:image="require('@/assets/images/ine2.jpg')"
 						:name="$t('visie.team.members.ine.name')"
 						:expertise="$t('visie.team.members.ine.functie')"
 					/>
+
+					<TeamCta
+						class="l-grid__col:12/12 l-grid__col:6/12@at:vp-7 l-grid__col:3/12@at:vp-12"
+					/>
+				</div>
+			</div>
+		</section>
+
+		<!-- Over Ine -->
+		<section class="l-container:12/12 l-container--default-spacing">
+			<header class="u-visually-hidden">
+				<h1>{{ $t("visie.about.title") }}</h1>
+			</header>
+
+			<QuoteImage />
+
+			<div class="l-grid l-grid--default-spacing">
+				<div
+					class="l-grid__col:12/12 l-grid__col:6/12@at:vp-9 l-grid__col--left-offset:1/12@at:vp-9"
+				>
+					<p class="u-margin-top:8">
+						{{ $t("visie.about.alinea1") }}
+					</p>
+
+					<p class="u-margin-top:8">
+						{{ $t("visie.about.alinea2") }}
+					</p>
+
+					<p class="u-margin-top:8">
+						{{ $t("visie.about.alinea3") }}
+					</p>
 				</div>
 			</div>
 		</section>

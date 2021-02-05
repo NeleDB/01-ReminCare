@@ -91,8 +91,8 @@ $white-100: hsl(0, 0%, 100%);
 		h4: (
 			font-family: fonts.$family-primary,
 			font-weight: fonts.$weight-semi-bold,
-			font-size: _spacing.rem(16px, false),
-			line-height: _spacing.rem(23px, false),
+			font-size: _spacing.rem(20px),
+			line-height: _spacing.rem(28px),
 			vp-7: (
 				font-size: _spacing.rem(21px, false),
 				line-height: _spacing.rem(30px, false),

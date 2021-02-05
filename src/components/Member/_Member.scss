@@ -1,17 +1,22 @@
 @use "@littlemissrobot/sass-system/colors" as _colors;
 @use "@littlemissrobot/sass-system/spacing" as _spacing;
 @use "@littlemissrobot/sass-system/typography" as _typography;
+@use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
 
 // =============================================================================
 // Element
 // =============================================================================
 .c-member__image-wrapper {
 	width: 100%;
-	height: _spacing.step(100);
+	height: _spacing.step(80);
 
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+
+	@include _breakpoints.at("vp-7") {
+		height: _spacing.step(100);
+	}
 }
 
 .c-member__image {

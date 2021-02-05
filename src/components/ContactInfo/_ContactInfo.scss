@@ -1,0 +1,87 @@
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/typography" as _typography;
+@use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
+
+// =============================================================================
+// Block
+// =============================================================================
+.c-contact-info {
+	width: 100%;
+	padding: _spacing.step(10) _spacing.step(12) _spacing.step(17);
+
+	background-color: _colors.set("neutral 100");
+
+	@include _breakpoints.at("vp-7") {
+		width: 60%;
+	}
+
+	@include _breakpoints.at("vp-12") {
+		width: 40%;
+	}
+}
+
+// =============================================================================
+// Block
+// =============================================================================
+.c-contact-info__item {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: _spacing.step(6);
+}
+
+.c-contact-info__title {
+	@include _typography.set("label");
+
+	color: _colors.set("brand tertiary");
+}
+
+.c-contact-info__text {
+	@include _typography.set("p");
+
+	color: _colors.set("brand tertiary");
+}
+
+.c-contact-info__link {
+	@include _typography.set("p");
+
+	position: relative;
+
+	display: block;
+
+	text-decoration: none;
+
+	color: _colors.set("brand tertiary");
+
+	transition: color 0.2s ease-in-out;
+
+	&::after {
+		content: "";
+
+		position: absolute;
+		bottom: 0;
+		left: 0;
+
+		display: block;
+		width: 100%;
+		height: _spacing.rem(1px, false);
+
+		background-color: _colors.set("brand tertiary");
+
+		transition: background-color 0.2s ease-in-out;
+	}
+}
+
+// =============================================================================
+// States
+// =============================================================================
+.c-contact-info__link {
+	&:hover {
+		color: _colors.set("brand secondary");
+
+		&::after {
+			background-color: _colors.set("brand secondary");
+		}
+	}
+}

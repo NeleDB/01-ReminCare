@@ -6,9 +6,13 @@
 @use "./AppMobileNav/AppMobileNav";
 @use "./AppHeader/AppHeader";
 @use "./AppFooter/AppFooter";
+@use "./ContactInfo/ContactInfo";
 @use "./LanguageSwitcher/LanguageSwitcher";
+@use "./Map/Map";
 @use "./Member/Member";
 @use "./Quote/Quote";
+@use "./QuoteImage/QuoteImage";
 @use "./SkipLink/SkipLink";
 @use "./SocialButton/SocialButton";
+@use "./TeamCta/TeamCta";
 @use "./UspItem/UspItem";

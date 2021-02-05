@@ -1,0 +1,39 @@
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
+
+// =============================================================================
+// Block
+// =============================================================================
+.c-map {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	min-height: _spacing.rem(800px);
+
+	background-color: _colors.set("brand tertiary");
+	background-image: url("~@/assets/images/map.svg");
+	background-size: auto 70%;
+	background-position: center top;
+	background-repeat: no-repeat;
+
+	@include _breakpoints.at("vp-9") {
+		background-size: auto 100%;
+		background-position: left;
+	}
+}
+
+// =============================================================================
+// Elements
+// =============================================================================
+.c-map__image {
+	position: relative;
+
+	flex: 1;
+}
+
+.c-map__info {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
