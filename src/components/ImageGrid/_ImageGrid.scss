@@ -1,0 +1,25 @@
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@/scss/settings/z-index" as z-index;
+
+// =============================================================================
+// Elements
+// =============================================================================
+.c-image-grid__container {
+	display: flex;
+	align-items: center;
+}
+
+.c-image-grid__item {
+	width: calc(25% - #{_spacing.step(6)});
+	margin-left: _spacing.step(8);
+
+	&:first-child {
+		margin-left: 0;
+	}
+}
+
+.c-image-grid__image {
+	width: 100%;
+	height: auto;
+}

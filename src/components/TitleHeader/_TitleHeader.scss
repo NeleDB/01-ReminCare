@@ -1,0 +1,48 @@
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/typography" as _typography;
+@use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
+@use "@/scss/settings/z-index" as z-index;
+
+// =============================================================================
+// Block
+// =============================================================================
+.c-title-header {
+	position: relative;
+
+	padding: _spacing.step(25) 0;
+
+	background-color: _colors.set("brand primary");
+
+	&::before {
+		content: "";
+
+		position: absolute;
+		bottom: _spacing.step(-10);
+		left: 0;
+		z-index: z-index.$background;
+
+		display: block;
+		width: 100%;
+		height: _spacing.step(25);
+
+		background-color: _colors.set("brand primary");
+
+		transform: skewY(-3deg);
+	}
+}
+
+// =============================================================================
+// Elements
+// =============================================================================
+.c-title-header__title {
+	color: _colors.set("brand secondary");
+}
+
+.c-title-header__intro {
+	margin-top: _spacing.step(5);
+}
+
+.c-title-header__button {
+	margin-top: _spacing.step(10);
+}

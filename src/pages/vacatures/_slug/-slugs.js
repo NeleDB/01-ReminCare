@@ -7,4 +7,12 @@ export default {
 		fr: "physiothérapeute",
 		nl: "kinesist",
 	},
+	logopedist: {
+		fr: "orthophoniste",
+		nl: "logopedist",
+	},
+	orthophoniste: {
+		fr: "orthophoniste",
+		nl: "logopedist",
+	},
 };

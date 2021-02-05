@@ -1,0 +1,70 @@
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/typography" as _typography;
+@use "@/scss/settings/z-index" as z-index;
+@use "@/scss/settings/borders" as borders;
+@use "@/scss/settings/fonts" as fonts;
+
+// =============================================================================
+// Block
+// =============================================================================
+.c-job-offer {
+	border-bottom: _spacing.rem(1px, false) solid
+		_colors.set("brand quarternary");
+
+	&:first-child {
+		border-top: _spacing.rem(1px, false) solid
+			_colors.set("brand quarternary");
+	}
+}
+
+// =============================================================================
+// Elements
+// =============================================================================
+.c-job-offer__link {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: _spacing.step(7) _spacing.step(2);
+
+	text-decoration: none;
+}
+
+.c-job-offer__title {
+	@include _typography.set("h4");
+
+	color: _colors.set("brand tertiary");
+
+	transition: color 0.2s ease-in-out;
+}
+
+.c-job-offer__text {
+	@include _typography.set("small");
+
+	margin-top: _spacing.step(2);
+}
+
+.c-job-offer__icon {
+	width: _spacing.step(8);
+	height: _spacing.step(8);
+	margin-left: _spacing.step(4);
+
+	color: _colors.set("brand secondary");
+
+	transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+// =============================================================================
+// Modifiers
+// =============================================================================
+.c-job-offer__link {
+	&:hover {
+		.c-job-offer__title {
+			color: _colors.set("brand secondary");
+		}
+
+		.c-job-offer__icon {
+			transform: translateX(_spacing.step(2));
+		}
+	}
+}

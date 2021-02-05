@@ -52,7 +52,7 @@
 // =============================================================================
 .c-button {
 	&:hover {
-		background-color: _colors.set("neutral 100");
+		background-color: transparent;
 
 		.c-button__icon-before,
 		.c-button__icon-after,
@@ -61,27 +61,3 @@
 		}
 	}
 }
-
-// .c-button--outline {
-// 	&:hover {
-// 		background-color: _colors.set("brand base");
-
-// 		.c-button__text,
-// 		.c-button__icon-before,
-// 		.c-button__icon-after {
-// 			color: _colors.set("neutral 100");
-// 		}
-// 	}
-// }
-
-// .c-button--inverse.c-button--outline {
-// 	&:hover {
-// 		background-color: _colors.set("neutral 100");
-
-// 		.c-button__text,
-// 		.c-button__icon-before,
-// 		.c-button__icon-after {
-// 			color: _colors.set("brand base");
-// 		}
-// 	}
-// }

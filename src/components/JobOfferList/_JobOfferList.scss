@@ -1,0 +1,12 @@
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@/scss/settings/z-index" as z-index;
+@use "@/scss/settings/borders" as borders;
+@use "@/scss/settings/fonts" as fonts;
+
+// =============================================================================
+// Block
+// =============================================================================
+.c-job-offer-list {
+	list-style-type: none;
+}

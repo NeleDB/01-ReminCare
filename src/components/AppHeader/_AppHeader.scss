@@ -12,6 +12,7 @@
 	border-top: _spacing.step(2) solid _colors.set("brand quarternary");
 	border-bottom: _spacing.rem(1px, false) solid
 		_colors.set("brand quarternary");
+	background-color: _colors.set("neutral 100");
 
 	@include _breakpoints.to("vp-9") {
 		padding: _spacing.step(3) 0;
