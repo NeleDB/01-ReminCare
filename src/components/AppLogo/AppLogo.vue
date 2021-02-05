@@ -1,6 +1,6 @@
 <template>
 	<AppLogoRoot :url="url">
-		<img src="@/assets/images/logo.svg" alt="Sign" />
+		<img src="@/assets/images/logo.svg" alt="ReminCare" />
 	</AppLogoRoot>
 </template>
 

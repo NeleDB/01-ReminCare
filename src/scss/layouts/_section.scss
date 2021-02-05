@@ -1,0 +1,60 @@
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@/scss/settings/z-index" as z-index;
+
+// =============================================================================
+// Modifiers
+// =============================================================================
+.l-section--slanted-both\:primary {
+	position: relative;
+
+	&::before {
+		content: "";
+
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: z-index.$background;
+
+		display: block;
+		width: 100%;
+		height: 100%;
+
+		background-color: _colors.set("brand primary");
+
+		transform: skewY(3deg);
+	}
+}
+
+.l-section--slanted-both\:tertiary {
+	position: relative;
+
+	background-color: _colors.set("brand tertiary");
+
+	&::before,
+	&::after {
+		content: "";
+
+		position: absolute;
+		left: 0;
+		z-index: z-index.$background;
+
+		display: block;
+		width: 100%;
+		height: 200px;
+
+		background-color: _colors.set("brand tertiary");
+	}
+
+	&::before {
+		top: -100px;
+
+		transform: skewY(3deg);
+	}
+
+	&::after {
+		bottom: -100px;
+
+		transform: skewY(-2deg);
+	}
+}

@@ -2,8 +2,6 @@
 @use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
 @use "@littlemissrobot/sass-system/colors" as _colors;
 @use "@littlemissrobot/sass-system/typography" as _typography;
-// @use "@littlemissrobot/sass-system/mixins" as _mixins;
-// @use "@/scss/settings/borders" as borders;
 
 // =============================================================================
 // Block
@@ -12,6 +10,7 @@
 	padding: _spacing.step(8) 0;
 
 	border-top: _spacing.rem(4px) solid _colors.set("brand quarternary");
+	background-color: _colors.set("neutral 100");
 
 	@include _breakpoints.at("vp-9") {
 		padding: _spacing.step(10) 0 _spacing.step(18);

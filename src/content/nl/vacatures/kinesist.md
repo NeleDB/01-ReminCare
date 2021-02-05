@@ -1,5 +1,5 @@
 ---
-title: "Kinésist"
+title: "Kinesist"
 description: "Simply an example post."
 previewImage: "blogs/placeholder-preview.jpg"
 bannerImage: "blogs/placeholder-banner.jpg"

@@ -1,4 +1,10 @@
 export default {
+	nuxtI18n: {
+		paths: {
+			nl: "/vacatures",
+			fr: "/postes-vacants",
+		},
+	},
 	layout: "Default/Default",
 	head() {
 		return {
@@ -20,7 +26,10 @@ export default {
 			return this.vacatures.length > 0;
 		},
 	},
-	async asyncData({ store }) {
-		await store.dispatch("vacatures/fetchVacatures");
+	async asyncData({ store, app }) {
+		await store.dispatch(
+			"vacatures/fetchVacatures",
+			app.i18n.t("vacatures.link")
+		);
 	},
 };

@@ -5,9 +5,10 @@
 
 			<ul v-if="hasVacatures">
 				<li v-for="vacature in vacatures" :key="vacature.slug">
-					<NuxtLink :to="vacature.path">{{
-						vacature.title
-					}}</NuxtLink>
+					<NuxtLink
+						:to="`${localePath('vacatures')}/${vacature.slug}`"
+						>{{ vacature.title }}</NuxtLink
+					>
 				</li>
 			</ul>
 

@@ -110,17 +110,6 @@ $white-100: hsl(0, 0%, 100%);
 			font-size: _spacing.rem(19px, false),
 			line-height: _spacing.rem(28px),
 		),
-		label: (
-			font-family: fonts.$family-primary,
-			font-weight: fonts.$weight-bold,
-			font-size: _spacing.rem(12px),
-			line-height: _spacing.rem(15px, false),
-			text-transform: uppercase,
-			vp-7: (
-				font-size: _spacing.rem(16px),
-				line-height: _spacing.rem(18px, false),
-			)
-		),
 		p: (
 			font-family: fonts.$family-primary,
 			font-weight: fonts.$weight-normal,
@@ -139,5 +128,29 @@ $white-100: hsl(0, 0%, 100%);
 			font-size: _spacing.rem(16px),
 			line-height: _spacing.rem(26px, false),
 		),
+		quote: (
+			font-family: fonts.$family-primary,
+			font-weight: fonts.$weight-normal,
+			font-size: _spacing.rem(32px),
+			line-height: _spacing.rem(40px),
+			vp-7: (
+				font-size: _spacing.rem(41px, false),
+				line-height: _spacing.rem(56px),
+			)
+		),
+		label: (
+			font-family: fonts.$family-primary,
+			font-weight: fonts.$weight-bold,
+			font-size: _spacing.rem(16px),
+			line-height: _spacing.rem(32px),
+			text-transform: uppercase,
+			letter-spacing: _spacing.rem(1px, false),
+		),
+		intro: (
+			font-family: fonts.$family-primary,
+			font-weight: fonts.$weight-normal,
+			font-size: _spacing.rem(20px),
+			line-height: _spacing.rem(28px),
+		)
 	),
 );

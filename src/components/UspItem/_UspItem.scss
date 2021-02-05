@@ -1,0 +1,38 @@
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/typography" as _typography;
+@use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
+
+// =============================================================================
+// Block
+// =============================================================================
+.c-usp-item {
+	padding-top: _spacing.step(3);
+
+	@include _breakpoints.at("vp-7") {
+		border-top: _spacing.rem(1px, false) solid
+			_colors.set("brand secondary");
+	}
+}
+
+// =============================================================================
+// Elements
+// =============================================================================
+.c-usp-item__title {
+	@include _typography.set("label");
+
+	color: _colors.set("brand secondary");
+}
+
+.c-usp-item__intro {
+	@include _typography.set("intro");
+
+	display: block;
+	margin-top: _spacing.step(3);
+
+	color: _colors.set("brand tertiary");
+}
+
+.c-usp-item__text {
+	margin-top: _spacing.step(4);
+}

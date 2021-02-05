@@ -1,4 +1,5 @@
 import ArrowDown from "@/assets/icons/ArrowDown.svg?inline";
+import ArrowDownLarge from "@/assets/icons/ArrowDownLarge.svg?inline";
 import Facebook from "@/assets/icons/Facebook.svg?inline";
 import Instagram from "@/assets/icons/Instagram.svg?inline";
 
@@ -11,6 +12,7 @@ export default {
 	},
 	components: {
 		ArrowDown,
+		ArrowDownLarge,
 		Facebook,
 		Instagram,
 	},

@@ -7,10 +7,49 @@
 		"contact": "Contact"
 	},
 	"visie": {
-		"title": "Vision"
+		"title": "Vision",
+		"header": {
+			"quote": "“Lorem ipsum dolor sit amet, consectetur <strong>adipiscing</strong> elit, sed do eiusmod tempor <strong>incididunt</strong> ut labore et dolore magna aliqua.”",
+			"intro": "Ontdek hieronder wie we zijn, wat we doen, waarom we het doen en meer.",
+			"image": "Image description"
+		},
+		"usp": {
+			"title": "Hoe wij ons onderscheiden",
+			"items": {
+				"kruisbestuiving": {
+					"title": "Kruisbestuiving",
+					"intro": "Leer bij in ons interdisciplinair team",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+				},
+				"wetenschappelijk": {
+					"title": "Wetenschappelijk",
+					"intro": "Een open visie met een wetenschappelijke onderbouwing",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+				},
+				"vertrouwd": {
+					"title": "Vertrouwd",
+					"intro": "Eerlijke en vertrouwde omgeving creëren voor patiënten en collega’s",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+				},
+				"passie": {
+					"title": "Passie",
+					"intro": "Een gedeelde passie met focus op kind en omgeving",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+				},
+				"oplossingsgericht": {
+					"title": "Oplossingsgericht",
+					"intro": "Lorem ipsum dolor sit amet, consectetur",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+				}
+			}
+		}
 	},
 	"vacatures": {
-		"title": "Vactures"
+		"slugs": {
+			"kinesist": "kinesist"
+		},
+		"title": "Vactures",
+		"link": "vacatures"
 	},
 	"renovatie": {
 		"title": "Renovatie"

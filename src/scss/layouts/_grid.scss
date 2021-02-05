@@ -9,30 +9,35 @@
 );
 
 @use "@littlemissrobot/sass-system/grid/columns" with (
-	$columns: (12,),
+	$columns: (10, 12,),
 	$at: (
-		vp-7: (3,6),
-		vp-9: (3,),
+		"vp-7": (6,),
+		"vp-9": (3, 4, 7),
 	),
 );
 
-// @use "@littlemissrobot/sass-system/grid/left-offsets" with (
-// 	$offsets: (),
-//	$at: (),
-//	$to: ()
-// );
+@use "@littlemissrobot/sass-system/grid/left-offsets" with (
+	$offsets: (2,),
+	$at: (
+		"vp-9": (1, 2),
+		"vp-12": (1, 2)
+	)
+);
 
 // @use "@littlemissrobot/sass-system/grid/right-offsets" with (
 // 	$offsets: (),
-//	$at: (),
-//	$to: ()
+// 	$at: ()
 // );
 
-// @use "@littlemissrobot/sass-system/grid/default-spacing" with (
-// 	$default-spacing: (),
-// $at: (),
-// $to: ()
-// );
+@use "@littlemissrobot/sass-system/grid/default-spacing" with (
+	$default-spacing: (
+		vp-0: 4,
+		vp-4: 8,
+		vp-9: 10,
+	),
+	// $at: (),
+	// $to: ()
+);
 
 // @use "@littlemissrobot/sass-system/grid/spacing" with (
 // $spacing: (),

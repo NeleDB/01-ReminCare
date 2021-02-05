@@ -7,12 +7,16 @@ export default {
 		nl: "/renovatie",
 		fr: "/rénovation",
 	},
-	"vacature/index": {
+	"vacatures/index": {
 		nl: "/vacatures",
 		fr: "/postes-vacants",
 	},
-	"vacature/:id": {
-		nl: "/vacatures/:id",
-		fr: "/postes-vacants/:id",
+	"vacatures/_slug/index": {
+		nl: "/vacatures/:slug",
+		fr: "/postes-vacants/:slug",
+	},
+	"contact/index": {
+		nl: "/contact",
+		fr: "/contact",
 	},
 };

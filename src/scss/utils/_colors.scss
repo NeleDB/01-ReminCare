@@ -1,8 +1,6 @@
-// @use "@littlemissrobot/sass-system/utils/color" with (
-// $utils: (),
-// $at: (),
-// $to: ()
-// );
+@use "@littlemissrobot/sass-system/utils/color" with (
+	$utils: ( "brand tertiary", "neutral 100"),
+);
 
 // @use "@littlemissrobot/sass-system/utils/background-color" with (
 // 	$utils: (),
