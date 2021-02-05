@@ -89,11 +89,30 @@
 		<section
 			class="u-padding-bottom:20 u-padding-bottom:60@at:vp-9 u-margin-top:20"
 		>
-			<div
-				class="l-section--slanted-both:tertiary u-padding-bottom:20 u-padding-bottom:60@at:vp-9"
-			>
+			<div class="l-section--slanted-both:tertiary u-padding-bottom:20">
 				<div class="l-container:12/12 l-container--default-spacing">
-					<h2 class="u-color:neutral:100">Team</h2>
+					<div class="l-grid l-grid--default-spacing">
+						<div class="l-grid__col:12/12 l-grid__col:6/12@at:vp-9">
+							<h2 class="u-color:neutral:100">
+								{{ $t("visie.team.title") }}
+							</h2>
+
+							<p class="u-margin-top:8 u-color:neutral:100">
+								{{ $t("visie.team.intro") }}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="l-container:12/12 l-container--default-spacing">
+				<div class="l-grid l-grid--default-spacing">
+					<Member
+						class="l-grid__col:12/12 l-grid__col:6/12@at:vp-7 l-grid__col:3/12@at:vp-9"
+						:image="require('@/assets/images/ine.jpg')"
+						:name="$t('visie.team.members.ine.name')"
+						:expertise="$t('visie.team.members.ine.functie')"
+					/>
 				</div>
 			</div>
 		</section>

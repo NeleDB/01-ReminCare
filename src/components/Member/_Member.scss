@@ -1,0 +1,37 @@
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/typography" as _typography;
+
+// =============================================================================
+// Element
+// =============================================================================
+.c-member__image-wrapper {
+	width: 100%;
+	height: _spacing.step(100);
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.c-member__image {
+	width: 0;
+	height: 0;
+
+	opacity: 0;
+}
+
+.c-member__expertise {
+	@include _typography.set("small");
+
+	display: block;
+	margin-top: _spacing.step(5);
+
+	color: _colors.set("brand tertiary");
+}
+
+.c-member__name {
+	@include _typography.set("h4");
+
+	color: _colors.set("brand tertiary");
+}

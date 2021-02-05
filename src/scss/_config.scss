@@ -90,7 +90,7 @@ $white-100: hsl(0, 0%, 100%);
 		),
 		h4: (
 			font-family: fonts.$family-primary,
-			font-weight: fonts.$weight-bold,
+			font-weight: fonts.$weight-semi-bold,
 			font-size: _spacing.rem(16px, false),
 			line-height: _spacing.rem(23px, false),
 			vp-7: (
@@ -103,12 +103,6 @@ $white-100: hsl(0, 0%, 100%);
 			font-weight: fonts.$weight-bold,
 			font-size: _spacing.rem(15px, false),
 			line-height: _spacing.rem(15px, false),
-		),
-		h6: (
-			font-family: fonts.$family-primary,
-			font-weight: fonts.$weight-bold,
-			font-size: _spacing.rem(19px, false),
-			line-height: _spacing.rem(28px),
 		),
 		p: (
 			font-family: fonts.$family-primary,

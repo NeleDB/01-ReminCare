@@ -42,6 +42,16 @@
 					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
 				}
 			}
+		},
+		"team": {
+			"title": "Team",
+			"intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"members": {
+				"ine": {
+					"name": "Ine De Bruycker",
+					"functie": "Logopediste, founder"
+				}
+			}
 		}
 	},
 	"vacatures": {
