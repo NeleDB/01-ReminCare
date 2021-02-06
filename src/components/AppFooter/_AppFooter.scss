@@ -28,7 +28,6 @@
 	@include _typography.set("h5");
 
 	display: block;
-	margin-top: _spacing.rem(6px, false);
 
 	color: _colors.set("brand tertiary");
 }
@@ -73,6 +72,7 @@
 
 	@include _breakpoints.at("vp-9") {
 		justify-content: flex-end;
+		align-items: center;
 	}
 }
 
@@ -84,6 +84,10 @@
 .c-app-footer__extra-info,
 .c-app-footer__socials {
 	padding-top: _spacing.rem(16px);
+
+	@include _breakpoints.at("vp-9") {
+		padding-top: 0;
+	}
 }
 
 // =============================================================================

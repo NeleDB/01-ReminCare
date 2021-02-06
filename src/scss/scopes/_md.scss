@@ -12,21 +12,32 @@
  */
 
 .s-md {
-	// h1 {
-	// }
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: _colors.set("brand tertiary");
+	}
+
+	h1 {
+		& + p {
+			margin-top: _spacing.step(7);
+		}
+	}
 
 	h2 {
 		& + p {
 			margin-top: _spacing.step(3);
 		}
-
-		& + blockquote {
-			margin-top: _spacing.step(6);
-		}
 	}
 
-	// h3 {
-	// }
+	h3 {
+		& + p {
+			margin-top: _spacing.step(3);
+		}
+	}
 
 	// h4 {
 	// }
@@ -43,12 +54,12 @@
 			margin-top: _spacing.step(6);
 		}
 
-		& + .nuxt-content-highlight {
-			margin-top: _spacing.step(3);
-		}
-
 		& + h2 {
 			margin-top: _spacing.step(15);
+		}
+
+		& + h3 {
+			margin-top: _spacing.step(10);
 		}
 	}
 
@@ -94,5 +105,10 @@
 		& + p {
 			margin-top: _spacing.step(6);
 		}
+	}
+
+	div {
+		margin-top: _spacing.step(10);
+		margin-bottom: _spacing.step(10);
 	}
 }

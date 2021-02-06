@@ -5,7 +5,7 @@
 // );
 
 @use "@littlemissrobot/sass-system/utils/margin-top" with (
-	$utils: (8, 20),
+	$utils: (8, 10, 20),
 );
 
 // @use "@littlemissrobot/sass-system/utils/margin-right" with (
@@ -15,7 +15,7 @@
 // );
 
 @use "@littlemissrobot/sass-system/utils/margin-bottom" with (
-	$utils: (20,),
+	$utils: (10, 20),
 	$at: (
 		"vp-9": (25,),
 	)

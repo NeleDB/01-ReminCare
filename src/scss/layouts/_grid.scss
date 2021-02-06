@@ -62,11 +62,9 @@
 	$align: (top,),
 );
 
-// @use "@littlemissrobot/sass-system/grid/align-columns" with (
-// 	$align: (),
-//	$at: (),
-//	$to: ()
-// );
+@use "@littlemissrobot/sass-system/grid/align-columns" with (
+	$align: (middle,),
+);
 
 // @use "@littlemissrobot/sass-system/grid/order" with (
 // 	$order: (),

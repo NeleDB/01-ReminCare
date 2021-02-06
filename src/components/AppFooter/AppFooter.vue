@@ -1,7 +1,7 @@
 <template>
 	<footer class="c-app-footer" role="contentinfo">
 		<div class="l-container:12/12 l-container--default-spacing">
-			<div class="l-grid l-grid--default-spacing">
+			<div class="l-grid l-grid--default-spacing l-grid--align:top">
 				<AppLogo
 					ref="app-logo"
 					class="c-app-footer__logo l-grid__col:12/12 l-grid__col:3/12@at:vp-9"
@@ -35,6 +35,7 @@
 
 				<div
 					class="c-app-footer__socials l-grid__col:12/12 l-grid__col:3/12@at:vp-9 l-grid--align:top"
+					style="align-items: center"
 				>
 					<span class="c-app-footer__highlight">{{
 						$t("footer.volg-ons")

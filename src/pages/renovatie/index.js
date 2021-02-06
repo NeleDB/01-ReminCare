@@ -1,4 +1,10 @@
 export default {
+	nuxtI18n: {
+		paths: {
+			nl: "/renovatie",
+			fr: "/rénovation",
+		},
+	},
 	layout: "Default/Default",
 	head() {
 		return {
@@ -7,9 +13,17 @@ export default {
 				{
 					hid: "description",
 					name: "description",
-					content: "De renovatiewerken van ReminCare",
+					content: "Renovatiewerken ReminCare",
 				},
 			],
 		};
+	},
+	computed: {
+		renovatie() {
+			return this.$store.getters["renovatie/getRenovatie"];
+		},
+	},
+	async asyncData({ store }) {
+		await store.dispatch("renovatie/fetchRenovatie");
 	},
 };
