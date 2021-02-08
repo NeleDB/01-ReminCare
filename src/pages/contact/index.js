@@ -2,7 +2,7 @@ export default {
 	layout: "Default/Default",
 	head() {
 		return {
-			title: "Contact - ReminCare",
+			title: `${this.$t("navigatie.contact")} - ReminCare`,
 			meta: [
 				{
 					hid: "description",

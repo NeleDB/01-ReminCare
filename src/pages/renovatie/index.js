@@ -8,7 +8,7 @@ export default {
 	layout: "Default/Default",
 	head() {
 		return {
-			title: "Renovatie - ReminCare",
+			title: `${this.$t("navigatie.renovatie")} - ReminCare`,
 			meta: [
 				{
 					hid: "description",
@@ -17,16 +17,5 @@ export default {
 				},
 			],
 		};
-	},
-	computed: {
-		renovatie() {
-			return this.$store.getters["renovatie/getRenovatie"];
-		},
-	},
-	async asyncData({ store, app }) {
-		await store.dispatch(
-			"renovatie/fetchRenovatie",
-			app.i18n.t("renovatie.link")
-		);
 	},
 };

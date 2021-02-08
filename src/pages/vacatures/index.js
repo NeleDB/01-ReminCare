@@ -8,7 +8,7 @@ export default {
 	layout: "Default/Default",
 	head() {
 		return {
-			title: "Vacatures - ReminCare",
+			title: `${this.$t("navigatie.vacatures")} - ReminCare`,
 			meta: [
 				{
 					hid: "description",

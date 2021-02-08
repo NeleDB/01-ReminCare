@@ -4,7 +4,7 @@ export default {
 	layout: "Default/Default",
 	head() {
 		return {
-			title: this.vacature.title || "",
+			title: `${this.vacature.title} - ReminCare` || "",
 			meta: [
 				{
 					hid: "description",
