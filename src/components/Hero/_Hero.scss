@@ -1,0 +1,62 @@
+@use "@littlemissrobot/sass-system/spacing" as _spacing;
+@use "@littlemissrobot/sass-system/colors" as _colors;
+@use "@littlemissrobot/sass-system/typography" as _typography;
+@use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
+@use "@/scss/settings/fonts" as fonts;
+
+// =============================================================================
+// Block
+// =============================================================================
+.c-hero {
+	background-color: _colors.set("brand primary");
+}
+
+// =============================================================================
+// Elements
+// =============================================================================
+.c-hero__content {
+	padding: _spacing.step(10) 0;
+
+	@include _breakpoints.at("vp-7") {
+		padding: _spacing.step(15) _spacing.step(10);
+	}
+
+	@include _breakpoints.at("vp-9") {
+		padding: _spacing.step(25) _spacing.step(15);
+	}
+}
+
+.c-hero__label {
+	@include _typography.set("label");
+
+	color: _colors.set("brand secondary");
+}
+
+.c-hero__title {
+	margin-top: _spacing.rem(2px, false);
+
+	font-weight: fonts.$weight-normal;
+	hyphens: auto;
+
+	color: _colors.set("brand tertiary");
+}
+
+.c-hero__text {
+	margin-top: _spacing.step(4);
+}
+
+.c-hero__button {
+	margin-top: _spacing.step(12);
+}
+
+.c-hero__image-container {
+	height: _spacing.step(80);
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	@include _breakpoints.at("vp-7") {
+		height: auto;
+	}
+}

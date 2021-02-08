@@ -14,6 +14,9 @@
 	$at: (
 		"vp-9": (6, 8, 10,),
 		"vp-12": (6,)
+	),
+	$to: (
+		"vp-7": (12,)
 	)
 );
 
@@ -25,7 +28,7 @@
 		vp-12: 20
 	),
 	// $at: (),
-	// $to: ()
+	$to: ( "vp-7",),
 );
 
 // @use "@littlemissrobot/sass-container/spacing" with (

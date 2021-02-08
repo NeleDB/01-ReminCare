@@ -39,6 +39,12 @@
 	@include _typography.set("label");
 }
 
+.c-button__icon-after,
+.c-button__icon-before {
+	width: _spacing.step(6);
+	height: _spacing.step(6);
+}
+
 .c-button__icon-before {
 	margin-right: _spacing.step(2);
 }

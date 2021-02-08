@@ -8,7 +8,7 @@
 			<p>{{ renovatie.intro }}</p>
 		</div>
 
-		<NuxtImage
+		<!-- <NuxtImage
 			class="l-container:12/12 l-container:10/12@at:vp-9 l-container--default-spacing u-margin-top:10 u-margin-bottom:10"
 			:src="renovatie.image"
 			:alt="renovatie.title"
@@ -17,7 +17,7 @@
 
 		<div class="l-container:12/12 l-container--default-spacing">
 			<nuxt-content class="s-md" :document="renovatie" />
-		</div>
+		</div> -->
 	</section>
 </template>
 

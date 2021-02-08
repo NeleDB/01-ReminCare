@@ -12,7 +12,7 @@
 	$columns: (10, 12,),
 	$at: (
 		"vp-7": (6,),
-		"vp-9": (3, 4, 5, 6, 7),
+		"vp-9": (3, 4, 5, 6, 7, 8),
 		"vp-12": (3,),
 	),
 );
@@ -59,7 +59,7 @@
 // );
 
 @use "@littlemissrobot/sass-system/grid/align" with (
-	$align: (top,),
+	$align: (top, center),
 );
 
 @use "@littlemissrobot/sass-system/grid/align-columns" with (

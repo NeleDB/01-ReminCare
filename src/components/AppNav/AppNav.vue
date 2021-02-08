@@ -19,8 +19,9 @@
 			<NuxtLink
 				class="c-app-nav__link"
 				:to="localePath({ name: 'vacatures' })"
-				>{{ $t("navigatie.vacatures") }}</NuxtLink
-			>
+				>{{ $t("navigatie.vacatures") }}
+				<Indicator class="c-app-nav__indicator" number="8"
+			/></NuxtLink>
 		</li>
 
 		<li class="c-app-nav__item">

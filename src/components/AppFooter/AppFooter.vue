@@ -11,15 +11,18 @@
 				<div
 					class="c-app-footer__contact-info l-grid__col:12/12 l-grid__col:6/12@at:vp-7 l-grid__col:3/12@at:vp-9"
 				>
-					<p class="c-app-footer__text">Ine De Bruycker</p>
-					<a class="c-app-footer__link" href="tel:+32 472 05 27 68">
-						+32 472 05 27 68
+					<p class="c-app-footer__text">{{ $t("general.naam") }}</p>
+					<a
+						class="c-app-footer__link"
+						:href="`tel:${$t('general.tel')}`"
+					>
+						{{ $t("general.tel") }}
 					</a>
 					<a
 						class="c-app-footer__link"
-						href="mailto:ine.debruycker@remincare.be"
+						:href="`mailto:${$t('general.email')}`"
 					>
-						ine.debruycker@remincare.be
+						{{ $t("general.email") }}
 					</a>
 				</div>
 
@@ -27,10 +30,12 @@
 					class="c-app-footer__extra-info l-grid__col:12/12 l-grid__col:6/12@at:vp-7 l-grid__col:3/12@at:vp-9"
 				>
 					<address class="c-app-footer__text">
-						Remincourt 72<br />
-						1353 Deux-Acren
+						{{ $t("general.adres.line1") }}<br />
+						{{ $t("general.adres.line2") }}
 					</address>
-					<p class="c-app-footer__text">BE30 13 12431 2354356</p>
+					<p class="c-app-footer__text">
+						{{ $t("general.btw") }}
+					</p>
 				</div>
 
 				<div
@@ -44,12 +49,12 @@
 					<SocialButton
 						class="c-app-footer__social-item"
 						icon="Instagram"
-						url=""
+						:url="$t('general.instagram')"
 					/>
 					<SocialButton
 						class="c-app-footer__social-item"
 						icon="Facebook"
-						url=""
+						:url="$t('general.facebook')"
 					/>
 				</div>
 			</div>

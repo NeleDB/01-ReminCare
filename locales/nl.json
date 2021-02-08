@@ -6,64 +6,87 @@
 		"renovatie": "Renovatie",
 		"contact": "Contact"
 	},
+	"home": {
+		"hero": {
+			"label": "Binnenkort, najaar 2021",
+			"title": "Interdisciplinaire praktijk",
+			"text": "Interdisciplinaire praktijk gericht op de begeleiding van baby's, kinderen en ouders",
+			"button": "Benieuwd naar onze visie?",
+			"image": "Familie met 2 kleine kinderen op bed"
+		},
+		"vacatures": {
+			"title": "Vacatures",
+			"text": "Sta je te popelen om zelf in een warm interdisciplinair team te werken? Een écht team? Bekijk onze vacatures en kom zeker langs!",
+			"button": "Ontdek alle vacatures"
+		},
+		"remincare": {
+			"title": "ReminCare",
+			"text": "Een opstartende interdisciplinaire praktijk in een gerenoveerde hoeve, te Remincourt 72 7864 Deux-Acren.",
+			"button": "Kom er meer over te weten!",
+			"image": "Hoeve van ReminCare"
+		}
+	},
 	"visie": {
 		"title": "Vision",
 		"header": {
-			"quote": "“Een warm <strong>interdisciplinair</strong> team dat de tijd neemt om een <strong>persoonlijke</strong> begeleiding te geven bij de ontwikkeling als baby en kind, maar ook aan ouders en omgeving.”",
+			"quote": "“Een warm <strong>interdisciplinair</strong> team dat de tijd neemt om een <strong>persoonlijke</strong>, holistische begeleiding te geven bij de ontwikkeling als baby, kind en ouders met aandacht voor hun omgeving”",
 			"intro": "Ontdek hieronder wie we zijn, wat we doen, waarom we het doen en meer.",
 			"image": "Image description"
 		},
 		"usp": {
-			"title": "Hoe wij ons onderscheiden",
+			"title": "Ontdek waarvoor we staan",
 			"items": {
 				"kruisbestuiving": {
-					"title": "Kruisbestuiving",
-					"intro": "Leer bij in ons interdisciplinair team",
-					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+					"title": "Kruisbestuiving aan kennis",
+					"intro": "Bijleren in ons interdisciplinair team ",
+					"text": "Als therapeut is het noodzakelijk om te blijven leren en waar kan je dat beter dan in een interdisciplinaire praktijk? Tijdens teamvergaderingen en teamdagen vinden we het belangrijk om te groeien als team maar ook om nieuwe wetenschappelijke inzichten met elkaar te delen. De zorgvraag van de cliënt wordt daardoor steeds op een holistische wijze, met een brede achtergrond uit verschillende disciplines, behandeld."
 				},
 				"wetenschappelijk": {
-					"title": "Wetenschappelijk",
-					"intro": "Een open visie met een wetenschappelijke onderbouwing",
-					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+					"title": "Kwaliteit",
+					"intro": "Tijd voor een unieke begeleiding",
+					"text": "Elke cliënt is anders. We nemen de tijd om iedereen een kwalitatieve en persoonlijke begeleiding te geven. Dat doen we door bij te scholen waar nodig maar ook door de tijd te nemen om interdisciplinair te overleggen om vragen van cliënten te beantwoorden met input uit de verschillende disciplines."
 				},
 				"vertrouwd": {
-					"title": "Vertrouwd",
-					"intro": "Eerlijke en vertrouwde omgeving creëren voor patiënten en collega’s",
-					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+					"title": "Huiselijk gevoel",
+					"intro": "Een eerlijke en vertrouwde omgeving voor cliënten en collega's",
+					"text": "Als praktijk streven we ernaar om een vertrouwde, transparante omgeving te creëren. We willen dat het aanvoelt als een \"tweede thuis\" waar zowel cliënten als therapeuten het gevoel hebben dat alles kan besproken worden."
 				},
 				"passie": {
 					"title": "Passie",
-					"intro": "Een gedeelde passie met focus op kind en omgeving",
-					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+					"intro": "Een gedeelde passie met focus op kind, ouders en omgeving",
+					"text": "De passie om de cliënt op de eerste plaats te zetten en samen op zoek te gaan naar een gepast traject, is wat ons als interdisciplinaire praktijk onderscheidt. We omhelzen samen de passie om meer te geven dan noodzakelijk."
 				},
 				"oplossingsgericht": {
-					"title": "Oplossingsgericht",
-					"intro": "Lorem ipsum dolor sit amet, consectetur",
-					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+					"title": "Meer dan therapie",
+					"intro": "Aandacht voor omgeving van de cliënt",
+					"text": "Advies beperkt zich vaak niet tot de cliënt maar heeft ook invloed, of verwacht inspanningen van de volledige sociale omgeving. We willen daarom workshops en infoavonden organiseren om hierin tegemoet te komen. "
 				}
 			}
 		},
 		"team": {
 			"title": "Team",
-			"intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"intro": "ReminCare zal een interdisciplinaire team zijn, met zowel Franstalige als Nederlandstalige therapeuten, gespecialiseerd in de begeleiding van baby's, jonge kinderen en hun ouders.",
 			"members": {
 				"ine": {
 					"name": "Ine De Bruycker",
-					"functie": "Logopediste, founder"
+					"functie": "Prelogopediste, oprichtster van ReminCare"
 				}
 			},
 			"cta": {
-				"title": "Deel uitmaken van het team of interesse naar meer?",
-				"button": "Bekijk de vacatures"
+				"title": "Wil je deel uitmaken van dit team?",
+				"button": "Solliciteer!"
 			}
 		},
 		"about": {
 			"title": "Over mezelf",
 			"image": "",
-			"quote": "“Doorheen de jaren merkte ik een nood aan begeleiding bij pasgeborenen”",
-			"alinea1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-			"alinea2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-			"alinea3": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+			"quote": "“De voorbije jaren merkte ik een enorme nood aan een interdisciplinaire aanpak bij baby's en jonge kinderen.”",
+			"alinea1": "Laat ik me even voorstellen. Ik ben Ine De Bruycker, geboren en opgegroeid in het rustige Galmaarden. Van jongs af heel nieuwsgierig en in het bezit van een enorme liefde voor leren en kennis. Wanneer ik anderen met die kennis kan helpen, geeft mij dat enorm veel voldoening. Zeker, wanneer dat in een sfeer van warmte, vertrouwen en transparantie kan gebeuren.",
+			"alinea2": "In 2012 startte ik mijn universitaire opleiding logopedie & audiologie aan de KU Leuven. Gestart met een interesse voor stemstoornissen maar afgestudeerd met een passie voor slikstoornissen. Mijn stage en vakantievervanging in het AZ West te Veurne, hadden hierin zeker hun bijdrage.",
+			"alinea3": "Met een masterdiploma op zak, verhuisden mijn man en ik in februari 2017 naar Diest. Inderdaad... 125 km van Deux-Acren. Ik had daarbij het geluk om in 2 mooie teams terecht te komen. De logopedische groepspraktijk van Chiara Moens te Diest en de Groeipraktijk, een multidisciplinaire praktijk te Leuven. Daar werd het zaadje geplant om ooit zelf een multidisciplinaire praktijk uit te bouwen.",
+			"alinea4": "Baby's en kleine kinderen kunnen me steeds helemaal laten wegsmelten. De ontwikkeling die we als kind doormaken, vind ik daarnaast enorm fascinerend. De combinatie van deze twee interesses bracht me in september 2017 tot de opleiding 'Eet- en drinkproblemen bij zeer jonge kinderen' van Pro Education te Amsterdam. Vanaf dat moment ben ik me meer gaan verdiepen in 'prelogopedie'. Zowel het domein van de eet-, drink- en slikproblemen als de taalontwikkeling bij kinderen van 0 tot 3 jaar. Sindsdien worden ouders geregeld naar mij doorverwezen en had ik de kans om hier al enkele jaren ervaring in op te doen, naast de ervaring die ik opdeed op vlak van diagnostiek en (acute) behandeling bij mensen met slikstoornissen of neurogene taal- en spraakstoornissen tijdens een 8-maand lange vervanging te AZ Diest.",
+			"alinea5": "Tijdens de begeleidingen van ouders in het kader van prelogopedie, merkte ik een enorme nood aan een interdisciplinaire aanpak. Aangezien eet- en drinkproblemen bij jonge kinderen vaak een gevolg zijn van meerdere factoren, vind ik het noodzakelijk om advies in te winnen bij verschillende disciplines om ouders zo goed mogelijk verder te helpen. Logopedisten, osteopaten, vroedvrouwen, diëtisten,... hebben allen een andere kijk, elk vanuit hun eigen discipline, op vlak van de ontwikkeling van een kind en als ouder. Waarom zouden we deze visies niet bundelen om cliënten een nog unieker en persoonlijker advies en traject te kunnen aanbieden?",
+			"alinea6": "Mijn droom om zelf een multidisciplinaire praktijk uit te bouwen, werd concreter in december 2019, toen mijn man en ik een oude hoeve kochten in Deux-Acren. Momenteel zijn we bezig met de verbouwingen maar we zijn er klaar voor om in het najaar van 2021 terug te verhuizen naar het thuisfront en van start te gaan met een enorm gemotiveerd interdisciplinair team van ReminCare."
 		}
 	},
 	"vacatures": {
@@ -81,7 +104,8 @@
 		}
 	},
 	"renovatie": {
-		"title": "Renovatie"
+		"title": "Renovatie",
+		"link": "renovatie"
 	},
 	"contact": {
 		"title": "Contact",
@@ -89,9 +113,24 @@
 			"adres": "Adres",
 			"contactinfo": "Contactinfo",
 			"button": "Stuur een e-mail"
+		},
+		"button": {
+			"text": "open Google Maps"
 		}
 	},
 	"footer": {
 		"volg-ons": "Volg ons"
+	},
+	"general": {
+		"naam": "Ine De Bruycker",
+		"email": "info@remincare.be",
+		"tel": "+32 472 05 27 68",
+		"adres": {
+			"line1": "Remincourt 72",
+			"line2": "7864 Deux-Acren"
+		},
+		"btw": "BE30 13 12431 2354356",
+		"instagram": "https://www.instagram.com/remincare/",
+		"facebook": "https://www.facebook.com/Remincare"
 	}
 }

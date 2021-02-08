@@ -1,18 +1,20 @@
-export default async function ({ commit } = {}, dir) {
+export default async function ({ commit } = {}, dir, options = {}) {
+	const { limit = null } = options;
 	let vacatures = [];
 
 	try {
 		vacatures = await this.$content(`/${this.$i18n.locale}/${dir}`, {
 			text: true,
-		}).fetch();
+		});
+
+		if (limit) {
+			vacatures = await vacatures.limit(limit);
+		}
+
+		vacatures = await vacatures.fetch();
 	} catch {
 		vacatures = [];
 	}
-
-	// vacatures = vacatures.map((vacature) => ({
-	// 	...vacature,
-	// 	path: vacature.path.replace(`/${this.$i18n.defaultLocale}`, ""),
-	// }));
 
 	commit("setVacatures", vacatures);
 

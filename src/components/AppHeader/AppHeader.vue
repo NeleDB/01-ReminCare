@@ -23,12 +23,12 @@
 				<SocialButton
 					class="c-app-header__social-item"
 					icon="Instagram"
-					url=""
+					:url="$t('general.instagram')"
 				/>
 				<SocialButton
 					class="c-app-header__social-item"
 					icon="Facebook"
-					url=""
+					:url="$t('general.facebook')"
 				/>
 			</div>
 

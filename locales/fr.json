@@ -6,6 +6,26 @@
 		"renovatie": "Rénovation",
 		"contact": "Contact"
 	},
+	"home": {
+		"hero": {
+			"label": "Binnenkort, najaar 2021",
+			"title": "Interdisciplinaire praktijk",
+			"text": "Interdisciplinaire praktijk gericht op het begeleiden van ouders en kinderen.",
+			"button": "Ontdek ons verhaal",
+			"image": "Familie met 2 kleine kinderen op bed"
+		},
+		"vacatures": {
+			"title": "Vacatures",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+			"button": "Ontdek alle vacatures"
+		},
+		"remincare": {
+			"title": "ReminCare",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+			"button": "Ontdek wie we zijn",
+			"image": "Hoeve van ReminCare"
+		}
+	},
 	"visie": {
 		"title": "Vision",
 		"header": {
@@ -63,7 +83,10 @@
 			"quote": "“Doorheen de jaren merkte ik een nood aan begeleiding bij pasgeborenen”",
 			"alinea1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
 			"alinea2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-			"alinea3": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+			"alinea3": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+			"alinea4": "",
+			"alinea5": "",
+			"alinea6": ""
 		}
 	},
 	"vacatures": {
@@ -81,7 +104,8 @@
 		}
 	},
 	"renovatie": {
-		"title": "Rénovation"
+		"title": "Rénovation",
+		"link": "rénovation"
 	},
 	"contact": {
 		"title": "Contact",
@@ -89,9 +113,24 @@
 			"adres": "Adres",
 			"contactinfo": "Contactinfo",
 			"button": "Stuur een e-mail"
+		},
+		"button": {
+			"text": "open Google Maps"
 		}
 	},
 	"footer": {
 		"volg-ons": "Suivez-nous"
+	},
+	"general": {
+		"naam": "Ine De Bruycker",
+		"email": "info@remincare.be",
+		"tel": "+32 472 05 27 68",
+		"adres": {
+			"line1": "Remincourt 72",
+			"line2": "7864 Deux-Acren"
+		},
+		"btw": "BE30 13 12431 2354356",
+		"instagram": "https://www.instagram.com/remincare/",
+		"facebook": "https://www.facebook.com/Remincare"
 	}
 }

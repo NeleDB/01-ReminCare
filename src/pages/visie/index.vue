@@ -145,6 +145,18 @@
 					<p class="u-margin-top:8">
 						{{ $t("visie.about.alinea3") }}
 					</p>
+
+					<p class="u-margin-top:8">
+						{{ $t("visie.about.alinea4") }}
+					</p>
+
+					<p class="u-margin-top:8">
+						{{ $t("visie.about.alinea5") }}
+					</p>
+
+					<p class="u-margin-top:8">
+						{{ $t("visie.about.alinea6") }}
+					</p>
 				</div>
 			</div>
 		</section>

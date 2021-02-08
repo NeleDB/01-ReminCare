@@ -13,5 +13,18 @@ export default {
 			],
 		};
 	},
-	computed: {},
+	computed: {
+		vacatures() {
+			return this.$store.getters["vacatures/getVacatures"];
+		},
+	},
+	async asyncData({ store, app }) {
+		await store.dispatch(
+			"vacatures/fetchVacatures",
+			app.i18n.t("vacatures.link"),
+			{
+				limit: 2,
+			}
+		);
+	},
 };

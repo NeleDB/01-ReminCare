@@ -23,7 +23,10 @@ export default {
 			return this.$store.getters["renovatie/getRenovatie"];
 		},
 	},
-	async asyncData({ store }) {
-		await store.dispatch("renovatie/fetchRenovatie");
+	async asyncData({ store, app }) {
+		await store.dispatch(
+			"renovatie/fetchRenovatie",
+			app.i18n.t("renovatie.link")
+		);
 	},
 };

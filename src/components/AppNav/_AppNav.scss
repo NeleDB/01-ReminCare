@@ -28,7 +28,8 @@
 
 	position: relative;
 
-	display: block;
+	display: flex;
+	align-items: center;
 	padding: _spacing.step(2);
 
 	text-decoration: none;
@@ -64,6 +65,10 @@
 
 		padding: _spacing.step(6);
 	}
+}
+
+.c-app-nav__indicator {
+	margin-left: _spacing.step(2);
 }
 
 // =============================================================================

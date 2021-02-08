@@ -1,14 +1,10 @@
-export default async function ({ commit }) {
+export default async function ({ commit }, dir) {
 	let renovatie = {};
 
 	try {
-		renovatie = await this.$content(
-			`/${this.$i18n.locale}/renovatie`,
-			"renovatie",
-			{
-				text: true,
-			}
-		).fetch();
+		renovatie = await this.$content(`/${this.$i18n.locale}/${dir}`, dir, {
+			text: true,
+		}).fetch();
 	} catch {
 		renovatie = {};
 	}

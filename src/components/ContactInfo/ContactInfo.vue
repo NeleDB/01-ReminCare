@@ -6,10 +6,10 @@
 			}}</span>
 
 			<address class="c-contact-info__text">
-				Remincourt 72<br />
-				1353 Deux-Acren
+				{{ $t("general.adres.line1") }}<br />
+				{{ $t("general.adres.line2") }}
 			</address>
-			<p class="c-contact-info__text">BE30 13 12431 2354356</p>
+			<p class="c-contact-info__text">{{ $t("general.btw") }}</p>
 		</div>
 
 		<div class="c-contact-info__item">
@@ -17,22 +17,23 @@
 				$t("contact.info.contactinfo")
 			}}</span>
 
-			<p class="c-contact-info__text">Ine De Bruycker</p>
-			<a class="c-contact-info__link" href="tel:+32 472 05 27 68">
-				+32 472 05 27 68
+			<p class="c-contact-info__text">{{ $t("general.naam") }}</p>
+			<a class="c-contact-info__link" :href="`tel:${$t('general.tel')}`">
+				{{ $t("general.tel") }}
 			</a>
 			<a
 				class="c-contact-info__link"
-				href="mailto:ine.debruycker@remincare.be"
+				:href="`mailto:${$t('general.email')}`"
 			>
-				ine.debruycker@remincare.be
+				{{ $t("general.email") }}
 			</a>
 		</div>
 
 		<Button
 			class="c-contact-info__button"
-			url="mailto:ine.debruycker@remincare.be"
+			:url="`mailto:${$t('general.email')}`"
 			:text="$t('contact.info.button')"
+			target="_blank"
 		/>
 	</div>
 </template>

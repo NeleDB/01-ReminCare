@@ -6,7 +6,7 @@
 					:title="$t('vacatures.header.title')"
 					:text="$t('vacatures.header.intro')"
 					:button="$t('vacatures.header.cta')"
-					url=""
+					:url="`#${$t('vacatures.link')}`"
 				/>
 
 				<ImageGrid
@@ -34,6 +34,7 @@
 
 		<section
 			class="l-container:12/12 l-container:8/12@at:vp-9 l-container--default-spacing u-margin-bottom:20 u-margin-bottom:25@at:vp-9"
+			:id="$t('vacatures.link')"
 		>
 			<h2 class="u-color:brand:tertiary">
 				{{ $t("vacatures.header.title") }}

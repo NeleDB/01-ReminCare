@@ -58,3 +58,11 @@
 		transform: skewY(-2deg);
 	}
 }
+
+.l-section--hero {
+	background: linear-gradient(
+		to bottom,
+		_colors.set("neutral 100") 0% 80%,
+		_colors.set("brand quarternary") 80%
+	);
+}

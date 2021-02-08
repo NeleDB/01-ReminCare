@@ -3,5 +3,5 @@
 );
 
 @use "@littlemissrobot/sass-system/utils/background-color" with (
-	$utils: ( "brand tertiary",),
+	$utils: ( "brand tertiary", "brand quarternary"),
 );
