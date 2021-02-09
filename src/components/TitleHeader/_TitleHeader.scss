@@ -18,13 +18,13 @@
 		content: "";
 
 		position: absolute;
-		bottom: _spacing.step(-10);
+		bottom: _spacing.step(-15);
 		left: 0;
 		z-index: z-index.$background;
 
 		display: block;
 		width: 100%;
-		height: _spacing.step(25);
+		height: _spacing.step(32);
 
 		background-color: _colors.set("brand primary");
 
