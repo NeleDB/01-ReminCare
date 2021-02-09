@@ -2,7 +2,7 @@ export default {
 	nuxtI18n: {
 		paths: {
 			nl: "/renovatie",
-			fr: "/rénovation",
+			fr: "/renovation",
 		},
 	},
 	layout: "Default/Default",

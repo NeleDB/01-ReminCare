@@ -56,6 +56,7 @@ export default {
 				strategy: "prefix_and_default",
 				parsePages: false,
 				pages: i18nRoutes,
+				encodePaths: false,
 			},
 		],
 	],

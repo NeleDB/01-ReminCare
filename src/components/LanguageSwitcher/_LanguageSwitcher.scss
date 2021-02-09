@@ -21,9 +21,16 @@
 // =============================================================================
 // Elements
 // =============================================================================
+.c-language-switcher__header {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
 .c-language-switcher__icon {
 	width: _spacing.step(5);
 	height: _spacing.step(5);
+	margin-left: _spacing.step(1);
 
 	color: _colors.set("neutral base");
 

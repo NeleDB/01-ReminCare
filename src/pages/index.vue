@@ -1,5 +1,5 @@
 <template>
-	<div class="u-margin-top:20@at:vp-7 u-margin-bottom:20">
+	<div class="u-margin-top:20@at:vp-9 u-margin-bottom:20">
 		<section class="l-section--hero">
 			<div class="l-container:12/12 l-container:10/12@at:vp-9">
 				<Hero

@@ -5,7 +5,7 @@ export default {
 	},
 	"renovatie/index": {
 		nl: "/renovatie",
-		fr: "/rénovation",
+		fr: "/renovation",
 	},
 	"vacatures/index": {
 		nl: "/vacatures",

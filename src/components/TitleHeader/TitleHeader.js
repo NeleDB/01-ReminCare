@@ -2,11 +2,11 @@ export default {
 	props: {
 		title: {
 			type: String,
-			required: true,
+			default: "",
 		},
 		text: {
 			type: String,
-			required: true,
+			default: "",
 		},
 		button: {
 			type: String,
