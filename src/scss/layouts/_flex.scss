@@ -7,13 +7,13 @@
 	$auto-generate: true,
 );
 
-@use "@littlemissrobot/sass-system/flex/inline";
+// @use "@littlemissrobot/sass-system/flex/inline";
 // @use "@littlemissrobot/sass-system/flex/inline" with (
 // 	$at: (),
 // 	$to: ()
 // );
 
-@use "@littlemissrobot/sass-system/flex/direction";
+// @use "@littlemissrobot/sass-system/flex/direction";
 // @use "@littlemissrobot/sass-system/flex/direction" with (
 // 	$row-at: false,
 // 	$row-to: false,
@@ -30,7 +30,7 @@
 // 	$column-to: (),
 // );
 
-@use "@littlemissrobot/sass-system/flex/wrap";
+// @use "@littlemissrobot/sass-system/flex/wrap";
 // @use "@littlemissrobot/sass-system/flex/wrap" with (
 // 	$at: false,
 // 	$to: false

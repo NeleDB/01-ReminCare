@@ -28,6 +28,7 @@
 	},
 	"visie": {
 		"title": "Vision",
+		"description": "De visie van ReminCare",
 		"header": {
 			"quote": "“Een warm <strong>interdisciplinair</strong> team dat de tijd neemt om een <strong>persoonlijke</strong>, holistische begeleiding te geven bij de ontwikkeling als baby, kind en ouders met aandacht voor hun omgeving”",
 			"intro": "Ontdek hieronder wie we zijn, wat we doen, waarom we het doen en meer.",
@@ -91,6 +92,7 @@
 	},
 	"vacatures": {
 		"link": "vacatures",
+		"description": "De vacatures van ReminCare",
 		"header": {
 			"title": "Vactures",
 			"intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -105,12 +107,14 @@
 	},
 	"renovatie": {
 		"title": "Renovatie",
+		"description": "De renovatiewerken van ReminCare",
 		"link": "renovatie",
 		"intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 		"alinea1": ""
 	},
 	"contact": {
 		"title": "Contact",
+		"description": "De contactgegevens van ReminCare",
 		"info": {
 			"adres": "Adres",
 			"contactinfo": "Contactinfo",

@@ -28,6 +28,7 @@
 	},
 	"visie": {
 		"title": "Vision",
+		"description": "",
 		"header": {
 			"quote": "“Een warm <strong>interdisciplinair</strong> team dat de tijd neemt om een zo'n <strong>persoonlijk</strong> mogelijke begeleiding te geven aan baby's, jonge kinderen, hun (toekomstige) ouders en hun context.”",
 			"intro": "Ontdek hieronder wie we zijn, wat we doen, waarom we het doen en meer.",
@@ -79,6 +80,7 @@
 		},
 		"about": {
 			"title": "Over mezelf",
+			"description": "",
 			"image": "",
 			"quote": "“Doorheen de jaren merkte ik een nood aan begeleiding bij pasgeborenen”",
 			"alinea1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
@@ -91,6 +93,7 @@
 	},
 	"vacatures": {
 		"link": "postes-vacants",
+		"description": "",
 		"header": {
 			"title": "Postes vacants",
 			"intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -105,12 +108,14 @@
 	},
 	"renovatie": {
 		"title": "Rénovation",
+		"description": "",
 		"link": "renovation",
 		"intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 		"alinea1": ""
 	},
 	"contact": {
 		"title": "Contact",
+		"description": "",
 		"info": {
 			"adres": "Adres",
 			"contactinfo": "Contactinfo",

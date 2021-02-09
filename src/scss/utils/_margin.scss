@@ -5,9 +5,8 @@
 // );
 
 @use "@littlemissrobot/sass-system/utils/margin-top" with (
-	$utils: (3, 8, 10, 20),
+	$utils: (3, 8, 20),
 	$at: (
-		"vp-7": (20,),
 		"vp-9": (20,)
 	)
 );

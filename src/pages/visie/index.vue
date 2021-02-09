@@ -15,7 +15,7 @@
 				/>
 			</div>
 
-			<div class="l-grid l-grid--default-spacing l-grid--align:right">
+			<div class="l-grid l-grid--default-spacing">
 				<div
 					class="l-grid__col:12/12 l-grid__col:6/12@at:vp-7 l-grid__col:3/12@at:vp-9 u-padding-top:8 u-padding-top:10@at:vp-7"
 				>

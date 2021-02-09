@@ -8,7 +8,7 @@
 	$utils: (4, 8, 20),
 	$at: (
 		"vp-7": (10,),
-		"vp-9": (20, 30, 40),
+		"vp-9": (30, 40),
 	)
 );
 
@@ -21,7 +21,7 @@
 @use "@littlemissrobot/sass-system/utils/padding-bottom" with (
 	$utils: (20,),
 	$at: (
-		"vp-9": (20, 60,),
+		"vp-9": (60,),
 	)
 );
 

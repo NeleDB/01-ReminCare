@@ -7,7 +7,7 @@ export default {
 				{
 					hid: "description",
 					name: "description",
-					content: "De visie van ReminCare",
+					content: `${this.$t("visie.description")}`,
 				},
 			],
 		};

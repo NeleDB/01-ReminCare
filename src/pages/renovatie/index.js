@@ -13,7 +13,7 @@ export default {
 				{
 					hid: "description",
 					name: "description",
-					content: "Renovatiewerken ReminCare",
+					content: `${this.$t("renovatie.description")}`,
 				},
 			],
 		};

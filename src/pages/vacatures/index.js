@@ -13,7 +13,7 @@ export default {
 				{
 					hid: "description",
 					name: "description",
-					content: "All vacatures",
+					content: `${this.$t("vacatures.description")}`,
 				},
 			],
 		};
