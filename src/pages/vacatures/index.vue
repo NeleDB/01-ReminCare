@@ -9,22 +9,23 @@
 					:url="`#${$t('vacatures.link')}`"
 				/>
 
+				<!-- zwangere vrouw, baby, kleuter en ouders -->
 				<ImageGrid
 					:items="[
 						{
-							image: require('@/assets/images/placeholder.jpg'),
+							image: require('@/assets/images/zwanger.jpg'),
 							title: 'placeholder',
 						},
 						{
-							image: require('@/assets/images/placeholder2.jpg'),
+							image: require('@/assets/images/placeholder3.jpg'),
 							title: 'placeholder2',
 						},
 						{
-							image: require('@/assets/images/placeholder.jpg'),
+							image: require('@/assets/images/vacatures/psych.jpg'),
 							title: 'placeholder',
 						},
 						{
-							image: require('@/assets/images/placeholder2.jpg'),
+							image: require('@/assets/images/placeholder4.jpg'),
 							title: 'placeholder2',
 						},
 					]"

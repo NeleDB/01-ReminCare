@@ -10,18 +10,6 @@
 );
 @include _mixins.font_load(
 	"Open Sans",
-	"~@/assets/fonts/OpenSans-ExtraBold",
-	fonts.$weight-extra-bold,
-	normal
-);
-@include _mixins.font_load(
-	"Open Sans",
-	"~@/assets/fonts/OpenSans-Light",
-	fonts.$weight-light,
-	normal
-);
-@include _mixins.font_load(
-	"Open Sans",
 	"~@/assets/fonts/OpenSans-Regular",
 	fonts.$weight-normal,
 	normal

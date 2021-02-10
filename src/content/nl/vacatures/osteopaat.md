@@ -1,7 +1,7 @@
 ---
 title: "Osteopaat voor baby's, kleine kinderen en/of zwangere vrouwen"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-image: "vacatures/placeholder2.jpg"
+image: "vacatures/osteo.jpg"
 intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 ---
 

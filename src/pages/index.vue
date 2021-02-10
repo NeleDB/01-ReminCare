@@ -8,7 +8,7 @@
 					:label="$t('home.hero.label')"
 					:image="require('@/assets/images/placeholder.jpg')"
 					:button="$t('home.hero.button')"
-					:url="localePath({ name: 'vacatures' })"
+					:url="localePath({ name: 'visie' })"
 				/>
 			</div>
 		</section>
@@ -54,7 +54,7 @@
 			<ImageCta
 				:title="$t('home.remincare.title')"
 				:text="$t('home.remincare.text')"
-				:image="require('@/assets/images/placeholder.jpg')"
+				:image="require('@/assets/images/remincare.jpg')"
 				:alt="$t('home.remincare.image')"
 				:button="$t('home.remincare.button')"
 				:url="localePath({ name: 'visie' })"

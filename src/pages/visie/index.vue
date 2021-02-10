@@ -110,7 +110,7 @@
 				<div class="l-grid l-grid--default-spacing">
 					<Member
 						class="l-grid__col:12/12 l-grid__col:6/12@at:vp-7 l-grid__col:3/12@at:vp-12"
-						:image="require('@/assets/images/ine2.jpg')"
+						:image="require('@/assets/images/ine.jpg')"
 						:name="$t('visie.team.members.ine.name')"
 						:expertise="$t('visie.team.members.ine.functie')"
 					/>
