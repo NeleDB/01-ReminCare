@@ -9,11 +9,11 @@ export default {
 	},
 	"vacatures/index": {
 		nl: "/vacatures",
-		fr: "/postes-vacants",
+		fr: "/offres-d-emploi",
 	},
 	"vacatures/_slug/index": {
 		nl: "/vacatures/:slug",
-		fr: "/postes-vacants/:slug",
+		fr: "/offres-d-emploi/:slug",
 	},
 	"contact/index": {
 		nl: "/contact",

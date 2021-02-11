@@ -38,7 +38,7 @@
 			:id="$t('vacatures.link')"
 		>
 			<h2 class="u-color:brand:tertiary">
-				{{ $t("vacatures.header.title") }}
+				{{ $t("vacatures.title") }}
 			</h2>
 
 			<JobOfferList :data="vacatures" class="u-margin-top:8" />

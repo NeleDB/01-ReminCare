@@ -10,9 +10,13 @@
 .c-title-header {
 	position: relative;
 
-	padding: _spacing.step(25) 0;
+	padding: _spacing.step(15) 0;
 
 	background-color: _colors.set("brand primary");
+
+	@include _breakpoints.at("vp-7") {
+		padding: _spacing.step(25) 0;
+	}
 
 	&::before {
 		content: "";

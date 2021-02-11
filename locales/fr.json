@@ -9,100 +9,101 @@
 	"home": {
 		"description": "",
 		"hero": {
-			"label": "Binnenkort, najaar 2021",
-			"title": "Interdisciplinaire praktijk",
-			"text": "Interdisciplinaire praktijk gericht op het begeleiden van ouders en kinderen.",
-			"button": "Ontdek ons verhaal",
+			"label": "À venir, automne 2021",
+			"title": "Centre interdisciplinaire",
+			"text": "Centre interdisciplinaire d'accompagnement des bébés, des enfants et des parents",
+			"button": "Vous souhaitez découvrir notre vision?",
 			"image": "Familie met 2 kleine kinderen op bed"
 		},
 		"vacatures": {
-			"title": "Vacatures",
-			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-			"button": "Ontdek alle vacatures"
+			"title": "Offres d'emploi",
+			"text": "Vous souhaitez travailler dans une équipe interdisciplinaire chaleureuse? Une vraie équipe ? Consultez nos offres d'emploi et à nous rendre visite!",
+			"button": "Découvrez toutes nos offres d'emploi !"
 		},
 		"remincare": {
 			"title": "ReminCare",
-			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
-			"button": "Ontdek wie we zijn",
-			"image": "Hoeve van ReminCare"
+			"text": "Un nouveau centre interdisciplinaire dans une ferme rénovée, à Deux-Acren (7864), Remincourt 72.",
+			"button": "En savoir plus !",
+			"image": "Ferme de ReminCare"
 		}
 	},
 	"visie": {
 		"title": "Vision",
 		"description": "",
 		"header": {
-			"quote": "“Een warm <strong>interdisciplinair</strong> team dat de tijd neemt om een zo'n <strong>persoonlijk</strong> mogelijke begeleiding te geven aan baby's, jonge kinderen, hun (toekomstige) ouders en hun context.”",
-			"intro": "Ontdek hieronder wie we zijn, wat we doen, waarom we het doen en meer.",
-			"image": "Image description"
+			"quote": "« Une équipe <strong>interdisciplinaire</strong> chaleureuse qui prend le temps de fournir des conseils <strong>personnalisés</strong> et holistiques sur le développement du bébé, de l'enfant et des parents en tenant compte de leur environnement »",
+			"intro": "Découvrez ci-dessous qui nous sommes, les valeurs que nous défendons et notre raison d'être.",
+			"image": "Famille avec 2 enfants au lit"
 		},
 		"usp": {
-			"title": "Hoe wij ons onderscheiden",
+			"title": "Découvrez nos atouts",
 			"items": {
 				"kruisbestuiving": {
-					"title": "Kruisbestuiving",
-					"intro": "Leer bij in ons interdisciplinair team",
-					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+					"title": "Fertilisation croisée des connaissances",
+					"intro": "Apprendre dans notre équipe interdisciplinaire",
+					"text": "En tant que thérapeute, il est nécessaire de continuer à apprendre et que de mieux de le faire dans  un centre interdisciplinaire ? Nous trouvons qu'il est important de grandir en équipe, lors des réunions et des journées d'équipe mais aussi de partager de nouvelles connaissances scientifiques entre nous. La demande de soins du client est donc toujours traitée de manière holistique, grâce à un large éventail de disciplines."
 				},
-				"wetenschappelijk": {
-					"title": "Wetenschappelijk",
-					"intro": "Een open visie met een wetenschappelijke onderbouwing",
-					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+				"kwaliteit": {
+					"title": "Qualité",
+					"intro": "Prendre le temps pour fournir un accompagnement unique",
+					"text": "Chaque client est différent. Nous prenons le temps de donner un accompagnement qualitatif et personnel à chacun. Nous suivons des formations spécialisées et organisons des réunions d'équipe pour pouvoir répondre aux questions des clients grâce à l'apport des différentes disciplines."
 				},
 				"vertrouwd": {
-					"title": "Vertrouwd",
-					"intro": "Eerlijke en vertrouwde omgeving creëren voor patiënten en collega’s",
-					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+					"title": "Ambiance familiale",
+					"intro": "Un environnement honnête et de confiance pour nos clients et nos collègues",
+					"text": "Nous nous efforçons, en tant que centre, de créer un environnement familier et transparent. Nous souhaitons créer une ambiance \"comme chez soi\" où les clients et les thérapeutes osent aborder tout type de sujet."
 				},
 				"passie": {
 					"title": "Passie",
-					"intro": "Een gedeelde passie met focus op kind en omgeving",
-					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+					"intro": "Une passion commune axée sur l'enfant, les parents et l'environnement",
+					"text": "La passion de faire passer le client en premier et de travailler ensemble pour proposer un suivi adapté est ce qui nous distingue en tant que centre interdisciplinaire. Ensemble, notre passion nous anime à nous surpasser au quotidien pour le bien du patient."
 				},
 				"oplossingsgericht": {
-					"title": "Oplossingsgericht",
-					"intro": "Lorem ipsum dolor sit amet, consectetur",
-					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+					"title": "L'environnement du client",
+					"intro": "Plus qu'une thérapie",
+					"text": "Souvent, les conseils ne se limitent pas au client, mais influencent également l'ensemble de l'environnement social ou exigent des efforts de ce dernier. Des ateliers et des soirées d'information seront organisées à cet effet."
 				}
 			}
 		},
 		"team": {
-			"title": "Team",
-			"intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"title": "Équipe",
+			"intro": "ReminCare sera une équipe interdisciplinaire, composée de thérapeutes francophones et néerlandophones, spécialisée dans l'accompagnement des bébés, des jeunes enfants et de leurs parents.",
 			"members": {
 				"ine": {
 					"name": "Ine De Bruycker",
-					"functie": "Logopediste, founder"
+					"functie": "Prélogopède, fondatrice de ReminCare"
 				}
 			},
 			"cta": {
-				"title": "Deel uitmaken van het team of interesse naar meer?",
-				"button": "Bekijk de vacatures"
+				"title": "Vous souhaitez faire partie de cette équipe ?",
+				"button": "Envoyez-nous votre candidature!"
 			}
 		},
 		"about": {
 			"title": "Over mezelf",
 			"description": "",
 			"image": "",
-			"quote": "“Doorheen de jaren merkte ik een nood aan begeleiding bij pasgeborenen”",
-			"alinea1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-			"alinea2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-			"alinea3": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-			"alinea4": "",
-			"alinea5": "",
-			"alinea6": ""
+			"quote": "« Ces dernières années, j'ai constaté un énorme besoin d'une approche <strong>interdisciplinaire</strong> chez les bébés et les jeunes enfants.»",
+			"alinea1": "Permettez-moi de me présenter. Je suis Ine De Bruycker, élevée dans le paisible village de Galmaarden. Très curieuse dès le plus jeune âge, je possède un énorme amour pour l'apprentissage et le savoir. Quand je peux aider les autres grâce à mes connaissances, cela me procure une énorme satisfaction. Surtout lorsque cela peut se faire dans une atmosphère de chaleur, de confiance et de transparence.",
+			"alinea2": "En 2012, j'ai commencé ma formation universitaire en logopédie et audiologie à la KU Leuven. Au début je m'intéressais aux troubles de la voix, mais j'ai fini ma formation en me spécialisant dans les troubles de la déglutition. Mon stage et mon job de vacances à l'AZ Ouest à Veurne y ont certainement contribué.",
+			"alinea3": "Avec une maîtrise en poche, mon mari et moi avons déménagé à Diest en février 2017. En effet... à 125 km de Deux-Acren. J'ai eu la chance de me retrouver dans deux grandes équipes différentes. Le cabinet de groupe d'orthophonie de Chiara Moens à Diest et le Groeipraktijk, un cabinet multidisciplinaire à Louvain. C'est là que la graine a été semée d'un jour développer moi-même un centre multidisciplinaire.",
+			"alinea4": "Les bébés et les petits enfants me font toujours fondre. Je trouve le développement de l'enfant aussi extrêmement fascinant. La combinaison de ces deux intérêts m'a amenée à suivre la formation sur les 'problèmes d'allaitement, le lait maternisé et l'alimentation chez les bébés et très jeunes enfants' de Pro Education à Amsterdam, en septembre 2017.   À partir de ce moment, j'ai commencé à m'intéresser davantage à la \"prélogopédie\". Tant dans le domaine de la nourriture que dans celui du développement du langage chez des enfants de 0 à 3 ans. Depuis, j'ai pu conseiller plusieurs personnes et j'ai donc plusieurs années d'expérience dans ce domaine. En plus de l'expérience que j'ai acquise dans le domaine du diagnostic et du traitement (aigu) des personnes souffrant de troubles de la déglutition ou de troubles neurogènes du langage et de la parole lors d'un remplacement d'une année à AZ Diest.",
+			"alinea5": "Lors de la consultation des parents, dans le cadre de la prélogopédie, j'ai remarqué un besoin énorme d'une approche interdisciplinaire à la fois du client et de son environnement. Comme les problèmes de nourriture chez les jeunes enfants sont souvent le résultat de plusieurs facteurs, je trouve nécessaire de demander conseil à différentes disciplines afin d'aider les parents le mieux possible. Logopèdes, ostéopathes, sages-femmes, diététiciens,... ont tous un point de vue différent, chacun dans sa propre discipline, en termes de développement de l'enfant et en tant que parent. Pourquoi ne pas combiner ces visions pour offrir aux clients un conseil et un traitement encore plus uniques et personnalisés ?",
+			"alinea6": "Mon rêve, devenu notre rêve, s'est conrétisé en décembre 2019 lorsque mon mari et moi avons acheté une vieille ferme à Deux-Acren. Nous sommes en train de transformer la vieille ferme en centre interdisiciplinaire chaleureux et cozy. Si tout se passe comme prévu, nous serons prêts à emménager chez nous à l'automne 2021 et à commencer à travailler avec l'équipe interdisciplinaire très motivée de ReminCare."
 		}
 	},
 	"vacatures": {
-		"link": "postes-vacants",
+		"link": "offres-d-emploi",
+		"title": "Offres d'emploi",
 		"description": "",
 		"header": {
-			"title": "Postes vacants",
-			"intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"title": "We are more powerful when we empower each other.",
+			"intro": "ReminCare is een opstartende interdisciplinaire praktijk met een aanbod zowel in het Frans als in het Nederlands. Geïnteresseerd om je aan te sluiten bij ons team? Bekijk de vacatures hieronder of doe gerust een spontane sollicitatie! We kijken er alvast naar uit om je te ontmoeten!",
 			"cta": "Ontdek de vacatures"
 		},
 		"cta": {
-			"title": "Niets voor jou?",
-			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+			"title": "Iets anders in de aanbieding?",
+			"text": "Ben je gepassioneerd bezig met het begeleiden van baby's en/of jonge kinderen en/of ouders, én denk je een meerwaarde te kunnen zijn voor ReminCare? Kom dan zeker eens langs!",
 			"button": "Spontane sollicitatie",
 			"subject": "Spontane sollicitatie ReminCare"
 		}
@@ -123,7 +124,7 @@
 			"button": "Stuur een e-mail"
 		},
 		"button": {
-			"text": "open Google Maps"
+			"text": "Ouvrir Google Maps"
 		}
 	},
 	"footer": {

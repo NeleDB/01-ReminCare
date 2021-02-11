@@ -6,7 +6,7 @@
 					:title="$t('home.hero.title')"
 					:text="$t('home.hero.text')"
 					:label="$t('home.hero.label')"
-					:image="require('@/assets/images/placeholder.jpg')"
+					:image="require('@/assets/images/family.jpg')"
 					:button="$t('home.hero.button')"
 					:url="localePath({ name: 'visie' })"
 				/>

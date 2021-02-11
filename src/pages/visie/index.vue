@@ -29,7 +29,7 @@
 
 				<img
 					class="l-grid__col:10/12 l-grid__col:7/12@at:vp-9 u-padding-top:4 l-grid__col--left-offset:2/12"
-					src="@/assets/images/placeholder.jpg"
+					src="@/assets/images/family.jpg"
 					:alt="$t('visie.header.image')"
 				/>
 			</div>
@@ -57,9 +57,9 @@
 
 					<UspItem
 						class="l-grid__col:6/12@at:vp-7 l-grid__col:3/12@at:vp-9"
-						:title="$t('visie.usp.items.wetenschappelijk.title')"
-						:intro="$t('visie.usp.items.wetenschappelijk.intro')"
-						:text="$t('visie.usp.items.wetenschappelijk.text')"
+						:title="$t('visie.usp.items.kwaliteit.title')"
+						:intro="$t('visie.usp.items.kwaliteit.intro')"
+						:text="$t('visie.usp.items.kwaliteit.text')"
 					/>
 
 					<UspItem
@@ -110,7 +110,7 @@
 				<div class="l-grid l-grid--default-spacing">
 					<Member
 						class="l-grid__col:12/12 l-grid__col:6/12@at:vp-7 l-grid__col:3/12@at:vp-12"
-						:image="require('@/assets/images/ine.jpg')"
+						:image="require('@/assets/images/visie/ine-team.jpg')"
 						:name="$t('visie.team.members.ine.name')"
 						:expertise="$t('visie.team.members.ine.functie')"
 					/>

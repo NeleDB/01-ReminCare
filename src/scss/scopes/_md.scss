@@ -22,19 +22,22 @@
 	}
 
 	h1 {
-		& + p {
+		& + p,
+		& + ul {
 			margin-top: _spacing.step(7);
 		}
 	}
 
 	h2 {
-		& + p {
+		& + p,
+		& + ul {
 			margin-top: _spacing.step(3);
 		}
 	}
 
 	h3 {
-		& + p {
+		& + p,
+		& + ul {
 			margin-top: _spacing.step(3);
 		}
 	}
@@ -68,7 +71,7 @@
 	}
 
 	ul {
-		padding-left: _spacing.step(10);
+		padding-left: _spacing.step(6);
 
 		& + p {
 			margin-top: _spacing.step(6);
@@ -76,6 +79,10 @@
 
 		& + h2 {
 			margin-top: _spacing.step(15);
+		}
+
+		li::marker {
+			color: _colors.set("brand secondary");
 		}
 	}
 

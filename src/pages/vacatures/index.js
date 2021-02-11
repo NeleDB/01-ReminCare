@@ -2,7 +2,7 @@ export default {
 	nuxtI18n: {
 		paths: {
 			nl: "/vacatures",
-			fr: "/postes-vacants",
+			fr: "/offres-d-emploi",
 		},
 	},
 	layout: "Default/Default",

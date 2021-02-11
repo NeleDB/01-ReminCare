@@ -11,7 +11,7 @@
 			>
 				<img
 					class="c-quote-image__image"
-					src="@/assets/images/ine.jpg"
+					src="@/assets/images/visie/ine-visie.jpg"
 					:alt="$t('visie.about.image')"
 				/>
 			</div>
