@@ -7,8 +7,7 @@ export default {
 				{
 					hid: "description",
 					name: "description",
-					content:
-						"Interdisciplinaire praktijk voor baby's en ouders",
+					content: `${this.$t("home.description")}`,
 				},
 			],
 		};
