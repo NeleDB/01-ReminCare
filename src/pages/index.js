@@ -19,12 +19,9 @@ export default {
 		},
 	},
 	async asyncData({ store, app }) {
-		await store.dispatch(
-			"vacatures/fetchVacatures",
-			app.i18n.t("vacatures.link"),
-			{
-				limit: 2,
-			}
-		);
+		await store.dispatch("vacatures/fetchVacatures", {
+			dir: app.i18n.t("vacatures.link"),
+			limit: 2,
+		});
 	},
 };

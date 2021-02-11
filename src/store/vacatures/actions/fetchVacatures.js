@@ -1,8 +1,6 @@
-export default async function ({ commit } = {}, dir, options = {}) {
-	const { limit = null } = options;
+export default async function ({ commit } = {}, options = {}) {
+	const { limit = null, dir } = options;
 	let vacatures = [];
-
-	console.log(options);
 
 	try {
 		vacatures = await this.$content(`/${this.$i18n.locale}/${dir}`, {

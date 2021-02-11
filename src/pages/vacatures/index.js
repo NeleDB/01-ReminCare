@@ -22,14 +22,10 @@ export default {
 		vacatures() {
 			return this.$store.getters["vacatures/getVacatures"];
 		},
-		hasVacatures() {
-			return this.vacatures.length > 0;
-		},
 	},
 	async asyncData({ store, app }) {
-		await store.dispatch(
-			"vacatures/fetchVacatures",
-			app.i18n.t("vacatures.link")
-		);
+		await store.dispatch("vacatures/fetchVacatures", {
+			dir: app.i18n.t("vacatures.link"),
+		});
 	},
 };
