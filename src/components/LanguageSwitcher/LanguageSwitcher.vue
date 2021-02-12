@@ -1,5 +1,11 @@
 <template>
-	<div class="c-language-switcher">
+	<div
+		class="c-language-switcher"
+		:class="isOpen && 'is-open'"
+		@click="toggle"
+		@mouseenter="open"
+		@mouseleave="close"
+	>
 		<div class="c-language-switcher__header">
 			<span class="c-language-switcher__active">{{
 				currentLanguage

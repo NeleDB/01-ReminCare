@@ -78,8 +78,7 @@
 // States
 // =============================================================================
 .c-language-switcher {
-	&:hover,
-	&:focus {
+	&.is-open {
 		.c-language-switcher__list {
 			opacity: 1;
 

@@ -98,14 +98,17 @@
 		"description": "",
 		"header": {
 			"title": "We are more powerful when we empower each other.",
-			"intro": "ReminCare is een opstartende interdisciplinaire praktijk met een aanbod zowel in het Frans als in het Nederlands. Geïnteresseerd om je aan te sluiten bij ons team? Bekijk de vacatures hieronder of doe gerust een spontane sollicitatie! We kijken er alvast naar uit om je te ontmoeten!",
-			"cta": "Ontdek de vacatures"
+			"intro": "ReminCare est un nouveau centre interdisciplinaire dont les services sont disponibles en français et en néerlandais. Vous souhaitez rejoindre notre équipe ? Consultez les offres d'emploi ci-dessous ou n'hésitez pas à nous envoyer une candidature spontanée ! Nous sommes impatients de vous rencontrer !",
+			"cta": "Découvrir les offres d'emploi"
 		},
 		"cta": {
-			"title": "Iets anders in de aanbieding?",
-			"text": "Ben je gepassioneerd bezig met het begeleiden van baby's en/of jonge kinderen en/of ouders, én denk je een meerwaarde te kunnen zijn voor ReminCare? Kom dan zeker eens langs!",
-			"button": "Spontane sollicitatie",
-			"subject": "Spontane sollicitatie ReminCare"
+			"title": "D'autres chose à proposer?",
+			"text": "Vous êtes passionné(e) par l'accompagnement des bébés et/ou des jeunes enfants et/ou des parents, et vous pensez que vous pouvez être une valeur ajoutée pour ReminCare ? Dans ce cas, n'hésitez pas à nous rendre visite !",
+			"button": "Candidature spontanée",
+			"subject": "Candidature spontanée ReminCare"
+		},
+		"detail": {
+			"button": "Postuler pour cet emploi"
 		}
 	},
 	"renovatie": {

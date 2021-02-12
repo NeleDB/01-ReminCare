@@ -1,5 +1,5 @@
 <template>
-	<div class="u-margin-top:20@at:vp-9 u-margin-bottom:20">
+	<div class="u-margin-top:20@at:vp-12 u-margin-bottom:20">
 		<section class="l-section--hero">
 			<div class="l-container:12/12 l-container:10/12@at:vp-9">
 				<Hero
@@ -14,7 +14,7 @@
 		</section>
 
 		<section
-			class="u-background-color:brand:quarternary u-padding-top:20 u-padding-bottom:20"
+			class="u-background-color:brand:quarternary u-padding-top:14 u-padding-bottom:20"
 		>
 			<div
 				class="l-container:12/12 l-container:6/12@at:vp-9 l-container--default-spacing u-margin-bottom:10"
@@ -49,7 +49,7 @@
 		</section>
 
 		<section
-			class="l-container:12/12 l-container--default-spacing u-margin-top:20"
+			class="l-container:12/12 l-container--default-spacing@at:vp-7 u-margin-top:20"
 		>
 			<ImageCta
 				:title="$t('home.remincare.title')"

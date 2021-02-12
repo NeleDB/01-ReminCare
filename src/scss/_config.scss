@@ -91,8 +91,8 @@ $white-100: hsl(0, 0%, 100%);
 		h4: (
 			font-family: fonts.$family-primary,
 			font-weight: fonts.$weight-semi-bold,
-			font-size: _spacing.rem(20px),
-			line-height: _spacing.rem(28px),
+			font-size: _spacing.rem(18px, false),
+			line-height: _spacing.rem(24px),
 			vp-7: (
 				font-size: _spacing.rem(21px, false),
 				line-height: _spacing.rem(30px, false),
@@ -107,8 +107,12 @@ $white-100: hsl(0, 0%, 100%);
 		p: (
 			font-family: fonts.$family-primary,
 			font-weight: fonts.$weight-normal,
-			font-size: _spacing.rem(18px, false),
-			line-height: _spacing.rem(32px),
+			font-size: _spacing.rem(16px, false),
+			line-height: _spacing.rem(26px, false),
+			vp-7: (
+				font-size: _spacing.rem(18px, false),
+				line-height: _spacing.rem(32px),
+			)
 		),
 		strong: (
 			font-family: fonts.$family-primary,
@@ -125,8 +129,8 @@ $white-100: hsl(0, 0%, 100%);
 		quote: (
 			font-family: fonts.$family-primary,
 			font-weight: fonts.$weight-normal,
-			font-size: _spacing.rem(32px),
-			line-height: _spacing.rem(40px),
+			font-size: _spacing.rem(28px, false),
+			line-height: _spacing.rem(36px, false),
 			vp-7: (
 				font-size: _spacing.rem(41px, false),
 				line-height: _spacing.rem(56px),

@@ -23,7 +23,7 @@
 		"remincare": {
 			"title": "ReminCare",
 			"text": "Een opstartende interdisciplinaire praktijk in een gerenoveerde hoeve, te Remincourt 72 7864 Deux-Acren.",
-			"button": "Kom er meer over te weten!",
+			"button": "Kom meer te weten!",
 			"image": "Hoeve van ReminCare"
 		}
 	},
@@ -105,6 +105,9 @@
 			"text": "Ben je gepassioneerd bezig met het begeleiden van baby's en/of jonge kinderen en/of ouders, én denk je een meerwaarde te kunnen zijn voor ReminCare? Kom dan zeker eens langs!",
 			"button": "Spontane sollicitatie",
 			"subject": "Spontane sollicitatie ReminCare"
+		},
+		"detail": {
+			"button": "Solliciteren voor deze job"
 		}
 	},
 	"renovatie": {

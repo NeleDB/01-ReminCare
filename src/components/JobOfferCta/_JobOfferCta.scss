@@ -10,9 +10,13 @@
 	position: relative;
 
 	overflow: hidden;
-	padding: _spacing.step(15) _spacing.step(10);
+	padding: _spacing.step(10) _spacing.step(8);
 
 	background-color: _colors.set("brand primary");
+
+	@include _breakpoints.at("vp-9") {
+		padding: _spacing.step(15) _spacing.step(10);
+	}
 
 	@include _breakpoints.at("vp-9") {
 		padding: _spacing.step(20) 0;
@@ -26,8 +30,8 @@
 		bottom: 0;
 
 		display: block;
-		width: _spacing.step(40);
-		height: _spacing.step(40);
+		width: _spacing.step(35);
+		height: _spacing.step(35);
 
 		background-color: _colors.set("brand secondary");
 

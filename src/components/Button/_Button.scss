@@ -1,6 +1,7 @@
 @use "@littlemissrobot/sass-system/spacing" as _spacing;
 @use "@littlemissrobot/sass-system/colors" as _colors;
 @use "@littlemissrobot/sass-system/typography" as _typography;
+@use "@littlemissrobot/sass-system/breakpoints" as _breakpoints;
 @use "@/scss/settings/borders" as borders;
 
 // =============================================================================
@@ -10,7 +11,7 @@
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	padding: _spacing.step(2) _spacing.step(8);
+	padding: _spacing.step(2) _spacing.step(6);
 
 	// if the root element is an <a> tag, we must remove the underline
 	text-decoration: none;
@@ -22,6 +23,10 @@
 	border-radius: borders.$radius-default;
 
 	transition: background-color 0.2s ease-in-out;
+
+	@include _breakpoints.at("vp-7") {
+		padding: _spacing.step(2) _spacing.step(8);
+	}
 }
 
 // =============================================================================

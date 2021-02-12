@@ -8,12 +8,13 @@
 // =============================================================================
 .c-contact-info {
 	width: 100%;
-	padding: _spacing.step(10) _spacing.step(12) _spacing.step(17);
+	padding: _spacing.step(8) _spacing.step(10) _spacing.step(15);
 
 	background-color: _colors.set("neutral 100");
 
 	@include _breakpoints.at("vp-7") {
 		width: 60%;
+		padding: _spacing.step(10) _spacing.step(12) _spacing.step(17);
 	}
 
 	@include _breakpoints.at("vp-12") {

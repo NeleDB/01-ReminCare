@@ -38,7 +38,7 @@
 
 		position: absolute;
 		right: _spacing.step(6);
-		bottom: _spacing.step(6);
+		bottom: _spacing.step(-10);
 
 		display: block;
 		width: _spacing.step(19);
@@ -46,6 +46,11 @@
 
 		background-image: url("~@/assets/images/logo-small-circle.svg");
 		background-repeat: no-repeat;
+
+		@include _breakpoints.at("vp-9") {
+			right: _spacing.step(-8);
+			bottom: _spacing.step(-8);
+		}
 	}
 }
 
