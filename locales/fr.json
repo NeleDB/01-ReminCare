@@ -112,11 +112,15 @@
 		}
 	},
 	"renovatie": {
-		"title": "Rénovation",
+		"title": "Projet Remincourt 72",
 		"description": "",
 		"link": "renovation",
-		"intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-		"alinea1": ""
+		"intro": "Voici mon mari, Jeroen. Nous avons acheté cette vieille ferme à Deux-Acren (7864), Remincourt 72. La maison date de 1926 et a déjà connu plusieurs propriétaires. Après presque 100 ans, il est temps de donner un nouveau look à ce joyau.",
+		"alinea1": "En 2019, nous sommes devenus propriétaires de cette ferme. En fait, nous n'étions pas en train de chercher une maison à ce moment-là. Nous étions convaincus que, compte tenu de notre liste d'exigences, il faudrait des années avant de trouver notre \"maison de rêve\", jusqu'à ce que... une annonce dans notre boîte aux lettres ait attiré notre attention. Après notre première visite, nous sommes immédiatement tombés sous le charme. Un endroit calme, facilement accessible, un village ou un centre ville à proximité, près de nos parents, un jardin, une place de parking sans être un fardeau pour les voisins, deux entrées séparées ...  nous cochion toutes les cases. Et voilà ! Le début d'un nouveau projet.",
+		"alinea2": "La partie où le cabinet sera situé, était à l'origine une étable. En 2012, il a été transformé en gîte. Et maintenant, il a une nouvelle fonction... En tant que centre interdisciplinaire.",
+		"alinea3": "Mon mari et moi faisons nous-mêmes autant de travaux de rénovation que possible. Au total, il y aura 6 salles de consultation et une salle plus grande avec une cuisine. Cette salle servira de salle de réunion pour les thérapeutes, de salle de conférence pour nos consultations interdisciplinaires et aussi de salle pour les cours du soir et autres,... . De nombreuses options !",
+		"alinea4": "Gardez un œil sur notre page Instagram pour plus de photos sur l'avancement des travaux !",
+		"image1": "Ferme de ReminCare"
 	},
 	"contact": {
 		"title": "Contact",

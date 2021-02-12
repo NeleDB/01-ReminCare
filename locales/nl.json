@@ -111,11 +111,15 @@
 		}
 	},
 	"renovatie": {
-		"title": "Renovatie",
+		"title": "Project Remincourt 72",
 		"description": "De renovatiewerken van ReminCare",
 		"link": "renovatie",
-		"intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-		"alinea1": ""
+		"intro": "Dit is mijn man, Jeroen, en samen kochten we deze oude hoeve te Remincourt 72, 7864 Deux-Acren. Het huis dateert uit 1926 en heeft reeds verschillende eigenaars gekend. Na bijna 100 jaar is het tijd om dit pareltje in een nieuw jasje te steken. ",
+		"alinea1": "In 2019 werden we eigenaars van deze hoeve. Eigenlijk waren we toen nog niet op zoek naar een huis. We waren ervan overtuigd dat, gezien onze eisen-lijst, het jaren zou duren vooraleer we onze \"droomwoning\" zouden vinden, tot ... een zoekertje in onze mailbox onze aandacht trok. Na ons eerste bezoek waren we onmiddellijk verkocht. Rustig gelegen, makkelijk bereikbaar, dorps- en stadskernen in de buurt, dicht bij onze ouders, een tuin, plaats voor parking zonder een last te zijn voor de buren, twee aparte ingangen ...  we konden ze allemaal afvinken. En daar gingen we! De start van een nieuw project.",
+		"alinea2": "Mijn man en ik doen zoveel mogelijk renovatiewerken zelf. Het gedeelte waar de praktijk zich zal bevinden, was oorspronkelijk een koeienstal. In 2012 werd de koeienstal verbouwd tot gîte. En nu krijgt het opnieuw een herbestemming... als interdisciplinaire praktijk.",
+		"alinea3": "In totaal zullen er 6 praktijkruimtes aanwezig zijn en eveneens een grotere ruimte met keuken. Deze ruimte zal dienen als ontmoetingsruimte voor de therapeuten, als vergaderruimte voor onze interdisciplinaire overleggen en ook als lokaal voor cursusavonden en dergelijke,... Opties genoeg!",
+		"alinea4": "Hou gerust onze Instagram-pagina in het oog voor meer foto's van de vorderingen van de werken!",
+		"image1": "Hoeve van ReminCare"
 	},
 	"contact": {
 		"title": "Contact",
