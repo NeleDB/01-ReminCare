@@ -14,7 +14,11 @@
 			class="c-hero__image-container l-grid__col:12/12 l-grid__col:6/12@at:vp-7"
 			:style="`background-image: url(${image})`"
 		>
-			<img class="c-hero__image u-visually-hidden" :src="image" />
+			<img
+				class="c-hero__image u-visually-hidden"
+				:src="image"
+				:alt="alt"
+			/>
 		</div>
 	</div>
 </template>

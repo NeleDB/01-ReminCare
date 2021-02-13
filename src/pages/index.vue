@@ -9,6 +9,7 @@
 					:image="require('@/assets/images/family.jpg')"
 					:button="$t('home.hero.button')"
 					:url="localePath({ name: 'visie' })"
+					:alt="$t('home.hero.image')"
 				/>
 			</div>
 		</section>
