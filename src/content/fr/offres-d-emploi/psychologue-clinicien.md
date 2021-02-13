@@ -1,9 +1,9 @@
 ---
-title: "Psychologue pour le conseil pré et postnatal des parents"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+title: "Psychologue clinicien"
+description: "Un(e) psychologue clinique francophone ou bilingue (indépendant) ayant la passion d'accompagner les jeunes enfants ou intéressé(e) par l'accompagnement des parents avant, pendant ou après la grossesse."
 image: "vacatures/psych.jpg"
 intro: "Nous recherchons un(e) psychologue clinique francophone ou bilingue (indépendant) ayant la passion d'accompagner les jeunes enfants ou intéressé(e) par l'accompagnement des parents avant, pendant ou après la grossesse."
-subject: ""
+subject: "Candidature psychologue ReminCare"
 ---
 
 Vous souhaitez faire partie d'une équipe interdisciplinaire motivée ?\
@@ -30,7 +30,7 @@ ReminCare accorde une grande importance à l'interaction entre toutes les discip
 - Vous êtes avide d'apprendre et souhaitez élargir vos connaissances
 - Pour le reste... surprenez-nous !
 
-## Notre offre :
+## Notre offre
 
 - Une activité indépendante d'une durée illimitée
 - Un horaire flexible qui peut être mis en place

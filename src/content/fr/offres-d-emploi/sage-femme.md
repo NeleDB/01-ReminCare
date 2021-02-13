@@ -3,7 +3,7 @@ title: "Sage-femme"
 description: "Une sage-femme francophone ou bilingue (indépendante) ayant un vif intérêt pour les soins interdisciplinaires aux bébés et aux femmes enceintes."
 image: "vacatures/vroed.jpg"
 intro: "Nous recherchons une sage-femme francophone ou bilingue (indépendante) ayant un vif intérêt pour les soins interdisciplinaires aux bébés et aux femmes enceintes."
-subject: "Demande d'emploi sage femme ReminCare"
+subject: "Candidature sage femme ReminCare"
 ---
 
 Vous souhaitez faire partie d'une équipe interdisciplinaire motivée ?\
@@ -18,7 +18,7 @@ ReminCare est un tout nouveau centre situé situé à Deux-Acren, à 1 km de la 
 
 ReminCare accorde une grande importance à l'interaction entre toutes les disciplines. Nous sommes convaincus que nous pouvons construire une grande équipe où chaque membre a une importante valeur ajoutée. Avec la même vision et la richesse des connaissances issues de différentes disciplines, nous nous efforçons de soutenir les clients et leur environnement social dans un environnement familier et chaleureux !
 
-## Profil:
+## Profil
 
 - Diplôme bachelier de sage-femme
 - Vous avez un numéro INAMI en tant que sage-femme
@@ -31,7 +31,7 @@ ReminCare accorde une grande importance à l'interaction entre toutes les discip
 - Vous êtes avide d'apprendre et souhaitez élargir vos connaissances
 - Pour le reste... surprenez-nous !
 
-## Notre offre :
+## Notre offre
 
 - Une activité indépendante d'une durée illimitée
 - Un horaire flexible qui peut être mis en place

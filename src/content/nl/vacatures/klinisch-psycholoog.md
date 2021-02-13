@@ -1,8 +1,8 @@
 ---
 title: "Klinisch psycholoog"
-description: "Een Nederlandstalige of tweetalige (zelfstandige) klinisch psycholoog met een passie voor het begeleiden van jonge kinderen en/of ouders voor, tijdens of na de zwangerschap."
+description: "Een Nederlandstalige of tweetalige (zelfstandige) kinesist(e) met een passie voor het begeleiden van vrouwen voor, tijdens en na hun zwangerschap."
 image: "vacatures/psych.jpg"
-intro: "Wij zoeken een Nederlandstalige of tweetalige (zelfstandige) klinisch psycholoog met een passie voor het begeleiden van jonge kinderen en/of ouders voor, tijdens of na de zwangerschap. "
+intro: "Wij zoeken een Nederlandstalige of tweetalige (zelfstandige) kinesist(e) met een passie voor het begeleiden van vrouwen voor, tijdens en na hun zwangerschap."
 subject: "Sollicitatie psycholoog ReminCare"
 ---
 
@@ -20,8 +20,8 @@ ReminCare draagt de interactie tussen alle disciplines hoog in het vaandel. We z
 
 ## Profiel
 
-- Je hebt een Master in de Psychologie, bij voorkeur met een (interesse tot) bijkomende therapeutenopleiding in systeemtherapie, psychodynamische therapie, Infant Mental Health,...
-- Je bent ingeschreven bij de Pyschologencommissie
+- Je hebt een masterdiploma in de kinesitherapie met een verdere specialisatie of interesse tot het verder specialiseren in de perinatale kinesitherapie, bekkenbodemreëducatie,...
+- je hebt een RIZIV nummer als kinesist(e)
 - Je werkt als zelfstandige of wilt als zelfstandige beginnen
 - Ervaring is geen must maar mooi meegenomen
 - Je neemt graag initiatief
@@ -30,7 +30,7 @@ ReminCare draagt de interactie tussen alle disciplines hoog in het vaandel. We z
 - Je bent leergierig en bereidt om je kennis te verruimen
 - Voor de rest...verras ons!
 
-## Ons aanbod:
+## Ons aanbod
 
 - Een zelfstandige activiteit van onbepaalde duur
 - Een uurrooster dat flexibel samen te stellen is

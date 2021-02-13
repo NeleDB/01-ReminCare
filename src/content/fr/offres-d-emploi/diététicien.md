@@ -3,7 +3,7 @@ title: "Diététicien(ne)"
 description: "Diététicien(ne) passionné(e) par l'alimentation des bébés et des jeunes enfants ou par l'accompagnement des femmes avant, pendant ou après leur grossesse"
 image: "vacatures/diet.jpg"
 intro: "Nous recherchons un(e) diététicien(ne) francophone ou bilingue (indépendant(e)) passionné(e) par l'alimentation des bébés et des jeunes enfants ou par l'accompagnement des femmes avant, pendant ou après leur grossesse."
-subject: "Demande d'emploi diététicien(ne) ReminCare"
+subject: "Candidature diététicien(ne) ReminCare"
 ---
 
 Vous souhaitez faire partie d'une équipe interdisciplinaire motivée ?\
@@ -18,7 +18,7 @@ ReminCare est un tout nouveau centre situé situé à Deux-Acren, à 1 km de la 
 
 ReminCare accorde une grande importance à l'interaction entre toutes les disciplines. Nous sommes convaincus que nous pouvons construire une grande équipe où chaque membre a une importante valeur ajoutée. Avec la même vision et la richesse des connaissances issues de différentes disciplines, nous nous efforçons de soutenir les clients et leur environnement social dans un environnement familier et chaleureux !
 
-## Profil :
+## Profil
 
 - Vous êtes titulaire d'un diplôme de bachelier en nutrition et diététique et d'un numéro INAMI en tant que diététicien(ne)
 - Vous travaillez en tant qu'indépendant ou vous voulez commencer en tant que travailleur indépendant.
@@ -29,7 +29,7 @@ ReminCare accorde une grande importance à l'interaction entre toutes les discip
 - Vous êtes avide d'apprendre et souhaitez élargir vos connaissances
 - Pour le reste... surprenez-nous !
 
-## Notre offre :
+## Notre offre
 
 - Une activité indépendante d'une durée illimitée
 - Un horaire flexible qui peut être mis en place

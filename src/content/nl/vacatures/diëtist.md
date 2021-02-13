@@ -1,5 +1,5 @@
 ---
-title: "Diëtist(e)"
+title: "Diëtist"
 description: "Diëtist met een passie voor voeding bij baby's en kleine kinderen of het begeleiden van vrouwen voor, tijdens of na hun zwangerschap"
 image: "vacatures/diet.jpg"
 intro: "Wij zoeken een Nederlandstalige of tweetalige (zelfstandig) diëtist(e) met een passie voor voeding bij baby's en kleine kinderen of het begeleiden van vrouwen voor, tijdens of na hun zwangerschap."
@@ -29,7 +29,7 @@ ReminCare draagt de interactie tussen alle disciplines hoog in het vaandel. We z
 - Je bent leergierig en bereidt om je kennis te verruimen
 - Voor de rest...verras ons!
 
-## Ons aanbod:
+## Ons aanbod
 
 - Een zelfstandige activiteit van onbepaalde duur
 - Een uurrooster dat flexibel samen te stellen is

@@ -3,7 +3,7 @@ title: "Kinésitherapeute"
 description: "Un(e) kinésitherapeute francophone ou bilingue (indépendant) passionné(e) par le développement moteur des bébés et des jeunes enfants."
 image: "vacatures/kine.jpg"
 intro: "Nous recherchons un(e) kinésitherapeute francophone ou bilingue (indépendant) passionné(e) par le développement moteur des bébés et des jeunes enfants."
-subject: "Demande d'emploi kinésitherapeute ReminCare"
+subject: "Candidature kinésitherapeute ReminCare"
 ---
 
 Vous souhaitez faire partie d'une équipe interdisciplinaire motivée ?\
@@ -18,7 +18,7 @@ ReminCare est un tout nouveau centre situé situé à Deux-Acren, à 1 km de la 
 
 ReminCare accorde une grande importance à l'interaction entre toutes les disciplines. Nous sommes convaincus que nous pouvons construire une grande équipe où chaque membre a une importante valeur ajoutée. Avec la même vision et la richesse des connaissances issues de différentes disciplines, nous nous efforçons de soutenir les clients et leur environnement social dans un environnement familier et chaleureux !
 
-## Profil :
+## Profil
 
 - Vous êtes titulaire d'un diplôme de niveau master en kinésithérapie, avec une spécialisation pédiatrie ou psychomotricité
 - Vous avez un numéro INAMI en tant que kinésitherapeute
@@ -30,7 +30,7 @@ ReminCare accorde une grande importance à l'interaction entre toutes les discip
 - Vous êtes avide d'apprendre et souhaitez élargir vos connaissances
 - Pour le reste... surprenez-nous !
 
-## Notre offre :
+## Notre offre
 
 - Une activité indépendante d'une durée illimitée
 - Un horaire flexible qui peut être mis en place

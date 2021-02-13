@@ -18,7 +18,7 @@ ReminCare is een opstartende praktijk gelegen te Deux-Acren, 1km over de taalgre
 
 ReminCare draagt de interactie tussen alle disciplines hoog in het vaandel. We zijn ervan overtuigd een mooi team te kunnen uitbouwen waarbij elk teamlid een belangrijke meerwaarde heeft. Samen met eenzelfde visie en de rijkdom aan kennis uit verschillende disciplines, streven we ernaar om cliënten en hun omgeving te ondersteunen in een huiselijke en vertrouwde omgeving!
 
-## Profiel:
+## Profiel
 
 - Diploma Bachelor in de Vroedkunde
 - Zelfstandig statuut
@@ -30,7 +30,7 @@ ReminCare draagt de interactie tussen alle disciplines hoog in het vaandel. We z
 - Je bent leergierig en bereidt om je kennis te verruimen
 - Voor de rest...verras ons!
 
-## Ons aanbod:
+## Ons aanbod
 
 - Een zelfstandige activiteit van onbepaalde duur
 - Een uurrooster dat flexibel samen te stellen is

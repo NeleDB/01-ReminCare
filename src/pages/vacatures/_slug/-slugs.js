@@ -17,13 +17,13 @@ export default {
 		fr: "kinésitherapeute",
 		nl: "kinesist",
 	},
-	// logopedist - orthophoniste
+	// logopedist - logopède
 	logopedist: {
-		fr: "orthophoniste",
+		fr: "logopède",
 		nl: "logopedist",
 	},
-	orthophoniste: {
-		fr: "orthophoniste",
+	logopède: {
+		fr: "logopède",
 		nl: "logopedist",
 	},
 	// osteopaat - osthéopathe
@@ -44,14 +44,14 @@ export default {
 		fr: "kinésitherapeute-pédiatriqu",
 		nl: "pediatrische-kinesist",
 	},
-	// psycholoog - psychologue
-	psycholoog: {
-		fr: "psychologue",
-		nl: "psycholoog",
+	// klinisch-psycholoog - psychologue-clinicien
+	"klinisch-psycholoog": {
+		fr: "psychologue-clinicien",
+		nl: "klinisch-psycholoog",
 	},
-	psychologue: {
-		fr: "psychologue",
-		nl: "psycholoog",
+	"psychologue-clinicien": {
+		fr: "psychologue-clinicien",
+		nl: "klinisch-psycholoog",
 	},
 	// vroedvrouw - sage-femme
 	vroedvrouw: {

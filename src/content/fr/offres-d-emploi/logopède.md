@@ -1,9 +1,9 @@
 ---
-title: "Physiothérapeute spécialisé(e) dans le conseil pré et post-natal"
-description: "Un kinésithérapeute francophone ou bilingue (indépendant) passionné(e) par l'accompagnement des femmes avant, pendant et après leur grossesse."
-image: "vacatures/kine.jpg"
-intro: "Nous recherchons un kinésithérapeute francophone ou bilingue (indépendant) passionné(e) par l'accompagnement des femmes avant, pendant et après leur grossesse."
-subject: "Demande d'emploi physiothérapeute ReminCare"
+title: "Logopède"
+description: "Un(e) logopède francophone (indépendant(e)) passionné(e) par le développement du language chez des jeunes enfants"
+image: "vacatures/logo.jpg"
+intro: "Nous recherchons un(e) logopède francophone (indépendant(e)) passionné(e) par le développement du language chez des jeunes enfants."
+subject: "Candidature logopède ReminCare"
 ---
 
 Vous souhaitez faire partie d'une équipe interdisciplinaire motivée ?\
@@ -18,11 +18,10 @@ ReminCare est un tout nouveau centre situé situé à Deux-Acren, à 1 km de la 
 
 ReminCare accorde une grande importance à l'interaction entre toutes les disciplines. Nous sommes convaincus que nous pouvons construire une grande équipe où chaque membre a une importante valeur ajoutée. Avec la même vision et la richesse des connaissances issues de différentes disciplines, nous nous efforçons de soutenir les clients et leur environnement social dans un environnement familier et chaleureux !
 
-## Profil:
+## Profil
 
-- Vous êtes titulaire d'un diplôme de master en kinésithérapie avec une spécialisation ou un intérêt pour une spécialisation supplémentaire de la rééducation pelvienne et de la kinésithérapie périnatale
-- Vous avez un numéro INAMI en tant que kinésitherapeute
-- Vous travaillez en tant qu'indépendant ou vous voulez commencer en tant que travailleur indépendant.
+- Vous êtes titulaire d'un diplôme en logopédie (bachelier ou master) et d'un numéro INAMI en tant que logopède
+- Vous travaillez en tant qu'indépendant ou vous voulez commencer en tant que travailleur indépendant(e).
 - L'expérience n'est pas une obligation, mais un plus
 - Vous aimez prendre des initiatives
 - Vous êtes communicatif et une communication transparente est importante pour vous
@@ -30,7 +29,7 @@ ReminCare accorde une grande importance à l'interaction entre toutes les discip
 - Vous êtes avide d'apprendre et souhaitez élargir vos connaissances
 - Pour le reste... surprenez-nous !
 
-## Notre offre :
+## Notre offre
 
 - Une activité indépendante d'une durée illimitée
 - Un horaire flexible qui peut être mis en place

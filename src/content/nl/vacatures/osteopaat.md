@@ -1,5 +1,5 @@
 ---
-title: "Osteopaat voor baby's, kleine kinderen en/of zwangere vrouwen"
+title: "Osteopaat"
 description: "Een Nederlandstalige of tweetalige (zelfstandige) osteopaat met een passie voor het begeleiden van baby's, kleine kinderen en vrouwen voor, tijdens of na hun zwangerschap."
 image: "vacatures/osteo.jpg"
 intro: "Wij zoeken een Nederlandstalige of tweetalige (zelfstandige) osteopaat met een passie voor het begeleiden van baby's, kleine kinderen en vrouwen voor, tijdens of na hun zwangerschap."
@@ -29,7 +29,7 @@ ReminCare draagt de interactie tussen alle disciplines hoog in het vaandel. We z
 - Je bent leergierig en bereidt om je kennis te verruimen
 - Voor de rest...verras ons!
 
-## Ons aanbod:
+## Ons aanbod
 
 - Een zelfstandige activiteit van onbepaalde duur
 - Een uurrooster dat flexibel samen te stellen is
