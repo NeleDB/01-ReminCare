@@ -7,7 +7,7 @@
 		"contact": "Contact"
 	},
 	"home": {
-		"description": "",
+		"description": "Een opstartende interdisciplinaire praktijk gericht op de ontwikkeling als baby, kind en ouders, te Remincourt 72 7864 Deux-Acren.",
 		"hero": {
 			"label": "Binnenkort, najaar 2021",
 			"title": "Interdisciplinaire praktijk",
@@ -29,7 +29,7 @@
 	},
 	"visie": {
 		"title": "Vision",
-		"description": "De visie van ReminCare",
+		"description": "Een warm interdisciplinair team dat de tijd neemt om een persoonlijke, holistische begeleiding te geven bij de ontwikkeling als baby, kind en ouders met aandacht voor hun omgeving",
 		"header": {
 			"quote": "“Een warm <strong>interdisciplinair</strong> team dat de tijd neemt om een <strong>persoonlijke</strong>, holistische begeleiding te geven bij de ontwikkeling als baby, kind en ouders met aandacht voor hun omgeving”",
 			"intro": "Ontdek hieronder wie we zijn, wat we doen, waarom we het doen en meer.",
@@ -81,7 +81,7 @@
 		},
 		"about": {
 			"title": "Over mezelf",
-			"image": "",
+			"image": "Ine De Bruycker, oprichtster",
 			"quote": "“De voorbije jaren merkte ik een enorme nood aan een <strong>interdisciplinaire</strong> aanpak bij baby's en jonge kinderen.”",
 			"alinea1": "Laat ik me even voorstellen. Ik ben Ine De Bruycker, opgegroeid in het rustige Galmaarden. Van jongs af heel nieuwsgierig en in het bezit van een enorme liefde voor leren en kennis. Wanneer ik anderen met die kennis kan helpen, geeft mij dat enorm veel voldoening. Zeker, wanneer dat in een sfeer van warmte, vertrouwen en transparantie kan gebeuren.",
 			"alinea2": " In 2012 startte ik mijn universitaire opleiding logopedie & audiologie aan de KU Leuven. Gestart met een interesse voor stemstoornissen maar afgestudeerd met een passie voor slikstoornissen. Mijn stage en vakantiejob in het AZ West te Veurne, hadden hierin zeker hun bijdrage.",
@@ -94,10 +94,10 @@
 	"vacatures": {
 		"link": "vacatures",
 		"title": "Vacatures",
-		"description": "De vacatures van ReminCare",
+		"description": "ReminCare is een opstartende interdisciplinaire praktijk met een aanbod zowel in het Frans als in het Nederlands. Geïnteresseerd om je aan te sluiten bij ons team? Bekijk de vacatures hieronder of doe gerust een spontane sollicitatie! We kijken er alvast naar uit om je te ontmoeten!",
 		"header": {
 			"title": "We are more powerful when we empower each other.",
-			"intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"intro": "ReminCare is een opstartende interdisciplinaire praktijk met een aanbod zowel in het Frans als in het Nederlands. Geïnteresseerd om je aan te sluiten bij ons team? Bekijk de vacatures hieronder of doe gerust een spontane sollicitatie! We kijken er alvast naar uit om je te ontmoeten!",
 			"cta": "Ontdek de vacatures"
 		},
 		"cta": {
@@ -112,7 +112,7 @@
 	},
 	"renovatie": {
 		"title": "Project Remincourt 72",
-		"description": "De renovatiewerken van ReminCare",
+		"description": "We zijn momenteel bezig met het omtoveren van een oude hoeve tot een warme en gezellige interdisciplinaire praktijk met 6 verschillende praktijkruimtes.",
 		"link": "renovatie",
 		"intro": "Dit is mijn man, Jeroen, en samen kochten we deze oude hoeve te Remincourt 72, 7864 Deux-Acren. Het huis dateert uit 1926 en heeft reeds verschillende eigenaars gekend. Na bijna 100 jaar is het tijd om dit pareltje in een nieuw jasje te steken. ",
 		"alinea1": "In 2019 werden we eigenaars van deze hoeve. Eigenlijk waren we toen nog niet op zoek naar een huis. We waren ervan overtuigd dat, gezien onze eisen-lijst, het jaren zou duren vooraleer we onze \"droomwoning\" zouden vinden, tot ... een zoekertje in onze mailbox onze aandacht trok. Na ons eerste bezoek waren we onmiddellijk verkocht. Rustig gelegen, makkelijk bereikbaar, dorps- en stadskernen in de buurt, dicht bij onze ouders, een tuin, plaats voor parking zonder een last te zijn voor de buren, twee aparte ingangen ...  we konden ze allemaal afvinken. En daar gingen we! De start van een nieuw project.",
@@ -123,7 +123,7 @@
 	},
 	"contact": {
 		"title": "Contact",
-		"description": "De contactgegevens van ReminCare",
+		"description": "Ben je gepassioneerd bezig met het begeleiden van baby's en/of jonge kinderen en/of ouders, én denk je een meerwaarde te kunnen zijn voor ReminCare? Kom dan zeker eens langs!",
 		"info": {
 			"adres": "Adres",
 			"contactinfo": "Contactinfo",
@@ -144,7 +144,10 @@
 			"line1": "Remincourt 72",
 			"line2": "7864 Deux-Acren"
 		},
-		"btw": "BE30 13 12431 2354356",
+		"ondernemingsnummer": {
+			"label": "ondernemingsnr.",
+			"nummer": "0660588311"
+		},
 		"instagram": "https://www.instagram.com/remincare/",
 		"facebook": "https://www.facebook.com/Remincare"
 	}

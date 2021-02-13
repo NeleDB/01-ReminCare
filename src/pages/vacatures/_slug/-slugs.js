@@ -8,22 +8,13 @@ export default {
 		fr: "diététicien",
 		nl: "diëtist",
 	},
-	// kinderpsycholoog - psychologue-enfants
-	kinderpsycholoog: {
-		fr: "psychologue-enfants",
-		nl: "kinderpsycholoog",
-	},
-	"psychologue-enfants": {
-		fr: "psychologue-enfants",
-		nl: "kinderpsycholoog",
-	},
-	// kinesist - physiothérapeute
+	// kinesist - kinésitherapeute
 	kinesist: {
-		fr: "physiothérapeute",
+		fr: "kinésitherapeute",
 		nl: "kinesist",
 	},
-	physiothérapeute: {
-		fr: "physiothérapeute",
+	kinésitherapeute: {
+		fr: "kinésitherapeute",
 		nl: "kinesist",
 	},
 	// logopedist - orthophoniste
@@ -44,13 +35,13 @@ export default {
 		fr: "osthéopathe",
 		nl: "osteopaat",
 	},
-	// pediatrische-kinesist - physiothérapeute-pédiatrique
+	// pediatrische-kinesist - kinésitherapeute-pédiatriqu
 	"pediatrische-kinesist": {
-		fr: "physiothérapeute-pédiatrique",
+		fr: "kinésitherapeute-pédiatriqu",
 		nl: "pediatrische-kinesist",
 	},
-	"physiothérapeute-pédiatrique": {
-		fr: "physiothérapeute-pédiatrique",
+	"kinésitherapeute-pédiatriqu": {
+		fr: "kinésitherapeute-pédiatriqu",
 		nl: "pediatrische-kinesist",
 	},
 	// psycholoog - psychologue

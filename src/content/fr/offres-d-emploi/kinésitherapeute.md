@@ -1,9 +1,9 @@
 ---
-title: "Ostéopathe pour bébés, jeunes enfants et/ou femmes enceintes"
-description: "Un(e) ostéopathe francophone ou bilingue (indépendant) passioné(e) par l'accompagnement des bébés et des petits enfants ou l'accompagnement des femmes avant, pendant ou après leur grossesse."
-image: "vacatures/osteo.jpg"
-intro: "Nous recherchons un(e) ostéopathe francophone ou bilingue (indépendant) passioné(e) par l'accompagnement des bébés et des petits enfants ou l'accompagnement des femmes avant, pendant ou après leur grossesse."
-subject: "Demande d'emploi osthéopathe ReminCare"
+title: "Kinésitherapeute"
+description: "Un(e) kinésitherapeute francophone ou bilingue (indépendant) passionné(e) par le développement moteur des bébés et des jeunes enfants."
+image: "vacatures/kine.jpg"
+intro: "Nous recherchons un(e) kinésitherapeute francophone ou bilingue (indépendant) passionné(e) par le développement moteur des bébés et des jeunes enfants."
+subject: "Demande d'emploi kinésitherapeute ReminCare"
 ---
 
 Vous souhaitez faire partie d'une équipe interdisciplinaire motivée ?\
@@ -20,8 +20,9 @@ ReminCare accorde une grande importance à l'interaction entre toutes les discip
 
 ## Profil :
 
-- Vous êtes titulaire d'un master ou un D.O. en ostéopathie avec une spécialisation ou un intérêt pour l'accompagnement des bébés, des petits enfants ou l'accompagnement des femmes avant, pendant ou après leur grossesseostéopathique du bébé, de l'enfant, de la femme enceinte et post-partum
-- Vous travaillez en tant qu'indépendant ou vous voulez commencer en tant que travailleur indépendant.
+- Vous êtes titulaire d'un diplôme de niveau master en kinésithérapie, avec une spécialisation pédiatrie ou psychomotricité
+- Vous avez un numéro INAMI en tant que kinésitherapeute
+- Vous travaillez en tant qu'indépendant ou vous voulez commencer en tant que travailleur indépendant(e).
 - L'expérience n'est pas une obligation, mais un plus
 - Vous aimez prendre des initiatives
 - Vous êtes communicatif et une communication transparente est importante pour vous

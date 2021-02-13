@@ -34,7 +34,8 @@
 						{{ $t("general.adres.line2") }}
 					</address>
 					<p class="c-app-footer__text">
-						{{ $t("general.btw") }}
+						{{ $t("general.ondernemingsnummer.label") }}:
+						{{ $t("general.ondernemingsnummer.nummer") }}
 					</p>
 				</div>
 

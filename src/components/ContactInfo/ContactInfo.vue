@@ -9,7 +9,6 @@
 				{{ $t("general.adres.line1") }}<br />
 				{{ $t("general.adres.line2") }}
 			</address>
-			<p class="c-contact-info__text">{{ $t("general.btw") }}</p>
 		</div>
 
 		<div class="c-contact-info__item">

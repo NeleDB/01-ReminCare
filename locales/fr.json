@@ -7,17 +7,17 @@
 		"contact": "Contact"
 	},
 	"home": {
-		"description": "",
+		"description": "Un nouveau centre interdisciplinaire d'accompagnement des bébés, des enfants et des parents dans une ferme rénovée, à Deux-Acren (7864), Remincourt 72.",
 		"hero": {
 			"label": "À venir, automne 2021",
 			"title": "Centre interdisciplinaire",
 			"text": "Centre interdisciplinaire d'accompagnement des bébés, des enfants et des parents",
-			"button": "Vous souhaitez découvrir notre vision?",
+			"button": "Vous souhaitez découvrir notre vision ?",
 			"image": "Familie met 2 kleine kinderen op bed"
 		},
 		"vacatures": {
 			"title": "Offres d'emploi",
-			"text": "Vous souhaitez travailler dans une équipe interdisciplinaire chaleureuse? Une vraie équipe ? Consultez nos offres d'emploi et à nous rendre visite!",
+			"text": "Vous souhaitez travailler dans une équipe interdisciplinaire chaleureuse? Une vraie équipe ? Consultez nos offres d'emploi et à nous rendre visite !",
 			"button": "Découvrez toutes nos offres d'emploi !"
 		},
 		"remincare": {
@@ -29,7 +29,7 @@
 	},
 	"visie": {
 		"title": "Vision",
-		"description": "",
+		"description": "Une équipe interdisciplinaire chaleureuse qui prend le temps de fournir des conseils personnalisés et holistiques sur le développement du bébé, de l'enfant et des parents en tenant compte de leur environnement ",
 		"header": {
 			"quote": "“Une équipe <strong>interdisciplinaire</strong> chaleureuse qui prend le temps de fournir des conseils <strong>personnalisés</strong> et holistiques sur le développement du bébé, de l'enfant et des parents en tenant compte de leur environnement ”",
 			"intro": "Découvrez ci-dessous qui nous sommes, les valeurs que nous défendons et notre raison d'être.",
@@ -76,13 +76,12 @@
 			},
 			"cta": {
 				"title": "Vous souhaitez faire partie de cette équipe ?",
-				"button": "Envoyez-nous votre candidature!"
+				"button": "Envoyez-nous votre candidature !"
 			}
 		},
 		"about": {
 			"title": "Over mezelf",
-			"description": "",
-			"image": "",
+			"image": "Ine De Bruycker",
 			"quote": "“Ces dernières années, j'ai constaté un énorme besoin d'une approche <strong>interdisciplinaire</strong> chez les bébés et les jeunes enfants.”",
 			"alinea1": "Permettez-moi de me présenter. Je suis Ine De Bruycker, élevée dans le paisible village de Galmaarden. Très curieuse dès le plus jeune âge, je possède un énorme amour pour l'apprentissage et le savoir. Quand je peux aider les autres grâce à mes connaissances, cela me procure une énorme satisfaction. Surtout lorsque cela peut se faire dans une atmosphère de chaleur, de confiance et de transparence.",
 			"alinea2": "En 2012, j'ai commencé ma formation universitaire en logopédie et audiologie à la KU Leuven. Au début je m'intéressais aux troubles de la voix, mais j'ai fini ma formation en me spécialisant dans les troubles de la déglutition. Mon stage et mon job de vacances à l'AZ Ouest à Veurne y ont certainement contribué.",
@@ -95,14 +94,14 @@
 	"vacatures": {
 		"link": "offres-d-emploi",
 		"title": "Offres d'emploi",
-		"description": "",
+		"description": "ReminCare est un nouveau centre interdisciplinaire dont les services sont disponibles en français et en néerlandais. Vous souhaitez rejoindre notre équipe ? Consultez les offres d'emploi ci-dessous ou n'hésitez pas à nous envoyer une candidature spontanée ! Nous sommes impatients de vous rencontrer !",
 		"header": {
 			"title": "We are more powerful when we empower each other.",
 			"intro": "ReminCare est un nouveau centre interdisciplinaire dont les services sont disponibles en français et en néerlandais. Vous souhaitez rejoindre notre équipe ? Consultez les offres d'emploi ci-dessous ou n'hésitez pas à nous envoyer une candidature spontanée ! Nous sommes impatients de vous rencontrer !",
 			"cta": "Découvrir les offres d'emploi"
 		},
 		"cta": {
-			"title": "D'autres chose à proposer?",
+			"title": "D'autres chose à proposer ?",
 			"text": "Vous êtes passionné(e) par l'accompagnement des bébés et/ou des jeunes enfants et/ou des parents, et vous pensez que vous pouvez être une valeur ajoutée pour ReminCare ? Dans ce cas, n'hésitez pas à nous rendre visite !",
 			"button": "Candidature spontanée",
 			"subject": "Candidature spontanée ReminCare"
@@ -113,7 +112,7 @@
 	},
 	"renovatie": {
 		"title": "Projet Remincourt 72",
-		"description": "",
+		"description": "Nous sommes en train de transformer la vieille ferme en centre interdisiciplinaire chaleureux et cozy avec 6 salles de consultation.",
 		"link": "renovation",
 		"intro": "Voici mon mari, Jeroen. Nous avons acheté cette vieille ferme à Deux-Acren (7864), Remincourt 72. La maison date de 1926 et a déjà connu plusieurs propriétaires. Après presque 100 ans, il est temps de donner un nouveau look à ce joyau.",
 		"alinea1": "En 2019, nous sommes devenus propriétaires de cette ferme. En fait, nous n'étions pas en train de chercher une maison à ce moment-là. Nous étions convaincus que, compte tenu de notre liste d'exigences, il faudrait des années avant de trouver notre \"maison de rêve\", jusqu'à ce que... une annonce dans notre boîte aux lettres ait attiré notre attention. Après notre première visite, nous sommes immédiatement tombés sous le charme. Un endroit calme, facilement accessible, un village ou un centre ville à proximité, près de nos parents, un jardin, une place de parking sans être un fardeau pour les voisins, deux entrées séparées ...  nous cochion toutes les cases. Et voilà ! Le début d'un nouveau projet.",
@@ -124,14 +123,14 @@
 	},
 	"contact": {
 		"title": "Contact",
-		"description": "",
+		"description": "Vous êtes passionné(e) par l'accompagnement des bébés et/ou des jeunes enfants et/ou des parents, et vous pensez que vous pouvez être une valeur ajoutée pour ReminCare ? Dans ce cas, n'hésitez pas à nous rendre visite!",
 		"info": {
-			"adres": "Adres",
-			"contactinfo": "Contactinfo",
+			"adres": "L'adresse",
+			"contactinfo": "Nos coordonnées",
 			"button": "Stuur een e-mail"
 		},
 		"button": {
-			"text": "Ouvrir Google Maps"
+			"text": "Voir sur Google Maps"
 		}
 	},
 	"footer": {
@@ -145,7 +144,10 @@
 			"line1": "Remincourt 72",
 			"line2": "7864 Deux-Acren"
 		},
-		"btw": "BE30 13 12431 2354356",
+		"ondernemingsnummer": {
+			"label": "n° d'entreprise",
+			"nummer": "0660588311"
+		},
 		"instagram": "https://www.instagram.com/remincare/",
 		"facebook": "https://www.facebook.com/Remincare"
 	}

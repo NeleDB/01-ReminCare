@@ -1,9 +1,9 @@
 ---
-title: "Physiothérapeute pédiatrique"
+title: "Kinésithérapeute pédiatrique"
 description: "Un(e) kinésitherapeute francophone ou bilingue (indépendant) passionné(e) par le développement moteur des bébés et des jeunes enfants."
 image: "vacatures/kid-kine.jpg"
 intro: "Nous recherchons un(e) kinésitherapeute francophone ou bilingue (indépendant) passionné(e) par le développement moteur des bébés et des jeunes enfants."
-subject: "Demande d'emploi physiothérapeute pédiatrique ReminCare"
+subject: "Demande d'emploi physiothérapeute ReminCare"
 ---
 
 Vous souhaitez faire partie d'une équipe interdisciplinaire motivée ?\
