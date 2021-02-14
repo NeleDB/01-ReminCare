@@ -1,8 +1,8 @@
 ---
 title: "Logopedist"
-description: "Een Franstalige of tweetalige (zelfstandig) logopedist(e) met een passie voor de taalontwikkeling bij zeer jonge kinderen."
+description: "Een Franstalige of tweetalige (zelfstandig) logopedist met een passie voor de taalontwikkeling bij zeer jonge kinderen."
 image: "vacatures/logo.jpg"
-intro: "Wij zoeken een Franstalige of tweetalige (zelfstandig) logopedist(e) met een passie voor de taalontwikkeling bij zeer jonge kinderen."
+intro: "Wij zoeken een Franstalige of tweetalige (zelfstandig) logopedist met een passie voor de taalontwikkeling bij zeer jonge kinderen."
 subject: "Sollicitatie logopedist ReminCare"
 ---
 

@@ -17,16 +17,25 @@ export default {
 				name: "viewport",
 				content: "width=device-width, initial-scale=1",
 			},
-			{ hid: "description", name: "description", content: "" },
 			{
 				name: "keywords",
 				content:
 					"ReminCare, interdisciplinaire praktijk, prelogopedie, zorg, logopedie, Deux-Acren, Ine De Bruycker, care, un centre interdisciplinaire",
 			},
 			{
-				name: "description",
-				content:
-					"Een opstartende interdisciplinaire praktijk gericht op de ontwikkeling als baby, kind en ouders, te Remincourt 72 7864 Deux-Acren.",
+				hid: "og:url",
+				property: "og:url",
+				content: "https://remincare.be",
+			},
+			{
+				hid: "og:title",
+				property: "og:title",
+				content: "Remincare",
+			},
+			{
+				hid: "og:image",
+				property: "og:image",
+				content: "/social-share.jpg",
 			},
 		],
 		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],

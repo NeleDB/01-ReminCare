@@ -5,7 +5,11 @@
 			@focusin="focusIn"
 		>
 			<div class="c-app-header__nav-container">
-				<AppLogo ref="app-logo" class="c-app-header__logo" url="/" />
+				<AppLogo
+					ref="app-logo"
+					class="c-app-header__logo"
+					:url="localePath('/')"
+				/>
 
 				<LanguageSwitcher class="c-app-header__language" />
 			</div>

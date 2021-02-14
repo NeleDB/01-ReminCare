@@ -12,6 +12,7 @@
 					class="c-job-offer-cta__button"
 					:url="`mailto:${$t('general.email')}?subject=${subject}`"
 					:text="button"
+					target="_blank"
 				/>
 			</div>
 		</div>

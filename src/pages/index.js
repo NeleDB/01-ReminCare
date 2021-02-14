@@ -9,6 +9,11 @@ export default {
 					name: "description",
 					content: `${this.$t("home.description")}`,
 				},
+				{
+					hid: "og:description",
+					property: "og:description",
+					content: `${this.$t("home.description")}`,
+				},
 			],
 		};
 	},

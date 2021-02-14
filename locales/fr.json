@@ -2,7 +2,7 @@
 	"navigatie": {
 		"home": "Home",
 		"visie": "Vision",
-		"vacatures": "Postes vacants",
+		"vacatures": "Offres d'emploi",
 		"renovatie": "Rénovation",
 		"contact": "Contact"
 	},
@@ -71,7 +71,7 @@
 			"members": {
 				"ine": {
 					"name": "Ine De Bruycker",
-					"functie": "Prélogopède, fondatrice de ReminCare"
+					"functie": "(Pré)logopède, fondatrice de ReminCare"
 				}
 			},
 			"cta": {
@@ -98,7 +98,7 @@
 		"header": {
 			"title": "We are more powerful when we empower each other.",
 			"intro": "ReminCare est un nouveau centre interdisciplinaire dont les services sont disponibles en français et en néerlandais. Vous souhaitez rejoindre notre équipe ? Consultez les offres d'emploi ci-dessous ou n'hésitez pas à nous envoyer une candidature spontanée ! Nous sommes impatients de vous rencontrer !",
-			"cta": "Découvrir les offres d'emploi"
+			"cta": "Découvrez toutes nos offres d'emploi !"
 		},
 		"cta": {
 			"title": "D'autres chose à proposer ?",
@@ -119,7 +119,10 @@
 		"alinea2": "La partie où le cabinet sera situé, était à l'origine une étable. En 2012, il a été transformé en gîte. Et maintenant, il a une nouvelle fonction... En tant que centre interdisciplinaire.",
 		"alinea3": "Mon mari et moi faisons nous-mêmes autant de travaux de rénovation que possible. Au total, il y aura 6 salles de consultation et une salle plus grande avec une cuisine. Cette salle servira de salle de réunion pour les thérapeutes, de salle de conférence pour nos consultations interdisciplinaires et aussi de salle pour les cours du soir et autres,... . De nombreuses options !",
 		"alinea4": "Gardez un œil sur notre page Instagram pour plus de photos sur l'avancement des travaux !",
-		"image1": "Ferme de ReminCare"
+		"image1": "Ferme de ReminCare",
+		"image-remincare": "Ferme de ReminCare",
+		"image-ine-jeroen": "Photo des propriétaires, Ine et Jeroen",
+		"button": "Suivez-nous sur instagram"
 	},
 	"contact": {
 		"title": "Contact",
@@ -127,7 +130,7 @@
 		"info": {
 			"adres": "L'adresse",
 			"contactinfo": "Nos coordonnées",
-			"button": "Stuur een e-mail"
+			"button": "Envoyez-nous un mail"
 		},
 		"button": {
 			"text": "Voir sur Google Maps"
