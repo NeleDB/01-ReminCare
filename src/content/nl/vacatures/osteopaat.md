@@ -20,13 +20,13 @@ ReminCare draagt de interactie tussen alle disciplines hoog in het vaandel. We z
 
 ## Profiel
 
-- Je hebt een masterdiploma of D.O. in osteopathie met een specialisatie of interesse in de behandeling van baby's, kleine kinderen en de pre- en postnatale behandeling bij vrouwe
+- Je hebt een masterdiploma of D.O. in osteopathie met een specialisatie of interesse in de behandeling van baby's, kleine kinderen en de pre- en postnatale behandeling bij vrouwen
 - Je werkt als zelfstandige of wilt als zelfstandige beginnen
 - Ervaring is geen must maar mooi meegenomen
 - Je neemt graag initiatief
 - Je bent vlot in omgang en vindt een transparante communicatie belangrijk
 - Je bent ambitieus en je durft 'out of the box' denken
-- Je bent leergierig en bereidt om je kennis te verruimen
+- Je bent leergierig en bereid om je kennis te verruimen
 - Voor de rest...verras ons!
 
 ## Ons aanbod

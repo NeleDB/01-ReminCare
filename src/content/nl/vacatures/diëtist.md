@@ -26,7 +26,7 @@ ReminCare draagt de interactie tussen alle disciplines hoog in het vaandel. We z
 - Je neemt graag initiatief
 - Je bent vlot in omgang en vindt een transparante communicatie belangrijk
 - Je bent ambitieus en je durft 'out of the box' denken
-- Je bent leergierig en bereidt om je kennis te verruimen
+- Je bent leergierig en bereid om je kennis te verruimen
 - Voor de rest...verras ons!
 
 ## Ons aanbod
