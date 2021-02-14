@@ -4,11 +4,6 @@ export default {
 			// isHamburgerFocused: false,
 		};
 	},
-	computed: {
-		isMobileNavOpen() {
-			return this.$store.getters["app/getIsMobileNavOpen"];
-		},
-	},
 	methods: {
 		/**
 		 * If the hamburger would lose focus, the mobile nav is open and the

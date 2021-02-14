@@ -6,7 +6,12 @@
 
 		<AppMobileNav />
 
-		<main id="main" class="p-default__main" role="main">
+		<main
+			id="main"
+			class="p-default__main"
+			role="main"
+			:class="isMobileNavOpen && 'is-nav-open'"
+		>
 			<Nuxt />
 		</main>
 
