@@ -27,10 +27,11 @@
 					/>
 				</div>
 
-				<img
-					class="l-grid__col:10/12 l-grid__col:7/12@at:vp-9 u-padding-top:4 l-grid__col--left-offset:2/12"
-					src="@/assets/images/family.jpg"
+				<BackgroundImage
+					class="l-grid__col:10/12 l-grid__col:7/12@at:vp-12 l-grid__col--left-offset:2/12 u-margin-top:8"
+					:image="require('@/assets/images/family.jpg')"
 					:alt="$t('visie.header.image')"
+					:aspectRatio="(802 / 1200) * 0.65 * 100"
 				/>
 			</div>
 		</section>

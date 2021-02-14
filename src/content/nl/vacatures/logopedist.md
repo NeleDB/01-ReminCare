@@ -1,9 +1,9 @@
 ---
 title: "Logopedist"
-description: "Een Franstalige of tweetalige (zelfstandig) logopedist met een passie voor de taalontwikkeling bij zeer jonge kinderen."
+description: "Een Franstalige of tweetalige (zelfstandig) logopedist(e) met een passie voor de taalontwikkeling bij zeer jonge kinderen."
 image: "vacatures/logo.jpg"
-intro: "Wij zoeken een Franstalige of tweetalige (zelfstandig) logopedist met een passie voor de taalontwikkeling bij zeer jonge kinderen."
-subject: "Sollicitatie logopedist ReminCare"
+intro: "Wij zoeken een Franstalige of tweetalige (zelfstandig) logopedist(e) met een passie voor de taalontwikkeling bij zeer jonge kinderen."
+subject: "Sollicitatie logopedist(e) ReminCare"
 ---
 
 Wil je deel uitmaken van een gemotiveerd interdisciplinair team?\
@@ -20,7 +20,7 @@ ReminCare draagt de interactie tussen alle disciplines hoog in het vaandel. We z
 
 ## Profiel
 
-- Je hebt een bachelor- of masterdiploma Logopedie en een RIZIV-nummer als logopedist
+- Je hebt een bachelor- of masterdiploma Logopedie en een RIZIV-nummer als logopedist(e)
 - Je werkt als zelfstandige of wilt als zelfstandige beginnen
 - Ervaring is geen must maar mooi meegenomen
 - Je neemt graag initiatief
