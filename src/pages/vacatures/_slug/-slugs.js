@@ -35,13 +35,13 @@ export default {
 		fr: "osthéopathe",
 		nl: "osteopaat",
 	},
-	// pediatrische-kinesist - kinésitherapeute-pédiatriqu
+	// pediatrische-kinesist - kinésitherapeute-pédiatrique
 	"pediatrische-kinesist": {
-		fr: "kinésitherapeute-pédiatriqu",
+		fr: "kinésitherapeute-pédiatrique",
 		nl: "pediatrische-kinesist",
 	},
-	"kinésitherapeute-pédiatriqu": {
-		fr: "kinésitherapeute-pédiatriqu",
+	"kinésitherapeute-pédiatrique": {
+		fr: "kinésitherapeute-pédiatrique",
 		nl: "pediatrische-kinesist",
 	},
 	// klinisch-psycholoog - psychologue-clinicien

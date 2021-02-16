@@ -2,7 +2,7 @@
 title: "Diëtist"
 description: "Diëtist met een passie voor voeding bij baby's en kleine kinderen of het begeleiden van vrouwen voor, tijdens of na hun zwangerschap"
 image: "vacatures/diet.jpg"
-intro: "Wij zoeken een Nederlandstalige of tweetalige (zelfstandig) diëtist(e) met een passie voor voeding bij baby's en kleine kinderen of het begeleiden van vrouwen voor, tijdens of na hun zwangerschap."
+intro: "Wij zoeken een Nederlandstalige of tweetalige (zelfstandige) diëtist(e) met een passie voor voeding bij baby's en kleine kinderen of het begeleiden van vrouwen voor, tijdens of na hun zwangerschap."
 subject: "Sollicitatie diëtist ReminCare"
 ---
 
