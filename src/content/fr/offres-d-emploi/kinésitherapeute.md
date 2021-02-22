@@ -18,11 +18,11 @@ ReminCare est un tout nouveau centre situé situé à Deux-Acren, à 1 km de la 
 
 ReminCare accorde une grande importance à l'interaction entre toutes les disciplines. Nous sommes convaincus que nous pouvons construire une grande équipe où chaque membre a une importante valeur ajoutée. Avec la même vision et la richesse des connaissances issues de différentes disciplines, nous nous efforçons de soutenir les clients et leur environnement social dans un environnement familier et chaleureux !
 
-## Profil
+## Profil:
 
-- Vous êtes titulaire d'un diplôme de niveau master en kinésithérapie, avec une spécialisation pédiatrie ou psychomotricité
+- Vous êtes titulaire d'un diplôme de niveau master en kinésithérapie avec une spécialisation ou un intérêt pour une spécialisation supplémentaire de la rééducation pelvienne et de la kinésithérapie périnatale
 - Vous avez un numéro INAMI en tant que kinésitherapeute
-- Vous travaillez en tant qu'indépendant ou vous voulez commencer en tant que travailleur indépendant(e).
+- Vous travaillez en tant qu'indépendant ou vous voulez commencer en tant que travailleur indépendant.
 - L'expérience n'est pas une obligation, mais un plus
 - Vous aimez prendre des initiatives
 - Vous êtes communicatif et une communication transparente est importante pour vous
@@ -30,7 +30,7 @@ ReminCare accorde une grande importance à l'interaction entre toutes les discip
 - Vous êtes avide d'apprendre et souhaitez élargir vos connaissances
 - Pour le reste... surprenez-nous !
 
-## Notre offre
+## Notre offre :
 
 - Une activité indépendante d'une durée illimitée
 - Un horaire flexible qui peut être mis en place
