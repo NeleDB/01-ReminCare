@@ -1,6 +1,6 @@
 ---
 title: "Diététicien(ne)"
-description: "Diététicien(ne) passionné(e) par l'alimentation des bébés et des jeunes enfants ou par l'accompagnement des femmes avant, pendant ou après leur grossesse"
+description: "un(e) diététitcien(ne) néerlandophone ou bilingue indépantant passionné(e) par l'alimentation des bébés et des jeunes enfants ou par l'accompagnement des femmes avant, pendant ou après leur grossesse"
 image: "vacatures/diet.jpg"
 intro: "Nous recherchons un(e) diététicien(ne) francophone ou bilingue (indépendant(e)) passionné(e) par l'alimentation des bébés et des jeunes enfants ou par l'accompagnement des femmes avant, pendant ou après leur grossesse."
 subject: "Candidature diététicien(ne) ReminCare"

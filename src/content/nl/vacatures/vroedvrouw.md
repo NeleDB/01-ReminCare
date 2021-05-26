@@ -1,8 +1,8 @@
 ---
 title: "Vroedvrouw"
-description: "Een Nederlandstalige of tweetalige (zelfstandige) vroedvrouw met een grote interesse in het interdisciplinair begeleiden van baby's en zwangere vrouwen."
+description: "Een Franstalige of tweetalige (zelfstandige) vroedvrouw met een grote interesse in het interdisciplinair begeleiden van baby's en zwangere vrouwen."
 image: "vacatures/vroed.jpg"
-intro: "Wij zoeken een Nederlandstalige of tweetalige (zelfstandige) vroedvrouw met een grote interesse in het interdisciplinair begeleiden van baby's en zwangere vrouwen."
+intro: "Wij zoeken een Franstalige of tweetalige (zelfstandige) vroedvrouw met een grote interesse in het interdisciplinair begeleiden van baby's en zwangere vrouwen."
 subject: "Sollicitatie vroedvrouw ReminCare"
 ---
 
