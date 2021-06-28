@@ -20,7 +20,7 @@
 				class="c-app-nav__link"
 				:to="localePath({ name: 'vacatures' })"
 				>{{ $t("navigatie.vacatures") }}
-				<Indicator class="c-app-nav__indicator" number="6"
+				<Indicator class="c-app-nav__indicator" number="5"
 			/></NuxtLink>
 		</li>
 
